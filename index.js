@@ -6,11 +6,13 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 
 
-var terriaOptions = {
-    baseUrl: 'build/TerriaJS'
-};
 var configuration = {
+    terriaBaseUrl: 'build/TerriaJS',
+    cesiumBaseUrl: undefined, // use default
     bingMapsKey: undefined, // use Cesium key
+    proxyBaseUrl: '/proxy/',
+    conversionServiceBaseUrl: 'convert',
+    regionMappingDefinitionsUrl: 'data/regionMapping.json'
 };
 
 // Check browser compatibility early on.
@@ -21,10 +23,13 @@ var checkBrowserCompatibility = require('terriajs/lib/ViewModels/checkBrowserCom
 // checkBrowserCompatibility('ui');
 
 var knockout = require('terriajs-cesium/Source/ThirdParty/knockout');
+var defined = require('terriajs-cesium/Source/Core/defined');
+var fs = require('fs');
 
 var isCommonMobilePlatform = require('terriajs/lib/Core/isCommonMobilePlatform');
 var TerriaViewer = require('terriajs/lib/ViewModels/TerriaViewer');
 var registerKnockoutBindings = require('terriajs/lib/Core/registerKnockoutBindings');
+var corsProxy = require('terriajs/lib/Core/corsProxy');
 var GoogleAnalytics = require('terriajs/lib/Core/GoogleAnalytics');
 
 var AddDataPanelViewModel = require('terriajs/lib/ViewModels/AddDataPanelViewModel');
@@ -50,28 +55,39 @@ var NavigationViewModel = require('terriajs/lib/ViewModels/NavigationViewModel')
 var NowViewingAttentionGrabberViewModel = require('terriajs/lib/ViewModels/NowViewingAttentionGrabberViewModel');
 var NowViewingTabViewModel = require('terriajs/lib/ViewModels/NowViewingTabViewModel');
 var PopupMessageViewModel = require('terriajs/lib/ViewModels/PopupMessageViewModel');
+var PopupMessageConfirmationViewModel = require('terriajs/lib/ViewModels/PopupMessageConfirmationViewModel');
 var SearchTabViewModel = require('terriajs/lib/ViewModels/SearchTabViewModel');
 var SettingsPanelViewModel = require('terriajs/lib/ViewModels/SettingsPanelViewModel');
 var SharePopupViewModel = require('terriajs/lib/ViewModels/SharePopupViewModel');
 var MapProgressBarViewModel = require('terriajs/lib/ViewModels/MapProgressBarViewModel');
 var updateApplicationOnHashChange = require('terriajs/lib/ViewModels/updateApplicationOnHashChange');
+var ViewerMode = require('terriajs/lib/Models/ViewerMode');
 var updateApplicationOnMessageFromParentWindow = require('terriajs/lib/ViewModels/updateApplicationOnMessageFromParentWindow');
 
+// Not used until custom AREMI maps are below
+//var BaseMapViewModel = require('terriajs/lib/ViewModels/BaseMapViewModel');
 var Terria = require('terriajs/lib/Models/Terria');
+var OgrCatalogItem = require('terriajs/lib/Models/OgrCatalogItem');
 var registerCatalogMembers = require('terriajs/lib/Models/registerCatalogMembers');
 var registerCustomComponentTypes = require('terriajs/lib/Models/registerCustomComponentTypes');
 var raiseErrorToUser = require('terriajs/lib/Models/raiseErrorToUser');
-
+var selectBaseMap = require('terriajs/lib/ViewModels/selectBaseMap');
 var GoogleUrlShortener = require('terriajs/lib/Models/GoogleUrlShortener');
 var isCommonMobilePlatform = require('terriajs/lib/Core/isCommonMobilePlatform');
 var ViewerMode = require('terriajs/lib/Models/ViewerMode');
 var GoogleAnalytics = require('terriajs/lib/Core/GoogleAnalytics');
-
 var corsProxy = require('terriajs/lib/Core/corsProxy');
 var OgrCatalogItem = require('terriajs/lib/Models/OgrCatalogItem');
 
-var selectBaseMap = require('terriajs/lib/ViewModels/selectBaseMap');
-var defaultValue = require('terriajs-cesium/Source/Core/defaultValue');
+
+// Configure the base URL for the proxy service used to work around CORS restrictions.
+corsProxy.baseProxyUrl = configuration.proxyBaseUrl;
+
+// Tell the OGR catalog item where to find its conversion service.  If you're not using OgrCatalogItem you can remove this.
+OgrCatalogItem.conversionServiceBaseUrl = configuration.conversionServiceBaseUrl;
+
+// Configure the base URL for the proxy service used to work around CORS restrictions.
+corsProxy.baseProxyUrl = configuration.proxyBaseUrl;
 
 // Tell the OGR catalog item where to find its conversion service.  If you're not using OgrCatalogItem you can remove this.
 OgrCatalogItem.conversionServiceBaseUrl = configuration.conversionServiceBaseUrl;
@@ -85,14 +101,26 @@ registerKnockoutBindings();
 // the code in the registerCatalogMembers function here instead.
 registerCatalogMembers();
 
-terriaOptions.analytics = new GoogleAnalytics();
+
 
 // Construct the TerriaJS application, arrange to show errors to the user, and start it up.
-var terria = new Terria(terriaOptions);
+
+var terria = new Terria({
+    appName: 'AREMI',
+    supportEmail: 'aremi@nicta.com.au',
+    baseUrl: configuration.terriaBaseUrl,
+    cesiumBaseUrl: configuration.cesiumBaseUrl,
+    regionMappingDefinitionsUrl: configuration.regionMappingDefinitionsUrl,
+    analytics: new GoogleAnalytics()
+});
 
 // Register custom components in the core TerriaJS.  If you only want to register a subset of them, or to add your own,
 // insert your custom version of the code in the registerCustomComponentTypes function here instead.
 registerCustomComponentTypes(terria);
+
+
+// We'll put the entire user interface into a DOM element called 'ui'.
+var ui = document.getElementById('ui');
 
 // This is temporary
 var welcome = 'Welcome to Terrarium!';
@@ -135,7 +163,8 @@ terria.start({
         var globalBaseMaps = createGlobalBaseMapOptions(terria, configuration.bingMapsKey);
 
         var allBaseMaps = australiaBaseMaps.concat(globalBaseMaps);
-        selectBaseMap(terria, allBaseMaps, 'Bing Maps Aerial with Labels', true);
+        selectBaseMap(terria, allBaseMaps, 'Positron (Light)', true);
+
 
         // Automatically update Terria (load new catalogs, etc.) when the hash part of the URL changes.
         // updateApplicationOnHashChange(terria, window);

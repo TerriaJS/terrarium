@@ -1,16 +1,25 @@
 node_modules/
 .idea/
+target
 wwwroot/build/
 wwwroot/doc/
+error.log
+output.log
+.DS_Store
 npm-debug.log
 version.js
 wwwroot/init/nm.json
 datasources/00_National_Data_Sets.json
 .DS_Store
 .localized
+proxyAuth.json
 .sass-cache
 /terriajs.pid
 /error.log
 /output.log
+/terriajs.pid
+/error.log
+/output.log
+
 # added by GitSavvy
 /wwwroot/editor/

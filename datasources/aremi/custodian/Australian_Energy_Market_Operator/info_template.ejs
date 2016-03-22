@@ -1,0 +1,35 @@
+<h3>{{Station Name}} ({{DUID}})</h3>
+
+<p><strong>{{Participant}}</strong><br/>
+Most recent output: <strong>{{Current Output (MW)}}MW</strong><br/>
+<small>at {{Most Recent Output Time (AEST)}}</small><br/>
+<strong>{{Current % of Reg Cap}}%</strong> of {{Reg Cap (MW)}}MW registered capacity<br/>
+<strong>{{Current % of Max Cap}}%</strong> of {{Max Cap (MW)}}MW maximum capacity<br/>
+</p>
+<small>
+  <table>
+    <tbody>
+      <tr>
+        <td>Category</td> <td><strong>{{Category}}</strong></td>
+        <td>Classification</td> <td><strong>{{Classification}}</strong></td>
+      </tr>
+      <tr>
+        <td>Fuel Source</td>
+        <td ><strong>{{Fuel Source - Primary}}</strong> (<strong>{{Fuel Source - Descriptor}}</strong>)</td>
+
+        <td>Technology Type</td>
+        <td ><strong>{{Technology Type - Primary}}</strong> (<strong>{{Technology Type - Descriptor}}</strong>)</td>
+      </tr>
+      <tr>
+        <td>Physical Unit No.</td> <td><strong>{{Physical Unit No_}}</strong></td><td>Aggregation</td> <td><strong>{{Aggregation}}</strong></td>
+      </tr>
+      <tr>
+        <td>Unit Size (MW)</td> <td><strong>{{Unit Size (MW)}}</strong></td>
+      </tr>
+    </tbody>
+  </table>
+</small>
+<br>
+<div style='text-align: center'>
+  <chart sources='http://services.aremi.nicta.com.au/aemo/v4/duidcsv/{{DUID}}?offset=1D,http://services.aremi.nicta.com.au/aemo/v4/duidcsv/{{DUID}}?offset=5D,http://services.aremi.nicta.com.au/aemo/v4/duidcsv/{{DUID}}?offset=30D,http://services.aremi.nicta.com.au/aemo/v4/duidcsv/{{DUID}}?offset=3M' source-names='1d,5d,30d,3m' preview-x-label='Last 24 hours' column-names='Time,Power Generation' column-units='Date,MW'></chart>
+</div>
