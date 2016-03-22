@@ -48,7 +48,7 @@ class CesiumPreview(p.SingletonPlugin):
                         'quality': 2}
         return {'can_preview': False}
 
-    def info(self): return {'name': 'cesium_view', 'title': 'National Map Beta', 'always_available': True, 'default_title': 'National Map Beta', 'icon': 'globe' }
+    def info(self): return {'name': 'cesium_view', 'title': 'Terrarium Beta', 'always_available': True, 'default_title': 'Terrarium Beta', 'icon': 'globe' }
 
     def can_view(self, data_dict):
         resource = data_dict['resource']

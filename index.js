@@ -95,7 +95,7 @@ var terria = new Terria(terriaOptions);
 registerCustomComponentTypes(terria);
 
 // This is temporary
-var welcome = 'welcome text';
+var welcome = 'Welcome to Terrarium!';
 
 terria.welcome = function welcomeText() { return {__html: welcome}; };
 
