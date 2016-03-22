@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /*global require*/
 
@@ -7,9 +7,11 @@ var spawnSync = require('spawn-sync');
 var glob = require('glob-all');
 var gulp = require('gulp');
 var gutil = require('gulp-util');
+var notify = require('gulp-notify');
 var browserify = require('browserify');
 var jshint = require('gulp-jshint');
 var less = require('gulp-less');
+var sass = require('gulp-ruby-sass');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var sourcemaps = require('gulp-sourcemaps');
@@ -20,6 +22,7 @@ var source = require('vinyl-source-stream');
 var watchify = require('watchify');
 var NpmImportPlugin = require('less-plugin-npm-import');
 var jsoncombine = require('gulp-jsoncombine');
+var childExec = require('child_process').exec;  // child_process is built in to node
 var generateSchema = require('generate-terriajs-schema');
 var validateSchema = require('terriajs-schema');
 
@@ -60,7 +63,7 @@ gulp.task('build-css', function() {
         .pipe(gulp.dest('./wwwroot/build/'));
 });
 
-gulp.task('build', ['build-css', 'merge-datasources', 'build-app', 'build-specs']);
+gulp.task('build', ['sass', 'merge-datasources', 'build-app', 'build-specs']);
 
 gulp.task('release-app', ['prepare'], function() {
     return build(appJSName, appEntryJSName, true);
@@ -86,7 +89,7 @@ gulp.task('copy-editor', function() {
         .pipe(gulp.dest('./wwwroot/editor'));
 });
 
-gulp.task('release', ['build-css', 'merge-datasources', 'release-app', 'release-specs', 'make-editor-schema', 'validate']);
+gulp.task('release', ['merge-datasources', 'release-app', 'release-specs', 'make-editor-schema', 'validate']);
 
 // Generate new schema for validator, and copy it over whatever version came with validator.
 gulp.task('make-validator-schema', function(done) {
@@ -137,14 +140,20 @@ gulp.task('watch-terriajs', ['prepare-terriajs'], function() {
     return gulp.watch(terriaJSSource + '/**', [ 'prepare-terriajs' ]);
 });
 
-gulp.task('watch', ['watch-app', 'watch-specs', 'watch-css', 'watch-datasources', 'watch-terriajs']);
+gulp.task('watch', ['watch-app', 'watch-specs', 'watch-datasources', 'watch-terriajs', 'sass-watch']);
 
+
+//to be updated
 gulp.task('lint', function(){
     return gulp.src(['index.js'])
         .on('error', onError)
         .pipe(jshint())
         .pipe(jshint.reporter('default'))
         .pipe(jshint.reporter('fail'));
+});
+
+gulp.task('styleguide', function(done) {
+    childExec('./node_modules/kss/bin/kss-node ./node_modules/terriajs/lib/Sass ./wwwroot/styleguide --template ./wwwroot/styleguide-template --css ./../build/nationalmap.css', undefined, done);
 });
 
 gulp.task('prepare', ['prepare-terriajs']);
@@ -156,10 +165,10 @@ gulp.task('prepare-terriajs', function() {
 });
 
 gulp.task('merge-groups', function() {
-    var jsonspacing=0;
-    return gulp.src("./datasources/00_National_Data_Sets/*.json")
+    var jsonspacing = 0;
+    return gulp.src('./datasources/00_National_Data_Sets/*.json')
     .on('error', onError)
-    .pipe(jsoncombine("00_National_Data_Sets.json", function(data) {
+    .pipe(jsoncombine('00_National_Data_Sets.json', function(data) {
         // be absolutely sure we have the files in alphabetical order
         var keys = Object.keys(data).slice().sort();
         for (var i = 1; i < keys.length; i++) {
@@ -167,14 +176,14 @@ gulp.task('merge-groups', function() {
         }
         return new Buffer(JSON.stringify(data[keys[0]], null, jsonspacing));
     }))
-    .pipe(gulp.dest("./datasources"));
+    .pipe(gulp.dest('./datasources'));
 });
 
 gulp.task('merge-catalog', ['merge-groups'], function() {
-    var jsonspacing=0;
-    return gulp.src("./datasources/*.json")
+    var jsonspacing = 0;
+    return gulp.src('./datasources/*.json')
         .on('error', onError)
-        .pipe(jsoncombine("nm.json", function(data) {
+        .pipe(jsoncombine('nm.json', function(data) {
         // be absolutely sure we have the files in alphabetical order, with 000_settings first.
         var keys = Object.keys(data).slice().sort();
         data[keys[0]].catalog = [];
@@ -184,7 +193,7 @@ gulp.task('merge-catalog', ['merge-groups'], function() {
         }
         return new Buffer(JSON.stringify(data[keys[0]], null, jsonspacing));
     }))
-    .pipe(gulp.dest("./wwwroot/init"));
+    .pipe(gulp.dest('./wwwroot/init'));
 });
 
 gulp.task('merge-datasources', ['merge-catalog', 'merge-groups']);
@@ -206,7 +215,7 @@ function onError(e) {
     }
 }
 
-var bundle = function(name, bundler, minify) {
+var bundle = function(name, bundler, minify, catchErrors) {
     // Get a version string from "git describe".
     var version = spawnSync('git', ['describe']).stdout.toString().trim();
     var isClean = spawnSync('git', ['status', '--porcelain']).stdout.toString().length === 0;
@@ -218,6 +227,11 @@ var bundle = function(name, bundler, minify) {
 
     // Combine main.js and its dependencies into a single file.
     var result = bundler.bundle();
+
+    if (catchErrors) {
+        // Display errors to the user, and don't let them propagate.
+        result = result.on('error', handleErrors);
+    }
 
     result = result
         .on('error', onError)
@@ -246,8 +260,9 @@ var bundle = function(name, bundler, minify) {
 function build(name, files, minify) {
     return bundle(name, browserify({
         entries: files,
-        debug: true // generate source map
-    }), minify);
+        debug: true, // generate source map
+        extensions: ['.es6', '.jsx']
+    }), minify, false);
 }
 
 function watch(name, files, minify) {
@@ -256,6 +271,7 @@ function watch(name, files, minify) {
         entries: files,
         debug: true, // generate source map
         cache: {},
+        extensions: ['.es6', '.jsx'],
         packageCache: {}
     }), { poll: 1000 } );
 
@@ -267,7 +283,7 @@ function watch(name, files, minify) {
 
         var start = new Date();
 
-        var result = bundle(name, bundler, minify);
+        var result = bundle(name, bundler, minify, true);
 
         result.on('end', function() {
             gutil.log('Rebuilt \'' + gutil.colors.cyan(name) + '\' in', gutil.colors.magenta((new Date() - start)), 'milliseconds.');
@@ -280,3 +296,38 @@ function watch(name, files, minify) {
 
     return rebundle();
 }
+
+function handleErrors() {
+  var args = Array.prototype.slice.call(arguments);
+  notify.onError({
+    title: 'Compile Error',
+    message: '<%= error.message %>'
+  }).apply(this, args);
+  this.emit('end'); // Keep gulp from hanging on this task
+}
+
+//compile sass, temp
+gulp.task('sass', function(){
+  return sass('nationalmap.scss',{
+          style: 'expanded',
+          loadPath: './node_modules/terriajs/lib/Sass',
+          sourcemap: true,
+          verbose: true
+        })
+        .on('error', sass.logError)
+
+        // For inline sourcemaps
+        .pipe(sourcemaps.write())
+
+        // For file sourcemaps
+        .pipe(sourcemaps.write('maps', {
+          includeContent: false,
+          sourceRoot: 'source'
+        }))
+        .pipe(gulp.dest('wwwroot/build'));
+});
+
+//watch sass compile and update doc
+gulp.task('sass-watch', ['sass'], function(){
+  return gulp.watch(['./node_modules/terriajs/lib/Sass/**', 'nationalmap.scss'], ['sass']);
+});

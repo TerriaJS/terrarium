@@ -8,13 +8,36 @@
     "url": "http://github.com/NICTA/nationalmap"
   },
   "dependencies": {
-    "terriajs": "2.2.1",
+    "babel-eslint": "^4.1.6",
+    "compression": "^1.4.3",
+    "connect": "^3.3.5",
+    "cors": "^2.6.0",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.11.2",
+    "express": "^4.12.3",
+    "formidable": "^1.0.17",
+    "gulp-eslint": "^1.1.1",
+    "javascript-natural-sort": "^0.7.1",
+    "leaflet": "^0.7.3",
+    "ogr2ogr": "^0.5.1",
+    "proj4": "^2.3.6",
+    "proj4js-defs": "^0.0.1",
+    "react": "^0.14.3",
+    "react-dom": "0.14.3",
+    "request": "^2.55.0",
+    "supervisor": "^0.6.0",
+    "terriajs": "git://github.com/TerriaJS/terriajs.git#newui",
+    "terriajs-cesium": "1.15.6",
     "terriajs-server": "^1.4.0",
-    "terriajs-cesium": "1.18.1"
+    "yargs": "^3.8.0"
   },
   "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
     "brfs": "^1.4.0",
     "browserify": "^9.0.8",
+    "browserify-resolutions": "^1.0.6",
     "deamdify": "^0.1.1",
     "exorcist": "^0.3.0",
     "generate-terriajs-schema": "^1.2.1",
@@ -26,13 +49,17 @@
     "gulp-jshint": "^1.10.0",
     "gulp-jsoncombine": "^1.0.2",
     "gulp-less": "^3.0.3",
+    "gulp-notify": "^2.2.0",
     "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.0.5",
     "gulp-sourcemaps": "^1.5.2",
     "gulp-uglify": "^1.2.0",
     "gulp-util": "^3.0.4",
     "gulp-watch": "^4.2.4",
+    "kss": "^2.4.0",
     "less": "^2.5.0",
     "less-plugin-npm-import": "^2.0.0",
+    "reactify": "^1.1.1",
     "spawn-sync": "^1.0.11",
     "terriajs-schema": "latest",
     "terriajs-catalog-editor": "^0.1.0",
@@ -41,14 +68,31 @@
     "vinyl-transform": "^1.0.0",
     "watchify": "^3.2.0"
   },
-  "browserify": {
-    "transform": [
-      "brfs"
-    ]
-  },
   "scripts": {
     "start": "bash ./run_server.sh",
     "stop": "bash ./stop_server.sh",
     "postinstall": "echo 'Installation with NPM successful. What to do next:\\n  npm start       # Starts the server on port 3001\\n  gulp watch      # Builds NationalMap and dependencies, and rebuilds if files change.'"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015",
+            "react"
+          ]
+        }
+      ],
+      "brfs"
+    ],
+    "plugin": [
+      [
+        "browserify-resolutions",
+        [
+          "react"
+        ]
+      ]
+    ]
   }
 }
