@@ -16,9 +16,7 @@
         "nci.org.au"
     ],
     "initializationUrls" : [
-        "nm",
-        "abc",
-        "aremi",
+        "terrarium"
     ],
     "parameters": {
         "corsProxyBaseUrl": "proxy/",

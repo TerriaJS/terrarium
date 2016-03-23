@@ -64,7 +64,7 @@ var updateApplicationOnHashChange = require('terriajs/lib/ViewModels/updateAppli
 var ViewerMode = require('terriajs/lib/Models/ViewerMode');
 var updateApplicationOnMessageFromParentWindow = require('terriajs/lib/ViewModels/updateApplicationOnMessageFromParentWindow');
 
-// Not used until custom AREMI maps are below
+// Not used until custom Terrarium maps are below
 //var BaseMapViewModel = require('terriajs/lib/ViewModels/BaseMapViewModel');
 var Terria = require('terriajs/lib/Models/Terria');
 var OgrCatalogItem = require('terriajs/lib/Models/OgrCatalogItem');
@@ -106,8 +106,8 @@ registerCatalogMembers();
 // Construct the TerriaJS application, arrange to show errors to the user, and start it up.
 
 var terria = new Terria({
-    appName: 'AREMI',
-    supportEmail: 'aremi@nicta.com.au',
+    appName: 'Terrarium',
+    supportEmail: 'terrarium@lists.nicta.com.au',
     baseUrl: configuration.terriaBaseUrl,
     cesiumBaseUrl: configuration.cesiumBaseUrl,
     regionMappingDefinitionsUrl: configuration.regionMappingDefinitionsUrl,

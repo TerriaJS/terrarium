@@ -1,0 +1,114 @@
+{
+  "corsDomains": [
+    "services.aremi.nicta.com.au"
+  ],
+  "homeCamera": {
+    "west": 112,
+    "south": -48,
+    "east": 155,
+    "north": -5
+  },
+  "services": [],
+  "catalog": [
+    {
+      "name": "Interesting Datasets",
+      "type": "group",
+      "preserveOrder": true,
+      "items": [
+        {
+          "name": "ABC News Stories",
+          "type": "group",
+          "preserveOrder": true,
+          "items": [
+            <% include abc %>,
+          ]
+        },
+        {
+          "name": "Power Generation",
+          "type": "group",
+          "preserveOrder": true,
+          "items": [
+            <% include ../aremi/custodian/Australian_Energy_Market_Operator/Live_NEM_Power_Generation %>
+          ]
+        },
+        {
+          "name": "Bird Migration",
+          "type": "group",
+          "preserveOrder": true,
+          "description": "Geographic centers of occurrence estimated daily for 118 migratory bird species using eBird occurrence information for the combined period 2002 to 2014. Additional details on the data and methods can be found here:\nLa Sorte, F.A., Fink, D., Hochachka, W.M. & Kelling, S. (2016) Convergence of broad-scale migration strategies in terrestrial birds. Proceedings of the Royal Society of London B: Biological Sciences, 283, 20152588.",
+          "dataCustodian": "Frank A. La Sorte (fal42@cornell.edu)",
+          "items": [
+           {
+              "name": "Bird migration paths",
+              "type": "czml",
+              "url": "test/all_birds.czml",
+              "ignoreUnknownTileErrors": true,
+              "rectangle": {
+                "west": 109,
+                "east": 158,
+                "north": -8,
+                "south": -45
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "All Datasets",
+      "type": "group",
+      "preserveOrder": true,
+      "items": [
+        {
+          "name": "National Map",
+          "type": "group",
+          "preserveOrder": true,
+          "corsDomains": [
+            "corsproxy.com",
+            "programs.communications.gov.au",
+            "www.asris.csiro.au",
+            "mapsengine.google.com",
+            "s3-ap-southeast-2.amazonaws.com",
+            "data.melbourne.vic.gov.au",
+            "data.act.gov.au"
+          ],
+          "items": [
+            <% include nm %>,
+          ]
+        },
+        {
+          "name": "AREMI",
+          "type": "group",
+          "preserveOrder": true,
+          "items": [
+            <% include ../aremi/root %>,
+          ]
+        },
+        {
+          "name": "Northern Australia",
+          "type": "group",
+          "preserveOrder": true,
+          "items": [
+            <% include nm %>,
+          ]
+        },
+        {
+          "name": "NEII Viewer",
+          "type": "group",
+          "preserveOrder": true,
+          "items": [
+            <% include nm %>,
+          ]
+        },
+        {
+          "name": "Global Risk Map",
+          "type": "group",
+          "preserveOrder": true,
+          "items": [
+            <% include nm %>,
+          ]
+        }
+      ]
+    }
+  ]
+}

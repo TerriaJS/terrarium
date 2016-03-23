@@ -66,7 +66,7 @@ gulp.task('build-css', function() {
         .pipe(gulp.dest('./wwwroot/build/'));
 });
 
-gulp.task('build', ['sass', 'merge-datasources', 'merge-datasources-aremi', 'build-app', 'build-specs']);
+gulp.task('build', ['sass', 'merge-datasources', 'merge-datasources-terrarium', 'build-app', 'build-specs']);
 
 gulp.task('release-app', ['prepare'], function() {
     return build(appJSName, appEntryJSName, true);
@@ -76,7 +76,7 @@ gulp.task('release-specs', ['prepare'], function() {
     return build(specJSName, glob.sync(testGlob), true);
 });
 
-gulp.task('release', ['sass', 'merge-datasources', 'merge-datasources-aremi', 'release-app', 'release-specs']);
+gulp.task('release', ['sass', 'merge-datasources', 'merge-datasources-terrarium', 'release-app', 'release-specs']);
 
 // Generate new schema for editor, and copy it over whatever version came with editor.
 gulp.task('make-editor-schema', ['copy-editor'], function(done) {
@@ -94,7 +94,7 @@ gulp.task('copy-editor', function() {
         .pipe(gulp.dest('./wwwroot/editor'));
 });
 
-gulp.task('release', ['build-css', 'merge-datasources', 'merge-datasources-aremi', 'release-app', 'release-specs', 'make-editor-schema']);
+gulp.task('release', ['build-css', 'merge-datasources', 'merge-datasources-terrarium', 'release-app', 'release-specs', 'make-editor-schema']);
 gulp.task('release', ['merge-datasources', 'release-app', 'release-specs', 'make-editor-schema', 'validate']);
 
 // Generate new schema for validator, and copy it over whatever version came with validator.
@@ -140,11 +140,11 @@ gulp.task('watch-datasource-catalog', ['merge-catalog'], function() {
     return gulp.watch('datasources/*.json', [ 'merge-catalog' ]);
 });
 
-gulp.task('watch-datasource-aremi', function() {
-    return gulp.watch('datasources/aremi/*.json', [ 'merge-datasources-aremi' ]);
+gulp.task('watch-datasource-terrarium', function() {
+    return gulp.watch('datasources/terrarium/*.json', [ 'merge-datasources-terrarium' ]);
 });
 
-gulp.task('watch-datasources', ['watch-datasource-groups','watch-datasource-catalog','watch-datasource-aremi']);
+gulp.task('watch-datasources', ['watch-datasource-groups','watch-datasource-catalog', 'watch-datasource-terrarium']);
 
 gulp.task('watch-terriajs', ['prepare-terriajs'], function() {
     return gulp.watch(terriaJSSource + '/**', [ 'prepare-terriajs' ]);
@@ -208,9 +208,9 @@ gulp.task('merge-catalog', ['merge-groups'], function() {
 
 gulp.task('merge-datasources', ['merge-catalog', 'merge-groups']);
 
-// AREMI uses the EJS template engine to build the AREMI init file
-gulp.task('merge-datasources-aremi', function() {
-    var fn = 'datasources/aremi/root.ejs';
+// Terrarium uses the EJS template engine to build the terrarium init file
+gulp.task('merge-datasources-terrarium', function() {
+    var fn = 'datasources/terrarium/root.ejs';
     var template = fs.readFileSync(fn,'utf8');
     // use EJS to process
     var result = ejs.render(template, null, {filename: fn});
@@ -221,13 +221,13 @@ gulp.task('merge-datasources-aremi', function() {
     var badChildrenPaths = getChildrenWithNoIds(jsDatasources.catalog, '');
 
     if (badChildrenPaths.length) {
-        console.error('Datasources have catalog items without ids: \n' + badChildrenPaths.join('\n'));
-        process.exit(1);
+        //console.error('Datasources have catalog items without ids: \n' + badChildrenPaths.join('\n'));
+        //process.exit(1);
     }
 
     // eval JSON string into object and minify
     var buf = new Buffer(JSON.stringify(jsDatasources, null, 0));
-    fs.writeFileSync('wwwroot/init/aremi.json', buf);
+    fs.writeFileSync('wwwroot/init/terrarium.json', buf);
 });
 
 /**
