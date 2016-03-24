@@ -1,0 +1,15 @@
+{
+  "catalog": [
+    {
+        "name": "Tenure and title",
+        "type": "group",
+        "isOpen": true,
+        "items": [ {
+          "name": "Reserves",
+          "isShown": true,
+          "isEnabled": true          
+        }
+        ]
+    }
+  ]
+}

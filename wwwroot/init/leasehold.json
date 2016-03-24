@@ -1,0 +1,25 @@
+{
+  "catalog": [
+    {
+        "name": "Tenure and title",
+        "type": "group",
+        "isOpen": true,
+        "items": [ {
+          "name": "Other lease",
+          "isShown": true,
+          "isEnabled": true          
+        },
+        {
+          "name": "Pastoral lease",
+          "isShown": true,
+          "isEnabled": true          
+        },
+        {
+          "name": "Convertible lease",
+          "isShown": true,
+          "isEnabled": true          
+        }
+        ]
+    }
+  ]
+}

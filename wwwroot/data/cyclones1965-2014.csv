@@ -1,0 +1,1243 @@
+year,"Country iso","Country name","disaster subtype",occurrence,"Total deaths",Affected,Injured,Homeless,"Total affected","Total damage"
+1900,USA,"United States","Tropical cyclone",1,6000,0,0,0,0,30000
+1902,MMR,Myanmar,"Tropical cyclone",1,600,0,0,0,0,0
+1903,JAM,Jamaica,"Tropical cyclone",1,65,0,0,0,0,0
+1904,BGD,Bangladesh,"Tropical cyclone",1,0,0,0,0,0,0
+1905,PHL,Philippines,"Tropical cyclone",1,240,0,0,0,0,0
+1906,HKG,"Hong Kong (China)","Tropical cyclone",1,10000,0,0,0,0,20000
+1906,USA,"United States","Tropical cyclone",2,298,0,0,0,0,0
+1909,BGD,Bangladesh,"Tropical cyclone",2,172,0,0,0,0,0
+1909,HTI,Haiti,"Tropical cyclone",1,150,0,0,0,0,0
+1909,USA,"United States","Tropical cyclone",2,391,0,0,0,0,0
+1910,USA,"United States","Tropical cyclone",1,30,0,0,0,0,0
+1911,BGD,Bangladesh,"Tropical cyclone",1,0,0,0,0,0,0
+1911,TWN,"Taiwan (China)","Tropical cyclone",1,1000,0,0,0,0,20000
+1912,CHN,"China P Rep","Tropical cyclone",1,50000,0,0,0,0,0
+1912,JAM,Jamaica,"Tropical cyclone",1,142,0,0,94820,94820,0
+1912,JPN,Japan,"Tropical cyclone",1,1000,0,0,0,0,20000
+1912,PHL,Philippines,"Tropical cyclone",1,0,0,0,0,0,10000
+1914,TKL,Tokelau,"Tropical cyclone",1,0,0,0,0,0,0
+1915,HTI,Haiti,"Tropical cyclone",1,1600,0,0,0,0,0
+1915,USA,"United States","Tropical cyclone",1,525,0,0,0,0,60000
+1916,IND,India,"Tropical cyclone",1,300,0,0,0,0,0
+1917,JAM,Jamaica,"Tropical cyclone",1,57,0,0,0,0,0
+1917,JPN,Japan,"Tropical cyclone",1,4000,0,0,0,0,50000
+1918,USA,"United States","Tropical cyclone",1,34,0,0,0,0,0
+1919,BGD,Bangladesh,"Tropical cyclone",1,0,0,0,0,0,0
+1919,USA,"United States","Tropical cyclone",1,500,0,0,0,0,25000
+1922,BGD,Bangladesh,"Tropical cyclone",1,0,0,0,0,0,0
+1922,CHN,"China P Rep","Tropical cyclone",1,100000,0,0,0,0,0
+1923,BGD,Bangladesh,"Tropical cyclone",1,6,0,0,25000,25000,0
+1923,HKG,"Hong Kong (China)","Tropical cyclone",1,100,0,0,0,0,0
+1923,JAM,Jamaica,"Tropical cyclone",1,4,0,0,1300,1300,0
+1923,JPN,Japan,"Tropical cyclone",1,3000,0,0,0,0,10000
+1923,MMR,Myanmar,"Tropical cyclone",1,6,0,0,0,0,0
+1924,IND,India,"Tropical cyclone",1,1242,1000000,0,0,1000000,0
+1924,TWN,"Taiwan (China)","Tropical cyclone",1,1000,0,0,0,0,0
+1925,IND,India,"Tropical cyclone",1,80,0,0,0,0,0
+1925,TKL,Tokelau,"Tropical cyclone",1,0,0,0,0,0,0
+1926,BHS,Bahamas,"Tropical cyclone",1,0,0,0,0,0,0
+1926,BGD,Bangladesh,"Tropical cyclone",1,0,0,0,0,0,0
+1926,CUB,Cuba,"Tropical cyclone",1,600,0,0,0,0,0
+1926,MMR,Myanmar,"Tropical cyclone",1,2700,0,0,40000,40000,0
+1926,USA,"United States","Tropical cyclone",2,268,0,0,0,0,73000
+1927,CHN,"China P Rep","Tropical cyclone",1,5000,0,0,0,0,0
+1927,IND,India,"Tropical cyclone",2,685,40000,10,0,40010,0
+1928,GLP,Guadeloupe,"Tropical cyclone",1,2000,0,0,0,0,0
+1928,MSR,Montserrat,"Tropical cyclone",1,0,0,0,0,0,0
+1928,PRI,"Puerto Rico","Tropical cyclone",1,300,0,0,0,0,50000
+1928,KNA,"St Kitts and Nevis","Tropical cyclone",1,0,0,0,0,0,0
+1928,USA,"United States","Tropical cyclone",1,1836,0,0,0,0,25000
+1929,BHS,Bahamas,"Tropical cyclone",1,0,0,0,0,0,0
+1930,DMA,Dominica,"Tropical cyclone",1,2000,0,0,0,0,0
+1930,DOM,"Dominican Rep","Tropical cyclone",1,2000,6000,6000,0,12000,40000
+1931,BLZ,Belize,"Tropical cyclone",1,1500,0,0,0,0,7500
+1931,FJI,Fiji,"Tropical cyclone",1,200,0,0,0,0,0
+1931,HND,Honduras,"Tropical cyclone",1,1500,0,0,0,0,0
+1931,PHL,Philippines,"Tropical cyclone",1,0,0,0,0,0,0
+1932,CUB,Cuba,"Tropical cyclone",1,2500,0,0,0,0,0
+1932,PHL,Philippines,"Tropical cyclone",1,147,0,0,2500,2500,0
+1932,PRI,"Puerto Rico","Tropical cyclone",1,225,0,0,0,0,30000
+1932,USA,"United States","Tropical cyclone",1,40,0,0,0,0,0
+1933,JAM,Jamaica,"Tropical cyclone",1,10,0,0,0,0,0
+1933,TTO,"Trinidad and Tobago","Tropical cyclone",1,13,0,0,0,0,3000
+1933,USA,"United States","Tropical cyclone",1,40,0,0,0,0,0
+1934,SLV,"El Salvador","Tropical cyclone",1,2000,0,0,0,0,0
+1934,JPN,Japan,"Tropical cyclone",1,3006,0,0,0,0,50000
+1934,PHL,Philippines,"Tropical cyclone",2,85,0,0,0,0,0
+1935,BHS,Bahamas,"Tropical cyclone",1,14,0,0,0,0,0
+1935,CUB,Cuba,"Tropical cyclone",1,35,0,500,0,500,0
+1935,HTI,Haiti,"Tropical cyclone",1,2150,0,0,0,0,0
+1935,IND,India,"Tropical cyclone",1,60000,0,0,0,0,0
+1935,JAM,Jamaica,"Tropical cyclone",1,0,0,0,0,0,2000
+1935,USA,"United States","Tropical cyclone",1,408,0,0,0,0,6000
+1936,IND,India,"Tropical cyclone",1,233,0,0,0,0,0
+1936,KOR,"Korea Rep","Tropical cyclone",1,1104,0,0,0,0,0
+1936,MMR,Myanmar,"Tropical cyclone",1,1000,0,0,150000,150000,0
+1936,PHL,Philippines,"Tropical cyclone",1,517,0,0,0,0,0
+1937,BGD,Bangladesh,"Tropical cyclone",1,0,0,0,0,0,0
+1937,HKG,"Hong Kong (China)","Tropical cyclone",1,11000,0,0,0,0,0
+1937,PHL,Philippines,"Tropical cyclone",1,231,0,0,0,0,0
+1938,PHL,Philippines,"Tropical cyclone",1,305,0,0,0,0,0
+1938,USA,"United States","Tropical cyclone",1,600,0,0,0,0,306000
+1939,NCL,"New Caledonia","Tropical cyclone",1,3,0,0,0,0,0
+1940,PHL,Philippines,"Tropical cyclone",1,73,0,0,0,0,0
+1940,USA,"United States","Tropical cyclone",1,50,0,0,0,0,0
+1940,VUT,Vanuatu,"Tropical cyclone",1,0,0,0,0,0,0
+1941,BGD,Bangladesh,"Tropical cyclone",1,5000,0,0,0,0,0
+1941,FJI,Fiji,"Tropical cyclone",1,6,0,0,0,0,0
+1942,BGD,Bangladesh,"Tropical cyclone",1,61000,0,0,0,0,0
+1942,COK,"Cook Is","Tropical cyclone",1,0,0,0,0,0,0
+1942,IND,India,"Tropical cyclone",1,40000,0,0,0,0,0
+1943,COK,"Cook Is","Tropical cyclone",1,0,0,0,0,0,0
+1943,IND,India,"Tropical cyclone",1,5000,0,0,0,0,0
+1944,CUB,Cuba,"Tropical cyclone",1,0,0,0,0,0,0
+1944,IND,India,"Tropical cyclone",1,304,0,0,0,0,0
+1944,JAM,Jamaica,"Tropical cyclone",1,32,0,0,2000,2000,0
+1944,PAK,Pakistan,"Tropical cyclone",1,0,0,0,10000,10000,0
+1944,USA,"United States","Tropical cyclone",1,390,0,0,0,0,100000
+1945,BHS,Bahamas,"Tropical cyclone",1,22,0,0,0,0,0
+1945,IND,India,"Tropical cyclone",1,0,0,0,2000,2000,0
+1945,JPN,Japan,"Tropical cyclone",2,4197,1881672,0,0,1881672,400000
+1946,AZO,Azores,"Tropical cyclone",1,27,0,0,0,0,0
+1946,COK,"Cook Is","Tropical cyclone",1,0,0,0,0,0,0
+1946,PHL,Philippines,"Tropical cyclone",1,260,0,0,0,0,0
+1947,BGD,Bangladesh,"Tropical cyclone",1,500,0,0,0,0,0
+1947,HKG,"Hong Kong (China)","Tropical cyclone",1,2000,0,0,0,0,0
+1947,JPN,Japan,"Tropical cyclone",1,1930,0,0,0,0,0
+1947,USA,"United States","Tropical cyclone",1,51,0,0,0,0,100000
+1948,BMU,Bermuda,"Tropical cyclone",1,0,0,0,0,0,0
+1948,CHN,"China P Rep","Tropical cyclone",2,1800,0,0,0,0,0
+1948,CUB,Cuba,"Tropical cyclone",2,14,0,300,0,300,18000
+1948,JPN,Japan,"Tropical cyclone",1,868,414153,0,0,414153,0
+1948,NCL,"New Caledonia","Tropical cyclone",1,2,0,0,0,0,0
+1948,REU,Reunion,"Tropical cyclone",1,165,0,0,0,0,0
+1949,IND,India,"Tropical cyclone",1,1000,0,0,0,0,0
+1949,JPN,Japan,"Tropical cyclone",3,617,194046,0,0,194046,0
+1949,PHL,Philippines,"Tropical cyclone",1,1000,0,0,0,0,0
+1950,ATG,"Antigua and Barbuda","Tropical cyclone",1,2,0,0,0,0,1000
+1950,JPN,Japan,"Tropical cyclone",1,509,642117,0,0,642117,0
+1951,JAM,Jamaica,"Tropical cyclone",1,154,20000,200,0,20200,56000
+1951,JPN,Japan,"Tropical cyclone",1,943,0,0,0,0,0
+1951,MEX,Mexico,"Tropical cyclone",1,50,0,0,0,0,0
+1951,NCL,"New Caledonia","Tropical cyclone",1,2,0,0,0,0,0
+1951,PHL,Philippines,"Tropical cyclone",3,812,60000,0,0,60000,0
+1951,TWN,"Taiwan (China)","Tropical cyclone",1,100,0,0,0,0,0
+1951,VUT,Vanuatu,"Tropical cyclone",1,100,0,0,0,0,250
+1952,FJI,Fiji,"Tropical cyclone",1,23,0,800,0,800,2000
+1952,IND,India,"Tropical cyclone",1,400,1000000,0,0,1000000,0
+1952,PHL,Philippines,"Tropical cyclone",2,1014,0,452,0,452,50000
+1953,JPN,Japan,"Tropical cyclone",2,279,1000000,0,0,1000000,0
+1953,TWN,"Taiwan (China)","Tropical cyclone",1,67,0,0,0,0,0
+1953,VNM,"Viet Nam","Tropical cyclone",1,1000,0,0,0,0,0
+1954,CAN,Canada,"Tropical cyclone",1,83,0,0,0,0,100000
+1954,HTI,Haiti,"Tropical cyclone",1,410,250000,0,0,250000,0
+1954,JPN,Japan,"Tropical cyclone",3,1834,0,0,0,0,0
+1954,ANT,"Netherlands Antilles","Tropical cyclone",1,0,0,0,0,0,0
+1954,USA,"United States","Tropical cyclone",3,223,0,0,0,0,731000
+1955,AIA,Anguilla,"Tropical cyclone",1,0,0,0,0,0,0
+1955,BRB,Barbados,"Tropical cyclone",1,57,0,0,0,0,0
+1955,BLZ,Belize,"Tropical cyclone",1,16,0,0,0,0,5000
+1955,IND,India,"Tropical cyclone",2,2000,0,0,375000,375000,0
+1955,JPN,Japan,"Tropical cyclone",1,72,0,0,0,0,0
+1955,MEX,Mexico,"Tropical cyclone",2,800,0,0,0,0,40000
+1955,NCL,"New Caledonia","Tropical cyclone",1,1,0,0,0,0,0
+1955,KNA,"St Kitts and Nevis","Tropical cyclone",1,0,0,0,0,0,0
+1955,VCT,"St Vincent and the Grenadines","Tropical cyclone",1,122,0,0,0,0,0
+1955,USA,"United States","Tropical cyclone",2,209,0,0,0,0,832000
+1956,CHN,"China P Rep","Tropical cyclone",1,2000,0,0,0,0,0
+1956,GLP,Guadeloupe,"Tropical cyclone",1,0,0,0,0,0,0
+1956,IND,India,"Tropical cyclone",1,0,1000000,0,0,1000000,0
+1956,IDN,Indonesia,"Tropical cyclone",1,300,0,0,0,0,0
+1956,JPN,Japan,"Tropical cyclone",1,46,0,0,0,0,0
+1956,MOZ,Mozambique,"Tropical cyclone",1,107,0,0,0,0,0
+1956,PHL,Philippines,"Tropical cyclone",1,79,0,0,0,0,0
+1956,SLB,"Solomon Is","Tropical cyclone",1,200,0,0,0,0,0
+1956,VNM,"Viet Nam","Tropical cyclone",1,56,0,0,0,0,0
+1957,HKG,"Hong Kong (China)","Tropical cyclone",1,8,0,111,0,111,0
+1957,JPN,Japan,"Tropical cyclone",1,109,0,0,0,0,0
+1957,KOR,"Korea Rep","Tropical cyclone",1,238,0,0,0,0,0
+1957,PHL,Philippines,"Tropical cyclone",1,89,0,0,0,0,0
+1957,LKA,"Sri Lanka","Tropical cyclone",1,200,250000,0,0,250000,0
+1957,USA,"United States","Tropical cyclone",1,390,0,0,0,0,150000
+1958,BGD,Bangladesh,"Tropical cyclone",2,500,0,0,0,0,0
+1958,FJI,Fiji,"Tropical cyclone",1,0,0,0,0,0,0
+1958,PYF,"French Polynesia","Tropical cyclone",1,0,0,0,0,0,0
+1958,JPN,Japan,"Tropical cyclone",4,1950,0,0,0,0,0
+1958,TWN,"Taiwan (China)","Tropical cyclone",1,31,0,0,0,0,0
+1959,CHN,"China P Rep","Tropical cyclone",2,1784,0,0,0,0,0
+1959,JPN,Japan,"Tropical cyclone",3,5264,1500000,0,0,1500000,600000
+1959,KOR,"Korea Rep","Tropical cyclone",1,432,0,0,0,0,0
+1959,MEX,Mexico,"Tropical cyclone",1,960,0,0,0,0,20000
+1959,NCL,"New Caledonia","Tropical cyclone",1,1,0,0,0,0,700
+1959,NIU,Niue,"Tropical cyclone",1,0,1600,0,0,1600,1500
+1959,PHL,Philippines,"Tropical cyclone",1,29,0,0,0,0,0
+1959,TWN,"Taiwan (China)","Tropical cyclone",1,1046,0,0,0,0,50000
+1959,VUT,Vanuatu,"Tropical cyclone",1,0,0,0,0,0,0
+1960,AIA,Anguilla,"Tropical cyclone",1,5,0,250,1000,1250,35000
+1960,ATG,"Antigua and Barbuda","Tropical cyclone",1,2,0,0,0,0,0
+1960,BGD,Bangladesh,"Tropical cyclone",2,8149,200000,0,0,200000,0
+1960,HKG,"Hong Kong (China)","Tropical cyclone",1,45,15000,127,0,15127,0
+1960,JPN,Japan,"Tropical cyclone",1,41,0,0,0,0,0
+1960,MTQ,Martinique,"Tropical cyclone",1,0,0,0,0,0,0
+1960,ANT,"Netherlands Antilles","Tropical cyclone",1,0,0,0,0,0,0
+1960,NIU,Niue,"Tropical cyclone",1,0,4000,0,0,4000,41
+1960,PHL,Philippines,"Tropical cyclone",5,598,425000,0,0,425000,32000
+1960,PRI,"Puerto Rico","Tropical cyclone",1,0,0,0,0,0,0
+1960,LCA,"St Lucia","Tropical cyclone",1,0,0,0,0,0,0
+1960,TWN,"Taiwan (China)","Tropical cyclone",1,199,0,0,0,0,0
+1960,USA,"United States","Tropical cyclone",1,50,0,0,0,0,387000
+1961,BGD,Bangladesh,"Tropical cyclone",2,11000,0,0,0,0,11900
+1961,BLZ,Belize,"Tropical cyclone",1,275,0,0,0,0,60000
+1961,GRC,Greece,"Tropical cyclone",1,43,0,0,0,0,0
+1961,HND,Honduras,"Tropical cyclone",1,275,0,0,0,0,0
+1961,HKG,"Hong Kong (China)","Tropical cyclone",1,7,0,0,1171,1171,0
+1961,JPN,Japan,"Tropical cyclone",1,202,0,0,0,0,0
+1961,MEX,Mexico,"Tropical cyclone",1,436,0,0,0,0,0
+1961,TWN,"Taiwan (China)","Tropical cyclone",1,106,0,0,0,0,0
+1961,TON,Tonga,"Tropical cyclone",1,2,8000,0,0,8000,500
+1961,USA,"United States","Tropical cyclone",1,46,0,0,0,0,408000
+1962,GUM,Guam,"Tropical cyclone",1,6,0,0,0,0,250000
+1962,HKG,"Hong Kong (China)","Tropical cyclone",1,183,0,0,0,0,0
+1962,PHL,Philippines,"Tropical cyclone",2,197,0,0,0,0,0
+1962,TWN,"Taiwan (China)","Tropical cyclone",1,107,0,0,0,0,0
+1962,THA,Thailand,"Tropical cyclone",1,769,0,0,0,0,19000
+1963,BHS,Bahamas,"Tropical cyclone",1,0,0,0,0,0,1500
+1963,BGD,Bangladesh,"Tropical cyclone",2,22079,1000000,0,0,1000000,50000
+1963,CUB,Cuba,"Tropical cyclone",1,1750,0,0,0,0,500000
+1963,DMA,Dominica,"Tropical cyclone",1,0,0,0,0,0,2600
+1963,DOM,"Dominican Rep","Tropical cyclone",1,400,0,0,0,0,60000
+1963,GRD,Grenada,"Tropical cyclone",1,6,0,0,0,0,0
+1963,HTI,Haiti,"Tropical cyclone",1,5000,0,0,0,0,180000
+1963,IND,India,"Tropical cyclone",1,112,0,0,0,0,0
+1963,JAM,Jamaica,"Tropical cyclone",1,11,0,0,0,0,11525
+1963,JPN,Japan,"Tropical cyclone",1,0,0,0,0,0,0
+1963,MTQ,Martinique,"Tropical cyclone",1,10,0,0,0,0,40000
+1963,MMR,Myanmar,"Tropical cyclone",1,0,0,0,200,200,0
+1963,PHL,Philippines,"Tropical cyclone",1,1,0,0,2000,2000,0
+1963,LCA,"St Lucia","Tropical cyclone",1,10,0,0,0,0,3465
+1963,TTO,"Trinidad and Tobago","Tropical cyclone",1,24,0,0,0,0,30000
+1964,BGD,Bangladesh,"Tropical cyclone",1,300,800,0,0,800,250
+1964,CHN,"China P Rep","Tropical cyclone",1,686,0,0,0,0,0
+1964,CUB,Cuba,"Tropical cyclone",1,0,0,0,0,0,0
+1964,DOM,"Dominican Rep","Tropical cyclone",1,7,0,0,0,0,1000
+1964,GLP,Guadeloupe,"Tropical cyclone",1,14,10000,100,0,10100,0
+1964,HTI,Haiti,"Tropical cyclone",1,100,80000,0,0,80000,10000
+1964,HKG,"Hong Kong (China)","Tropical cyclone",2,70,0,385,0,385,0
+1964,IND,India,"Tropical cyclone",1,500,0,0,0,0,0
+1964,JPN,Japan,"Tropical cyclone",1,42,0,0,0,0,0
+1964,PAK,Pakistan,"Tropical cyclone",1,450,400000,0,0,400000,4100
+1964,PHL,Philippines,"Tropical cyclone",2,636,1224125,1421,0,1225546,43000
+1964,LKA,"Sri Lanka","Tropical cyclone",1,206,280000,0,100000,380000,37300
+1964,USA,"United States","Tropical cyclone",2,43,0,0,0,0,250000
+1964,VNM,"Viet Nam","Tropical cyclone",1,7000,700000,0,0,700000,50000
+1965,BHS,Bahamas,"Tropical cyclone",1,0,1200,0,0,1200,700
+1965,BGD,Bangladesh,"Tropical cyclone",3,48921,10060000,600000,5000000,15660000,57700
+1965,FJI,Fiji,"Tropical cyclone",1,2,10000,0,0,10000,0
+1965,HKG,"Hong Kong (China)","Tropical cyclone",1,5,0,3,200,203,0
+1965,JPN,Japan,"Tropical cyclone",3,147,30000,770,0,30770,0
+1965,MMR,Myanmar,"Tropical cyclone",1,100,500000,0,0,500000,1000
+1965,PAK,Pakistan,"Tropical cyclone",1,10000,0,0,0,0,0
+1965,PHL,Philippines,"Tropical cyclone",1,37,0,0,0,0,0
+1965,TWN,"Taiwan (China)","Tropical cyclone",2,55,0,166,0,166,0
+1965,USA,"United States","Tropical cyclone",1,299,0,0,0,0,1420000
+1965,WLF,"Wallis and Futuna Is","Tropical cyclone",1,0,0,0,0,0,0
+1966,ASM,"American Samoa","Tropical cyclone",1,90,0,0,0,0,0
+1966,ATG,"Antigua and Barbuda","Tropical cyclone",1,0,0,0,0,0,0
+1966,BHS,Bahamas,"Tropical cyclone",2,5,0,3,0,3,15500
+1966,BGD,Bangladesh,"Tropical cyclone",1,850,1500000,0,300000,1800000,22400
+1966,CUB,Cuba,"Tropical cyclone",1,5,156000,30,18000,174030,18000
+1966,DOM,"Dominican Rep","Tropical cyclone",1,74,7000,442,5500,12942,5000
+1966,GLP,Guadeloupe,"Tropical cyclone",1,25,10000,0,0,10000,70000
+1966,HTI,Haiti,"Tropical cyclone",1,480,67000,881,0,67881,20000
+1966,IND,India,"Tropical cyclone",1,18,150000,0,0,150000,4200
+1966,JPN,Japan,"Tropical cyclone",2,358,13764,121,0,13885,7900
+1966,MEX,Mexico,"Tropical cyclone",1,14,80000,69,10000,90069,24000
+1966,PHL,Philippines,"Tropical cyclone",1,18,196000,0,90000,286000,1000
+1966,WSM,Samoa,"Tropical cyclone",1,10,95000,0,0,95000,600
+1966,SLB,"Solomon Is","Tropical cyclone",1,3,1000,0,0,1000,0
+1966,TWN,"Taiwan (China)","Tropical cyclone",1,36,5000,21,0,5021,17322
+1966,TKL,Tokelau,"Tropical cyclone",1,0,0,0,0,0,0
+1966,WLF,"Wallis and Futuna Is","Tropical cyclone",1,0,0,0,0,0,0
+1967,BGD,Bangladesh,"Tropical cyclone",2,91,0,200,0,200,0
+1967,COK,"Cook Is","Tropical cyclone",1,0,0,0,0,0,0
+1967,HKG,"Hong Kong (China)","Tropical cyclone",1,0,1500,3,0,1503,0
+1967,IND,India,"Tropical cyclone",1,1000,0,0,0,0,0
+1967,JPN,Japan,"Tropical cyclone",2,290,2655,429,0,3084,0
+1967,MTQ,Martinique,"Tropical cyclone",1,15,1000,0,0,1000,0
+1967,MUS,Mauritius,"Tropical cyclone",1,0,20000,24,3500,23524,5000
+1967,MEX,Mexico,"Tropical cyclone",1,77,271000,0,0,271000,184000
+1967,MMR,Myanmar,"Tropical cyclone",2,278,157319,200,0,157519,8200
+1967,PHL,Philippines,"Tropical cyclone",1,107,137000,0,0,137000,26500
+1967,SLB,"Solomon Is","Tropical cyclone",1,12,0,0,0,0,0
+1967,LCA,"St Lucia","Tropical cyclone",1,0,0,0,0,0,3000
+1967,VCT,"St Vincent and the Grenadines","Tropical cyclone",1,2,0,0,0,0,4500
+1967,TWN,"Taiwan (China)","Tropical cyclone",1,69,100,67,0,167,0
+1967,USA,"United States","Tropical cyclone",1,15,0,0,0,0,200000
+1968,BGD,Bangladesh,"Tropical cyclone",1,118,15093,1045,0,16138,1500
+1968,CUB,Cuba,"Tropical cyclone",1,0,0,0,0,0,0
+1968,HKG,"Hong Kong (China)","Tropical cyclone",1,0,3000,4,0,3004,0
+1968,IND,India,"Tropical cyclone",1,7,15000,0,0,15000,0
+1968,JPN,Japan,"Tropical cyclone",3,124,0,0,0,0,0
+1968,MDG,Madagascar,"Tropical cyclone",1,29,65000,0,10000,75000,3100
+1968,MMR,Myanmar,"Tropical cyclone",1,1070,60000,0,30000,90000,2500
+1968,NCL,"New Caledonia","Tropical cyclone",1,0,0,0,0,0,0
+1968,NZL,"New Zealand","Tropical cyclone",1,50,1000,0,0,1000,0
+1968,NIU,Niue,"Tropical cyclone",1,0,0,0,0,0,0
+1968,PHL,Philippines,"Tropical cyclone",2,50,187330,0,39313,226643,9600
+1968,WSM,Samoa,"Tropical cyclone",1,0,0,4,0,4,238
+1968,SLB,"Solomon Is","Tropical cyclone",1,1,0,0,200,200,0
+1969,BGD,Bangladesh,"Tropical cyclone",1,849,160000,15530,23943,199473,8329
+1969,SLV,"El Salvador","Tropical cyclone",1,2,4600,40,0,4640,1600
+1969,GTM,Guatemala,"Tropical cyclone",1,269,10200,0,0,10200,15000
+1969,HND,Honduras,"Tropical cyclone",1,0,8000,2,0,8002,19000
+1969,HKG,"Hong Kong (China)","Tropical cyclone",1,0,374,0,0,374,0
+1969,IND,India,"Tropical cyclone",2,800,260000,0,0,260000,8330
+1969,MDG,Madagascar,"Tropical cyclone",1,81,40000,40,3000,43040,5000
+1969,NCL,"New Caledonia","Tropical cyclone",1,0,0,0,0,0,3000
+1969,PHL,Philippines,"Tropical cyclone",1,11,0,0,0,0,0
+1969,TWN,"Taiwan (China)","Tropical cyclone",2,269,40000,408,0,40408,88000
+1969,USA,"United States","Tropical cyclone",1,323,0,0,0,0,1420000
+1970,AUS,Australia,"Tropical cyclone",1,13,0,0,0,0,72475
+1970,BGD,Bangladesh,"Tropical cyclone",1,300000,3648000,0,0,3648000,86400
+1970,CHN,"China P Rep","Tropical cyclone",1,107,6065,55,7880,14000,0
+1970,CUB,Cuba,"Tropical cyclone",1,20,0,0,0,0,0
+1970,DMA,Dominica,"Tropical cyclone",1,0,0,0,0,0,0
+1970,GLP,Guadeloupe,"Tropical cyclone",1,0,0,0,0,0,0
+1970,ITA,Italy,"Tropical cyclone",1,35,200,0,0,200,3200
+1970,MDG,Madagascar,"Tropical cyclone",1,70,10000,0,0,10000,11400
+1970,MTQ,Martinique,"Tropical cyclone",1,45,5000,0,0,5000,31000
+1970,PHL,Philippines,"Tropical cyclone",8,3802,1740370,4977,67200,1812547,258399
+1970,USA,"United States","Tropical cyclone",1,11,0,0,0,0,450000
+1971,AUS,Australia,"Tropical cyclone",1,3,0,0,0,0,119219
+1971,BGD,Bangladesh,"Tropical cyclone",1,163,0,0,0,0,0
+1971,HND,Honduras,"Tropical cyclone",1,0,0,0,0,0,0
+1971,HKG,"Hong Kong (China)","Tropical cyclone",1,115,200,286,1000,1486,0
+1971,IND,India,"Tropical cyclone",2,9718,4900000,0,2000000,6900000,30000
+1971,JPN,Japan,"Tropical cyclone",1,135,0,0,0,0,0
+1971,MEX,Mexico,"Tropical cyclone",1,17,0,0,0,0,0
+1971,NIC,Nicaragua,"Tropical cyclone",1,35,2800,50,1800,4650,380
+1971,PHL,Philippines,"Tropical cyclone",4,246,0,11,46500,46511,1290
+1971,VNM,"Viet Nam","Tropical cyclone",2,112,50000,0,0,50000,0
+1972,FJI,Fiji,"Tropical cyclone",1,3,120000,0,0,120000,22500
+1972,IND,India,"Tropical cyclone",2,180,4530000,0,0,4530000,0
+1972,JPN,Japan,"Tropical cyclone",1,50,0,0,0,0,0
+1972,KIR,Kiribati,"Tropical cyclone",1,3,700,0,0,700,0
+1972,MDG,Madagascar,"Tropical cyclone",1,91,2500000,56,10000,2510056,12420
+1972,MUS,Mauritius,"Tropical cyclone",1,2,25000,16,0,25016,0
+1972,NCL,"New Caledonia","Tropical cyclone",1,3,0,0,0,0,0
+1972,PNG,"Papua New Guinea","Tropical cyclone",1,0,0,0,0,0,0
+1972,PHL,Philippines,"Tropical cyclone",3,435,465000,678,27000,492678,48000
+1972,TUV,Tuvalu,"Tropical cyclone",1,6,700,0,0,700,0
+1972,USA,"United States","Tropical cyclone",2,256,0,0,0,0,2100000
+1972,VUT,Vanuatu,"Tropical cyclone",3,4,0,0,0,0,0
+1973,BGD,Bangladesh,"Tropical cyclone",1,1000,0,0,0,0,0
+1973,FJI,Fiji,"Tropical cyclone",2,59,6150,0,0,6150,0
+1973,HKG,"Hong Kong (China)","Tropical cyclone",1,1,238,38,0,276,0
+1973,IDN,Indonesia,"Tropical cyclone",1,1650,0,0,0,0,0
+1973,JAM,Jamaica,"Tropical cyclone",1,6,2500,10,0,2510,1700
+1973,PHL,Philippines,"Tropical cyclone",3,346,3400000,24,45000,3445024,7000
+1973,TON,Tonga,"Tropical cyclone",1,3,700,0,200,900,500
+1973,VNM,"Viet Nam","Tropical cyclone",1,100,150000,0,0,150000,0
+1974,AUS,Australia,"Tropical cyclone",2,76,45000,640,0,45640,1096717
+1974,BGD,Bangladesh,"Tropical cyclone",2,2500,0,0,0,0,0
+1974,BLZ,Belize,"Tropical cyclone",1,0,70000,0,0,70000,4000
+1974,HND,Honduras,"Tropical cyclone",1,8000,600000,0,0,600000,540000
+1974,HKG,"Hong Kong (China)","Tropical cyclone",2,1,2400,0,0,2400,0
+1974,IND,India,"Tropical cyclone",2,20,25000,100,0,25100,0
+1974,JPN,Japan,"Tropical cyclone",2,176,0,50,0,50,0
+1974,MEX,Mexico,"Tropical cyclone",1,13,0,0,0,0,0
+1974,PHL,Philippines,"Tropical cyclone",7,203,97095,117,6441,103653,55300
+1974,TTO,"Trinidad and Tobago","Tropical cyclone",1,2,50000,0,0,50000,5000
+1975,AUS,Australia,"Tropical cyclone",1,0,0,0,0,0,63861
+1975,FJI,Fiji,"Tropical cyclone",1,0,23000,0,0,23000,1000
+1975,HKG,"Hong Kong (China)","Tropical cyclone",1,0,671,46,1280,1997,0
+1975,IND,India,"Tropical cyclone",2,0,0,0,2000,2000,0
+1975,JPN,Japan,"Tropical cyclone",1,68,123,52,0,175,505000
+1975,MDG,Madagascar,"Tropical cyclone",1,7,10000,50,0,10050,0
+1975,MUS,Mauritius,"Tropical cyclone",1,9,826199,59,0,826258,200000
+1975,MEX,Mexico,"Tropical cyclone",1,29,0,0,0,0,0
+1975,MMR,Myanmar,"Tropical cyclone",1,200,0,0,0,0,0
+1975,NCL,"New Caledonia","Tropical cyclone",1,0,0,0,0,0,0
+1975,PHL,Philippines,"Tropical cyclone",1,39,4518,8,698,5224,2161
+1975,PRI,"Puerto Rico","Tropical cyclone",1,26,0,0,0,0,0
+1975,USA,"United States","Tropical cyclone",1,21,0,0,0,0,550000
+1976,AUS,Australia,"Tropical cyclone",3,0,0,0,0,0,48671
+1976,GUM,Guam,"Tropical cyclone",1,9,0,0,0,0,120000
+1976,HKG,"Hong Kong (China)","Tropical cyclone",3,38,0,68,2424,2492,0
+1976,IND,India,"Tropical cyclone",6,270,600000,0,0,600000,266756
+1976,JPN,Japan,"Tropical cyclone",1,169,325000,107,0,325107,800000
+1976,MDG,Madagascar,"Tropical cyclone",1,16,500000,26,8850,508876,17000
+1976,MEX,Mexico,"Tropical cyclone",1,600,175000,1400,100000,276400,100000
+1976,NCL,"New Caledonia","Tropical cyclone",1,0,0,0,0,0,0
+1976,PHL,Philippines,"Tropical cyclone",3,387,2704443,17,110,2704570,178426
+1977,BGD,Bangladesh,"Tropical cyclone",1,13,0,100,0,100,0
+1977,HKG,"Hong Kong (China)","Tropical cyclone",2,1,20,37,71,128,0
+1977,IND,India,"Tropical cyclone",2,14206,9047400,0,5432400,14479800,498535
+1977,IDN,Indonesia,"Tropical cyclone",1,1,3000,60,0,3060,0
+1977,JPN,Japan,"Tropical cyclone",2,32,5000,45,8000,13045,0
+1977,MDG,Madagascar,"Tropical cyclone",1,10,30000,0,0,30000,350000
+1977,MEX,Mexico,"Tropical cyclone",1,10,50000,0,0,50000,0
+1977,OMN,Oman,"Tropical cyclone",1,105,5000,48,0,5048,0
+1977,PHL,Philippines,"Tropical cyclone",4,104,139922,118,15679,155719,4425
+1977,TWN,"Taiwan (China)","Tropical cyclone",1,61,11000,528,0,11528,250000
+1977,TON,Tonga,"Tropical cyclone",1,0,10000,5,0,10005,1100
+1977,VUT,Vanuatu,"Tropical cyclone",1,0,0,0,0,0,0
+1977,VNM,"Viet Nam","Tropical cyclone",1,0,1000,0,0,1000,0
+1978,AUS,Australia,"Tropical cyclone",1,5,100,0,0,100,1000000
+1978,BLZ,Belize,"Tropical cyclone",1,5,6000,0,0,6000,6000
+1978,FJI,Fiji,"Tropical cyclone",1,0,0,0,0,0,0
+1978,HND,Honduras,"Tropical cyclone",1,0,0,0,7500,7500,1000
+1978,HKG,"Hong Kong (China)","Tropical cyclone",3,11,2293,185,418,2896,0
+1978,IND,India,"Tropical cyclone",1,170,0,0,0,0,0
+1978,JPN,Japan,"Tropical cyclone",1,6,0,100,3000,3100,0
+1978,KOR,"Korea Rep","Tropical cyclone",1,0,4000,0,0,4000,19000
+1978,MDG,Madagascar,"Tropical cyclone",1,70,18000,0,0,18000,29000
+1978,MOZ,Mozambique,"Tropical cyclone",1,4,80000,0,25000,105000,0
+1978,MMR,Myanmar,"Tropical cyclone",1,0,78000,0,54000,132000,0
+1978,PHL,Philippines,"Tropical cyclone",9,617,1835169,834,22911,1858914,190084
+1978,LKA,"Sri Lanka","Tropical cyclone",1,740,1000000,5000,0,1005000,100000
+1979,AIA,Anguilla,"Tropical cyclone",1,0,0,0,0,0,0
+1979,AUS,Australia,"Tropical cyclone",1,15,0,0,0,0,31286
+1979,BGD,Bangladesh,"Tropical cyclone",2,53,0,150,0,150,0
+1979,DMA,Dominica,"Tropical cyclone",1,40,70000,2100,0,72100,44650
+1979,DOM,"Dominican Rep","Tropical cyclone",1,1400,1200000,4000,350000,1554000,150000
+1979,FJI,Fiji,"Tropical cyclone",1,53,20600,300,15000,35900,0
+1979,GLP,Guadeloupe,"Tropical cyclone",1,0,0,0,0,0,100000
+1979,HTI,Haiti,"Tropical cyclone",1,8,1110,0,0,1110,0
+1979,HKG,"Hong Kong (China)","Tropical cyclone",2,13,11167,327,1096,12590,10000
+1979,IND,India,"Tropical cyclone",1,594,1605772,0,0,1605772,12800
+1979,JPN,Japan,"Tropical cyclone",1,71,0,0,0,0,0
+1979,KOR,"Korea Rep","Tropical cyclone",1,115,35000,0,0,35000,40000
+1979,MTQ,Martinique,"Tropical cyclone",1,0,20000,3,0,20003,50000
+1979,MUS,Mauritius,"Tropical cyclone",2,5,100000,257,5000,105257,175000
+1979,PHL,Philippines,"Tropical cyclone",5,62,523930,56,61535,585521,26450
+1979,PRI,"Puerto Rico","Tropical cyclone",1,3,4500,0,0,4500,0
+1979,SLB,"Solomon Is","Tropical cyclone",1,2,6000,0,0,6000,0
+1979,USA,"United States","Tropical cyclone",1,31,0,0,0,0,2300000
+1979,VUT,Vanuatu,"Tropical cyclone",1,0,0,0,0,0,0
+1980,AUS,Australia,"Tropical cyclone",4,0,0,0,0,0,65529
+1980,BGD,Bangladesh,"Tropical cyclone",1,11,1000,50,0,1050,0
+1980,BRB,Barbados,"Tropical cyclone",1,0,0,7,5000,5007,1500
+1980,CHN,"China P Rep","Tropical cyclone",1,188,0,0,100,100,0
+1980,CUB,Cuba,"Tropical cyclone",1,3,0,0,0,0,0
+1980,DMA,Dominica,"Tropical cyclone",1,0,0,0,0,0,0
+1980,DOM,"Dominican Rep","Tropical cyclone",1,7,0,0,0,0,47000
+1980,FJI,Fiji,"Tropical cyclone",1,18,28000,250,7000,35250,2256
+1980,GRD,Grenada,"Tropical cyclone",1,0,0,0,0,0,5300
+1980,HTI,Haiti,"Tropical cyclone",1,220,330000,0,835000,1165000,400000
+1980,HKG,"Hong Kong (China)","Tropical cyclone",1,2,9,59,0,68,0
+1980,IND,India,"Tropical cyclone",2,28,0,0,0,0,0
+1980,IDN,Indonesia,"Tropical cyclone",1,0,0,0,800,800,0
+1980,JAM,Jamaica,"Tropical cyclone",1,6,30000,9,0,30009,64000
+1980,JPN,Japan,"Tropical cyclone",1,7,15000,33,2000,17033,0
+1980,KOR,"Korea Rep","Tropical cyclone",2,165,20000,17,0,20017,7220
+1980,MTQ,Martinique,"Tropical cyclone",1,0,0,0,0,0,68000
+1980,PHL,Philippines,"Tropical cyclone",6,212,1326831,55,540079,1866965,118391
+1980,REU,Reunion,"Tropical cyclone",1,25,7000,0,0,7000,67000
+1980,LCA,"St Lucia","Tropical cyclone",2,27,70000,0,10000,80000,87990
+1980,VCT,"St Vincent and the Grenadines","Tropical cyclone",1,0,20000,0,500,20500,16300
+1980,USA,"United States","Tropical cyclone",3,12,0,170,400,570,910000
+1980,VNM,"Viet Nam","Tropical cyclone",2,308,14987000,384,664500,15651884,0
+1981,BGD,Bangladesh,"Tropical cyclone",2,1015,2000000,0,25000,2025000,0
+1981,COK,"Cook Is","Tropical cyclone",1,0,0,0,0,0,0
+1981,FJI,Fiji,"Tropical cyclone",1,0,4700,0,0,4700,0
+1981,IND,India,"Tropical cyclone",3,215,121700,0,0,121700,0
+1981,JPN,Japan,"Tropical cyclone",2,47,60000,100,22500,82600,0
+1981,KOR,"Korea Rep","Tropical cyclone",1,113,14253,0,0,14253,134000
+1981,MDG,Madagascar,"Tropical cyclone",1,107,118000,0,0,118000,250000
+1981,MEX,Mexico,"Tropical cyclone",1,100,0,0,0,0,40000
+1981,NCL,"New Caledonia","Tropical cyclone",3,4,2000,0,0,2000,200
+1981,PHL,Philippines,"Tropical cyclone",7,785,1089918,137,11458,1101513,88384
+1981,THA,Thailand,"Tropical cyclone",1,0,43000,0,0,43000,0
+1981,VUT,Vanuatu,"Tropical cyclone",2,0,0,0,0,0,1000
+1982,AUS,Australia,"Tropical cyclone",1,1,0,0,0,0,6864
+1982,CPV,"Cape Verde Is","Tropical cyclone",1,3,2100,122,0,2222,3000
+1982,CUB,Cuba,"Tropical cyclone",1,24,105000,0,75000,180000,85000
+1982,HND,Honduras,"Tropical cyclone",1,130,20000,0,0,20000,101000
+1982,IND,India,"Tropical cyclone",2,744,5300000,493,0,5300493,745420
+1982,IDN,Indonesia,"Tropical cyclone",1,2,0,123,0,123,0
+1982,JPN,Japan,"Tropical cyclone",3,118,3000,252,5000,8252,212000
+1982,KOR,"Korea Rep","Tropical cyclone",2,68,5000,42,0,5042,30000
+1982,MDG,Madagascar,"Tropical cyclone",1,92,0,0,70000,70000,250000
+1982,MUS,Mauritius,"Tropical cyclone",2,0,32500,0,0,32500,973
+1982,MEX,Mexico,"Tropical cyclone",1,225,50000,0,0,50000,82400
+1982,MMR,Myanmar,"Tropical cyclone",1,11,36000,0,0,36000,0
+1982,NIC,Nicaragua,"Tropical cyclone",1,71,52000,0,0,52000,356000
+1982,PHL,Philippines,"Tropical cyclone",9,563,690172,360,329083,1019615,118605
+1982,SLB,"Solomon Is","Tropical cyclone",1,0,30000,0,0,30000,0
+1982,TON,Tonga,"Tropical cyclone",1,6,100000,12,46500,146512,21200
+1982,USA,"United States","Tropical cyclone",1,3,0,0,500,500,230000
+1982,VNM,"Viet Nam","Tropical cyclone",1,70,1300000,290,0,1300290,0
+1983,BGD,Bangladesh,"Tropical cyclone",3,673,5000,150,0,5150,0
+1983,CHN,"China P Rep","Tropical cyclone",2,112,10000,200,0,10200,0
+1983,COM,Comoros,"Tropical cyclone",1,33,30000,52,0,30052,23000
+1983,FJI,Fiji,"Tropical cyclone",2,9,211132,14,0,211146,50851
+1983,PYF,"French Polynesia","Tropical cyclone",2,7,5000,50,0,5050,37000
+1983,HKG,"Hong Kong (China)","Tropical cyclone",2,22,0,396,2166,2562,12544
+1983,IND,India,"Tropical cyclone",3,727,1506000,1500,14000,1521500,566000
+1983,JPN,Japan,"Tropical cyclone",1,44,0,78,0,78,0
+1983,MDG,Madagascar,"Tropical cyclone",1,42,13560,0,0,13560,25000
+1983,MUS,Mauritius,"Tropical cyclone",1,1,350,1,0,351,0
+1983,MEX,Mexico,"Tropical cyclone",1,135,0,0,25000,25000,0
+1983,PHL,Philippines,"Tropical cyclone",3,126,140542,28,29860,170430,4320
+1983,TWN,"Taiwan (China)","Tropical cyclone",1,82,0,0,0,0,0
+1983,USA,"United States","Tropical cyclone",1,21,0,0,0,0,3000000
+1983,VNM,"Viet Nam","Tropical cyclone",2,658,580000,508,601360,1181868,0
+1984,AIA,Anguilla,"Tropical cyclone",1,0,0,0,0,0,2115
+1984,CPV,"Cape Verde Is","Tropical cyclone",1,29,5500,0,0,5500,0
+1984,CHN,"China P Rep","Tropical cyclone",3,13,0,0,0,0,0
+1984,DMA,Dominica,"Tropical cyclone",1,2,10000,0,0,10000,2000
+1984,FRA,France,"Tropical cyclone",1,0,0,0,0,0,0
+1984,IND,India,"Tropical cyclone",3,524,1335000,0,0,1335000,35000
+1984,MDG,Madagascar,"Tropical cyclone",1,68,100000,215,0,100215,250000
+1984,MUS,Mauritius,"Tropical cyclone",1,0,0,0,0,0,0
+1984,MEX,Mexico,"Tropical cyclone",1,4,10000,0,0,10000,0
+1984,MOZ,Mozambique,"Tropical cyclone",1,109,350000,0,0,350000,75000
+1984,PHL,Philippines,"Tropical cyclone",4,2679,3210815,2865,1321526,4535206,336490
+1984,REU,Reunion,"Tropical cyclone",1,0,0,0,0,0,0
+1984,ZAF,"South Africa","Tropical cyclone",1,64,500000,0,0,500000,92000
+1984,ESP,Spain,"Tropical cyclone",1,6,60000,30,0,60030,1000000
+1984,KNA,"St Kitts and Nevis","Tropical cyclone",1,0,0,0,0,0,0
+1984,SWZ,Swaziland,"Tropical cyclone",1,53,632000,0,500,632500,54152
+1984,VNM,"Viet Nam","Tropical cyclone",2,155,650416,383,1000,651799,0
+1985,BGD,Bangladesh,"Tropical cyclone",1,15000,1300000,0,510000,1810000,50000
+1985,CHN,"China P Rep","Tropical cyclone",1,177,100000,1400,0,101400,0
+1985,COM,Comoros,"Tropical cyclone",1,2,35000,0,0,35000,5568
+1985,CUB,Cuba,"Tropical cyclone",1,4,476891,0,22000,498891,0
+1985,FJI,Fiji,"Tropical cyclone",3,32,122000,0,0,122000,76000
+1985,HKG,"Hong Kong (China)","Tropical cyclone",1,2,600,12,0,612,42
+1985,IND,India,"Tropical cyclone",1,78,5000,0,0,5000,0
+1985,JAM,Jamaica,"Tropical cyclone",1,7,0,0,300,300,5200
+1985,JPN,Japan,"Tropical cyclone",2,49,30000,200,0,30200,99500
+1985,KOR,"Korea Rep","Tropical cyclone",1,57,0,20,0,20,14000
+1985,MUS,Mauritius,"Tropical cyclone",1,0,0,0,0,0,0
+1985,PHL,Philippines,"Tropical cyclone",3,186,1603687,31,256,1603974,83033
+1985,SLB,"Solomon Is","Tropical cyclone",1,0,650,0,0,650,0
+1985,TCA,"Turks and Caicos Is","Tropical cyclone",1,0,770,0,0,770,5
+1985,USA,"United States","Tropical cyclone",4,32,1000000,0,0,1000000,3500000
+1985,VUT,Vanuatu,"Tropical cyclone",1,9,117500,0,0,117500,173000
+1985,VNM,"Viet Nam","Tropical cyclone",1,798,225000,257,225000,450257,0
+1986,AUS,Australia,"Tropical cyclone",1,3,0,12,1000,1012,70000
+1986,BGD,Bangladesh,"Tropical cyclone",2,65,2600000,100,100000,2700100,0
+1986,CHN,"China P Rep","Tropical cyclone",3,223,4000000,1656,2500,4004156,1374000
+1986,FJI,Fiji,"Tropical cyclone",1,1,3000,0,0,3000,20000
+1986,HKG,"Hong Kong (China)","Tropical cyclone",2,5,0,41,0,41,0
+1986,IND,India,"Tropical cyclone",2,24,3100000,100,200000,3300100,272943
+1986,IRL,Ireland,"Tropical cyclone",1,11,0,0,0,0,0
+1986,JPN,Japan,"Tropical cyclone",1,17,2000,64,0,2064,2200000
+1986,KOR,"Korea Rep","Tropical cyclone",1,33,6623,73,0,6696,10900
+1986,MDG,Madagascar,"Tropical cyclone",1,99,83885,424,0,84309,150000
+1986,PHL,Philippines,"Tropical cyclone",6,176,1235949,154,6633,1242736,86460
+1986,SLB,"Solomon Is","Tropical cyclone",1,101,90000,0,60000,150000,20000
+1986,LCA,"St Lucia","Tropical cyclone",1,0,0,0,0,0,0
+1986,TWN,"Taiwan (China)","Tropical cyclone",2,65,0,0,0,0,485000
+1986,VNM,"Viet Nam","Tropical cyclone",1,435,2500000,2502,0,2502502,0
+1986,WLF,"Wallis and Futuna Is","Tropical cyclone",1,1,4500,0,0,4500,0
+1987,BGD,Bangladesh,"Tropical cyclone",1,12,0,0,0,0,0
+1987,BRB,Barbados,"Tropical cyclone",1,0,0,0,230,230,100000
+1987,BMU,Bermuda,"Tropical cyclone",1,0,0,40,0,40,50000
+1987,CHN,"China P Rep","Tropical cyclone",3,274,900000,86,25400,925486,120000
+1987,COM,Comoros,"Tropical cyclone",1,24,0,0,50000,50000,9000
+1987,COK,"Cook Is","Tropical cyclone",1,5,2000,0,0,2000,25000
+1987,DOM,"Dominican Rep","Tropical cyclone",1,3,0,0,0,0,23700
+1987,GUM,Guam,"Tropical cyclone",1,0,0,0,502,502,145
+1987,GNB,"Guinea Bissau","Tropical cyclone",1,1,0,3,3700,3703,0
+1987,IND,India,"Tropical cyclone",2,63,80000,0,0,80000,0
+1987,JPN,Japan,"Tropical cyclone",1,8,65000,10,0,65010,0
+1987,KOR,"Korea Rep","Tropical cyclone",2,619,56000,0,0,56000,525000
+1987,FSM,"Micronesia Fed States","Tropical cyclone",1,5,0,3,200,203,6000
+1987,PHL,Philippines,"Tropical cyclone",5,1094,2911027,1466,325139,3237632,193700
+1987,REU,Reunion,"Tropical cyclone",1,10,4000,0,0,4000,2000
+1987,LCA,"St Lucia","Tropical cyclone",1,0,0,0,0,0,0
+1987,VCT,"St Vincent and the Grenadines","Tropical cyclone",1,0,0,8,200,208,5300
+1987,TWN,"Taiwan (China)","Tropical cyclone",1,61,2200,0,0,2200,0
+1987,TUV,Tuvalu,"Tropical cyclone",1,0,0,0,0,0,0
+1987,USA,"United States","Tropical cyclone",1,0,0,0,0,0,0
+1987,VUT,Vanuatu,"Tropical cyclone",1,48,48000,0,0,48000,25000
+1987,VNM,"Viet Nam","Tropical cyclone",1,101,584800,211,352000,937011,0
+1988,AUS,Australia,"Tropical cyclone",1,1,0,0,0,0,20417
+1988,BGD,Bangladesh,"Tropical cyclone",2,1031,8568860,0,2000000,10568860,0
+1988,CHN,"China P Rep","Tropical cyclone",2,200,186000,1232,0,187232,0
+1988,COL,Colombia,"Tropical cyclone",1,26,100000,0,0,100000,50000
+1988,CRI,"Costa Rica","Tropical cyclone",1,28,120000,7500,0,127500,60000
+1988,CUB,Cuba,"Tropical cyclone",1,0,60000,0,0,60000,0
+1988,HTI,Haiti,"Tropical cyclone",1,54,870000,0,0,870000,91286
+1988,HND,Honduras,"Tropical cyclone",1,0,0,12,0,12,0
+1988,HKG,"Hong Kong (China)","Tropical cyclone",1,0,100,4,0,104,0
+1988,IND,India,"Tropical cyclone",1,74,1900000,0,0,1900000,13000
+1988,JAM,Jamaica,"Tropical cyclone",1,49,810000,0,0,810000,1000000
+1988,MEX,Mexico,"Tropical cyclone",2,288,100000,0,25000,125000,76000
+1988,MOZ,Mozambique,"Tropical cyclone",1,100,4000,0,0,4000,0
+1988,NZL,"New Zealand","Tropical cyclone",1,6,0,0,0,0,0
+1988,NIC,Nicaragua,"Tropical cyclone",1,130,300000,278,60000,360278,400000
+1988,PAN,Panama,"Tropical cyclone",1,30,6732,0,2000,8732,60000
+1988,PHL,Philippines,"Tropical cyclone",5,788,4430946,238,66321,4497505,403016
+1988,LCA,"St Lucia","Tropical cyclone",1,45,0,0,0,0,1000000
+1988,USA,"United States","Tropical cyclone",1,0,0,0,0,0,0
+1988,VUT,Vanuatu,"Tropical cyclone",2,0,3100,0,3600,6700,0
+1988,VEN,Venezuela,"Tropical cyclone",1,11,0,0,0,0,0
+1988,VNM,"Viet Nam","Tropical cyclone",2,157,1320000,0,0,1320000,0
+1989,ASM,"American Samoa","Tropical cyclone",1,0,0,0,0,0,5000
+1989,ATG,"Antigua and Barbuda","Tropical cyclone",1,2,7500,0,530,8030,80000
+1989,AUS,Australia,"Tropical cyclone",2,4,0,0,0,0,107911
+1989,BGD,Bangladesh,"Tropical cyclone",1,15,0,2000,0,2000,0
+1989,BMU,Bermuda,"Tropical cyclone",1,0,0,0,0,0,0
+1989,CAN,Canada,"Tropical cyclone",1,0,0,0,0,0,0
+1989,CHN,"China P Rep","Tropical cyclone",4,865,8000000,3444,0,8003444,485000
+1989,COM,Comoros,"Tropical cyclone",1,0,0,0,0,0,5236
+1989,DMA,Dominica,"Tropical cyclone",1,0,710,0,0,710,20000
+1989,DOM,"Dominican Rep","Tropical cyclone",1,0,0,0,0,0,0
+1989,GLP,Guadeloupe,"Tropical cyclone",1,5,0,84,11000,11084,50000
+1989,HKG,"Hong Kong (China)","Tropical cyclone",2,9,528,150,977,1655,67
+1989,IND,India,"Tropical cyclone",2,93,3700000,0,0,3700000,0
+1989,JPN,Japan,"Tropical cyclone",2,15,0,0,0,0,0
+1989,KOR,"Korea Rep","Tropical cyclone",1,109,75145,49,0,75194,176500
+1989,MDG,Madagascar,"Tropical cyclone",1,46,55346,0,0,55346,0
+1989,MTQ,Martinique,"Tropical cyclone",1,0,0,0,0,0,0
+1989,MUS,Mauritius,"Tropical cyclone",1,1,4000,507,0,4507,60000
+1989,MSR,Montserrat,"Tropical cyclone",1,11,0,40,12000,12040,240000
+1989,ANT,"Netherlands Antilles","Tropical cyclone",1,11,0,0,0,0,50000
+1989,NCL,"New Caledonia","Tropical cyclone",1,2,0,0,0,0,0
+1989,PHL,Philippines,"Tropical cyclone",7,378,1974519,982,161364,2136865,171085
+1989,PRI,"Puerto Rico","Tropical cyclone",2,0,2000,0,0,2000,0
+1989,REU,Reunion,"Tropical cyclone",1,10,6200,61,0,6261,50000
+1989,WSM,Samoa,"Tropical cyclone",1,0,0,0,0,0,15500
+1989,KNA,"St Kitts and Nevis","Tropical cyclone",1,1,0,0,1300,1300,46000
+1989,TWN,"Taiwan (China)","Tropical cyclone",1,13,0,0,0,0,0
+1989,THA,Thailand,"Tropical cyclone",1,458,154000,0,45000,199000,452000
+1989,USA,"United States","Tropical cyclone",4,53,0,0,25000,25000,7500000
+1989,VNM,"Viet Nam","Tropical cyclone",3,959,5635000,1359,781000,6417359,21000
+1989,VIR,"Virgin Is (US)","Tropical cyclone",1,0,2000,0,8000,10000,21800
+1990,ATG,"Antigua and Barbuda","Tropical cyclone",1,0,0,0,0,0,0
+1990,AUS,Australia,"Tropical cyclone",1,0,0,0,0,0,155600
+1990,BHS,Bahamas,"Tropical cyclone",1,0,0,0,0,0,0
+1990,BGD,Bangladesh,"Tropical cyclone",1,370,13870,0,0,13870,0
+1990,CHN,"China P Rep","Tropical cyclone",7,533,5690800,436,210000,5901236,1869000
+1990,COK,"Cook Is","Tropical cyclone",1,1,0,0,0,0,0
+1990,FJI,Fiji,"Tropical cyclone",1,0,3000,0,3000,6000,10000
+1990,GRD,Grenada,"Tropical cyclone",1,0,1000,0,0,1000,0
+1990,GLP,Guadeloupe,"Tropical cyclone",1,0,0,0,0,0,0
+1990,HTI,Haiti,"Tropical cyclone",1,0,0,0,0,0,0
+1990,IND,India,"Tropical cyclone",2,1207,4100000,0,0,4100000,692800
+1990,JPN,Japan,"Tropical cyclone",1,40,60000,0,0,60000,4000000
+1990,MTQ,Martinique,"Tropical cyclone",1,8,1500,0,0,1500,0
+1990,MEX,Mexico,"Tropical cyclone",1,38,0,0,0,0,90700
+1990,MSR,Montserrat,"Tropical cyclone",1,0,0,0,0,0,0
+1990,NIU,Niue,"Tropical cyclone",1,0,200,0,0,200,0
+1990,PHL,Philippines,"Tropical cyclone",5,737,5208275,1288,1110020,6319583,388500
+1990,WSM,Samoa,"Tropical cyclone",1,8,170000,0,25000,195000,200000
+1990,KNA,"St Kitts and Nevis","Tropical cyclone",1,0,0,0,0,0,0
+1990,TWN,"Taiwan (China)","Tropical cyclone",2,5,20000,0,0,20000,0
+1990,THA,Thailand,"Tropical cyclone",1,36,0,0,0,0,50000
+1990,TKL,Tokelau,"Tropical cyclone",1,0,0,0,102,102,2400
+1990,TON,Tonga,"Tropical cyclone",1,1,2600,3,500,3103,2500
+1990,TTO,"Trinidad and Tobago","Tropical cyclone",1,0,1000,0,0,1000,0
+1990,TCA,"Turks and Caicos Is","Tropical cyclone",1,0,0,0,0,0,0
+1990,TUV,Tuvalu,"Tropical cyclone",1,0,300,0,400,700,0
+1990,VNM,"Viet Nam","Tropical cyclone",3,102,500000,108,2000,502108,0
+1991,BGD,Bangladesh,"Tropical cyclone",1,138866,15000000,138849,300000,15438849,1780000
+1991,CHN,"China P Rep","Tropical cyclone",3,147,1049130,5374,0,1054504,692890
+1991,HKG,"Hong Kong (China)","Tropical cyclone",1,22,0,182,0,182,10000
+1991,IND,India,"Tropical cyclone",1,125,25000,0,0,25000,0
+1991,JPN,Japan,"Tropical cyclone",5,101,90000,777,351,91128,10086500
+1991,KOR,"Korea Rep","Tropical cyclone",1,72,20750,0,0,20750,310000
+1991,MDG,Madagascar,"Tropical cyclone",1,36,125000,0,125000,250000,0
+1991,MHL,"Marshall Is","Tropical cyclone",1,0,0,0,6000,6000,0
+1991,MUS,Mauritius,"Tropical cyclone",1,0,6000,0,1500,7500,0
+1991,PHL,Philippines,"Tropical cyclone",6,6083,1494506,3109,74250,1571865,275000
+1991,WSM,Samoa,"Tropical cyclone",1,13,85000,0,3000,88000,278000
+1991,TWN,"Taiwan (China)","Tropical cyclone",1,33,0,4,0,4,0
+1991,THA,Thailand,"Tropical cyclone",1,38,1858811,20,35407,1894238,8323
+1991,USA,"United States","Tropical cyclone",2,20,1200,0,0,1200,1500000
+1991,VNM,"Viet Nam","Tropical cyclone",2,38,770,22,455905,456697,9500
+1992,BHS,Bahamas,"Tropical cyclone",1,4,0,0,1700,1700,250000
+1992,CHN,"China P Rep","Tropical cyclone",2,221,5000000,0,0,5000000,837400
+1992,FJI,Fiji,"Tropical cyclone",1,1,2000,0,0,2000,1600
+1992,GUM,Guam,"Tropical cyclone",1,1,0,542,5000,5542,300000
+1992,HKG,"Hong Kong (China)","Tropical cyclone",1,0,0,18,43,61,219700
+1992,IND,India,"Tropical cyclone",1,25,0,100,0,100,0
+1992,JPN,Japan,"Tropical cyclone",1,11,0,86,0,86,0
+1992,KOR,"Korea Rep","Tropical cyclone",1,0,375,0,58,433,0
+1992,LAO,"Lao P Dem Rep","Tropical cyclone",1,22,268775,102,0,268877,3650
+1992,MEX,Mexico,"Tropical cyclone",1,3,10000,0,0,10000,3000
+1992,PHL,Philippines,"Tropical cyclone",3,75,311155,78,1965,313198,0
+1992,TWN,"Taiwan (China)","Tropical cyclone",1,8,0,0,0,0,35000
+1992,THA,Thailand,"Tropical cyclone",2,3,253652,0,13007,266659,0
+1992,UKR,Ukraine,"Tropical cyclone",1,0,1000,0,0,1000,1600
+1992,USA,"United States","Tropical cyclone",3,48,45000,55,250000,295055,31500000
+1992,VUT,Vanuatu,"Tropical cyclone",2,2,1150,10,0,1160,0
+1992,VNM,"Viet Nam","Tropical cyclone",2,31,76125,23,3210,79358,18400
+1993,BGD,Bangladesh,"Tropical cyclone",2,64,7500,500,2000,10000,0
+1993,CHN,"China P Rep","Tropical cyclone",7,75,8474000,771,0,8474771,1232130
+1993,FJI,Fiji,"Tropical cyclone",1,21,150000,3,10000,160003,100000
+1993,GNB,"Guinea Bissau","Tropical cyclone",1,0,1722,0,0,1722,0
+1993,HKG,"Hong Kong (China)","Tropical cyclone",4,7,831,296,59,1186,6920
+1993,IND,India,"Tropical cyclone",2,186,12000,500,60000,72500,100000
+1993,JPN,Japan,"Tropical cyclone",2,95,30255,208,0,30463,1750000
+1993,PRK,"Korea Dem P Rep","Tropical cyclone",1,6,2500,0,0,2500,110000
+1993,MAC,Macau,"Tropical cyclone",3,0,1200,4,1153,2357,0
+1993,MTQ,Martinique,"Tropical cyclone",1,2,0,10,3000,3010,0
+1993,MEX,Mexico,"Tropical cyclone",4,38,54000,0,23000,77000,1670000
+1993,NIC,Nicaragua,"Tropical cyclone",1,37,123000,0,0,123000,0
+1993,NOR,Norway,"Tropical cyclone",1,0,0,0,0,0,3000
+1993,PAK,Pakistan,"Tropical cyclone",1,609,0,0,0,0,0
+1993,PNG,"Papua New Guinea","Tropical cyclone",1,15,25000,40,15000,40040,1500
+1993,PHL,Philippines,"Tropical cyclone",5,490,3331639,566,179122,3511327,257442
+1993,REU,Reunion,"Tropical cyclone",1,14,0,0,0,0,0
+1993,SLB,"Solomon Is","Tropical cyclone",1,4,88500,0,0,88500,0
+1993,TTO,"Trinidad and Tobago","Tropical cyclone",1,0,0,0,0,0,57
+1993,TUV,Tuvalu,"Tropical cyclone",1,0,0,0,150,150,0
+1993,USA,"United States","Tropical cyclone",3,4,0,60,0,60,0
+1993,VUT,Vanuatu,"Tropical cyclone",1,4,5000,5,7000,12005,6000
+1993,VEN,Venezuela,"Tropical cyclone",1,100,0,400,5500,5900,4500
+1993,VNM,"Viet Nam","Tropical cyclone",2,203,26520,36,10185,36741,65000
+1994,AUS,Australia,"Tropical cyclone",1,22,0,0,0,0,0
+1994,BGD,Bangladesh,"Tropical cyclone",2,170,450000,3709,200000,653709,127500
+1994,BTN,Bhutan,"Tropical cyclone",1,17,65000,0,0,65000,0
+1994,CHN,"China P Rep","Tropical cyclone",4,1385,23465000,3168,693000,24161168,1947000
+1994,CUB,Cuba,"Tropical cyclone",1,2,67738,0,42820,110558,101968
+1994,IND,India,"Tropical cyclone",1,208,428500,0,0,428500,19100
+1994,JPN,Japan,"Tropical cyclone",2,3,0,7,0,7,6000
+1994,KOR,"Korea Rep","Tropical cyclone",1,28,0,2,86,88,11
+1994,MDG,Madagascar,"Tropical cyclone",3,212,500000,51,40000,540051,10200
+1994,MUS,Mauritius,"Tropical cyclone",1,2,800,0,1500,2300,135400
+1994,MOZ,Mozambique,"Tropical cyclone",1,240,2000000,2000,500000,2502000,0
+1994,MMR,Myanmar,"Tropical cyclone",1,17,64970,0,0,64970,10000
+1994,PHL,Philippines,"Tropical cyclone",10,186,1599548,162,317949,1917659,138413
+1994,RUS,Russia,"Tropical cyclone",1,0,0,0,0,0,60000
+1994,SOM,Somalia,"Tropical cyclone",1,30,0,0,0,0,0
+1994,LCA,"St Lucia","Tropical cyclone",1,4,600,0,150,750,0
+1994,TWN,"Taiwan (China)","Tropical cyclone",5,45,457,131,0,588,457000
+1994,TZA,"Tanzania Uni Rep","Tropical cyclone",1,4,0,0,2500,2500,0
+1994,THA,Thailand,"Tropical cyclone",3,19,15000,0,0,15000,20000
+1994,USA,"United States","Tropical cyclone",1,32,20000,22,0,20022,250000
+1994,VNM,"Viet Nam","Tropical cyclone",1,30,11000,0,0,11000,45000
+1995,ATG,"Antigua and Barbuda","Tropical cyclone",1,2,0,165,3537,3702,350000
+1995,AUS,Australia,"Tropical cyclone",1,7,7000,15,30,7045,98000
+1995,BHS,Bahamas,"Tropical cyclone",1,0,0,0,0,0,400
+1995,BGD,Bangladesh,"Tropical cyclone",1,172,250000,0,0,250000,0
+1995,BRB,Barbados,"Tropical cyclone",1,0,0,0,0,0,0
+1995,CAN,Canada,"Tropical cyclone",1,2,0,0,0,0,100000
+1995,CHN,"China P Rep","Tropical cyclone",1,445,0,0,25000,25000,87000
+1995,CRI,"Costa Rica","Tropical cyclone",1,0,3262,0,4800,8062,6300
+1995,CUB,Cuba,"Tropical cyclone",2,2,160,3,0,163,2000
+1995,DMA,Dominica,"Tropical cyclone",2,2,0,1,5000,5001,195000
+1995,GLP,Guadeloupe,"Tropical cyclone",1,0,0,0,0,0,50000
+1995,HND,Honduras,"Tropical cyclone",1,18,0,22,0,22,0
+1995,IND,India,"Tropical cyclone",2,222,12000,0,0,12000,48300
+1995,JPN,Japan,"Tropical cyclone",1,3,500,0,0,500,9600
+1995,KOR,"Korea Rep","Tropical cyclone",2,73,2400,160,2600,5160,565000
+1995,LAO,"Lao P Dem Rep","Tropical cyclone",1,26,0,0,1000000,1000000,0
+1995,MTQ,Martinique,"Tropical cyclone",1,0,0,0,0,0,160000
+1995,MEX,Mexico,"Tropical cyclone",4,153,20800,0,43000,63800,2424700
+1995,MSR,Montserrat,"Tropical cyclone",1,0,0,0,0,0,20000
+1995,ANT,"Netherlands Antilles","Tropical cyclone",1,2,40000,0,0,40000,1000000
+1995,NIC,Nicaragua,"Tropical cyclone",1,38,15085,0,0,15085,0
+1995,PHL,Philippines,"Tropical cyclone",5,1218,2919526,2438,106000,3027964,317100
+1995,PRI,"Puerto Rico","Tropical cyclone",2,1,98000,0,0,98000,300000
+1995,KNA,"St Kitts and Nevis","Tropical cyclone",1,0,1800,0,0,1800,197000
+1995,THA,Thailand,"Tropical cyclone",1,27,0,0,0,0,0
+1995,USA,"United States","Tropical cyclone",3,38,84000,0,0,84000,5800000
+1995,VNM,"Viet Nam","Tropical cyclone",1,16,23000,51,0,23051,21200
+1995,VGB,"Virgin Is (UK)","Tropical cyclone",1,0,0,0,0,0,10000
+1995,VIR,"Virgin Is (US)","Tropical cyclone",2,7,0,0,10000,10000,936000
+1996,AUS,Australia,"Tropical cyclone",1,0,1500,10,250,1760,46700
+1996,BGD,Bangladesh,"Tropical cyclone",2,549,82600,35791,0,118391,0
+1996,CAN,Canada,"Tropical cyclone",1,0,0,0,0,0,100
+1996,CHN,"China P Rep","Tropical cyclone",5,547,15100000,5300,10000,15115300,1920000
+1996,CRI,"Costa Rica","Tropical cyclone",1,51,500000,0,0,500000,200000
+1996,CUB,Cuba,"Tropical cyclone",1,0,269995,0,66681,336676,13000
+1996,DOM,"Dominican Rep","Tropical cyclone",1,24,25000,0,0,25000,0
+1996,SLV,"El Salvador","Tropical cyclone",1,12,0,0,0,0,10
+1996,FRA,France,"Tropical cyclone",1,1,0,0,0,0,10
+1996,DEU,Germany,"Tropical cyclone",1,0,0,0,0,0,500
+1996,GTM,Guatemala,"Tropical cyclone",1,0,0,0,0,0,500
+1996,HTI,Haiti,"Tropical cyclone",1,26,0,0,0,0,100
+1996,HND,Honduras,"Tropical cyclone",2,1,0,0,0,0,1500
+1996,IND,India,"Tropical cyclone",4,1537,9177100,0,0,9177100,1500300
+1996,IRL,Ireland,"Tropical cyclone",1,2,0,0,0,0,1000
+1996,JAM,Jamaica,"Tropical cyclone",1,0,0,0,800,800,3000
+1996,JPN,Japan,"Tropical cyclone",1,6,5400,74,264,5738,0
+1996,MDG,Madagascar,"Tropical cyclone",1,9,100000,0,0,100000,0
+1996,MYS,Malaysia,"Tropical cyclone",1,270,1150,26,3000,4176,52000
+1996,MTQ,Martinique,"Tropical cyclone",1,0,0,0,0,0,10
+1996,MUS,Mauritius,"Tropical cyclone",1,3,0,0,0,0,0
+1996,MEX,Mexico,"Tropical cyclone",3,10,0,80,18500,18580,10
+1996,MOZ,Mozambique,"Tropical cyclone",1,11,200000,0,0,200000,14500
+1996,NIC,Nicaragua,"Tropical cyclone",2,44,10724,0,0,10724,10100
+1996,PHL,Philippines,"Tropical cyclone",1,26,36815,13,0,36828,38000
+1996,PRI,"Puerto Rico","Tropical cyclone",1,18,57315,0,0,57315,500000
+1996,TWN,"Taiwan (China)","Tropical cyclone",2,65,0,0,0,0,1300000
+1996,THA,Thailand,"Tropical cyclone",1,9,343386,0,0,343386,150000
+1996,GBR,"United Kingdom","Tropical cyclone",1,5,12000,0,0,12000,300000
+1996,USA,"United States","Tropical cyclone",1,39,4000,0,0,4000,3400000
+1996,VNM,"Viet Nam","Tropical cyclone",4,789,666500,591,0,667091,600020
+1996,VGB,"Virgin Is (UK)","Tropical cyclone",1,0,0,3,0,3,2000
+1997,BGD,Bangladesh,"Tropical cyclone",2,299,2792738,10063,1000000,3802801,0
+1997,BLR,Belarus,"Tropical cyclone",1,5,21045,45,300,21390,33000
+1997,KHM,Cambodia,"Tropical cyclone",1,25,0,0,0,0,10
+1997,CHN,"China P Rep","Tropical cyclone",3,212,6865000,3699,44000,6912699,3609700
+1997,COK,"Cook Is","Tropical cyclone",1,19,700,200,0,900,0
+1997,FJI,Fiji,"Tropical cyclone",1,25,3500,0,0,3500,27000
+1997,GUM,Guam,"Tropical cyclone",1,0,1400,20,5000,6420,200000
+1997,HKG,"Hong Kong (China)","Tropical cyclone",1,1,200,55,0,255,0
+1997,IND,India,"Tropical cyclone",1,25,0,0,0,0,0
+1997,JPN,Japan,"Tropical cyclone",2,7,67000,0,0,67000,100000
+1997,PRK,"Korea Dem P Rep","Tropical cyclone",1,0,0,0,0,0,10
+1997,MDG,Madagascar,"Tropical cyclone",2,174,520000,0,80000,600000,50000
+1997,MYS,Malaysia,"Tropical cyclone",1,2,2115,0,0,2115,1000
+1997,MEX,Mexico,"Tropical cyclone",2,230,753555,200,50000,803755,447800
+1997,MOZ,Mozambique,"Tropical cyclone",1,0,0,0,0,0,50
+1997,PNG,"Papua New Guinea","Tropical cyclone",1,32,0,0,7500,7500,0
+1997,PER,Peru,"Tropical cyclone",1,518,580000,730,0,580730,12000
+1997,PHL,Philippines,"Tropical cyclone",3,49,366765,5,0,366770,7500
+1997,TWN,"Taiwan (China)","Tropical cyclone",1,44,0,78,0,78,50000
+1997,THA,Thailand,"Tropical cyclone",2,198,50000,394,0,50394,44500
+1997,TON,Tonga,"Tropical cyclone",1,0,0,0,3000,3000,0
+1997,UKR,Ukraine,"Tropical cyclone",1,11,0,0,0,0,34000
+1997,USA,"United States","Tropical cyclone",1,0,0,0,0,0,0
+1997,VNM,"Viet Nam","Tropical cyclone",3,3692,697225,907,383045,1081177,480000
+1998,ATG,"Antigua and Barbuda","Tropical cyclone",1,2,0,25,2000,2025,100000
+1998,BGD,Bangladesh,"Tropical cyclone",2,219,229440,504,0,229944,0
+1998,BLZ,Belize,"Tropical cyclone",1,9,60000,0,0,60000,50
+1998,CHN,"China P Rep","Tropical cyclone",1,5,0,0,0,0,98000
+1998,CRI,"Costa Rica","Tropical cyclone",1,8,15000,0,1700,16700,91090
+1998,CUB,Cuba,"Tropical cyclone",1,6,147000,0,0,147000,2000000
+1998,DOM,"Dominican Rep","Tropical cyclone",1,347,855000,595,120000,975595,1981500
+1998,SLV,"El Salvador","Tropical cyclone",1,475,84000,0,0,84000,388100
+1998,GLP,Guadeloupe,"Tropical cyclone",1,0,0,0,0,0,5000
+1998,GTM,Guatemala,"Tropical cyclone",1,384,105700,0,0,105700,748000
+1998,HTI,Haiti,"Tropical cyclone",1,190,12000,29,0,12029,180000
+1998,HND,Honduras,"Tropical cyclone",1,14600,2100000,12000,0,2112000,3793600
+1998,IND,India,"Tropical cyclone",2,3121,4600000,893,0,4600893,469000
+1998,JPN,Japan,"Tropical cyclone",4,40,49000,364,0,49364,3335500
+1998,MEX,Mexico,"Tropical cyclone",2,11,1660,0,0,1660,1000
+1998,NIC,Nicaragua,"Tropical cyclone",1,3332,868000,228,0,868228,987700
+1998,PAN,Panama,"Tropical cyclone",1,3,7500,0,0,7500,50
+1998,PHL,Philippines,"Tropical cyclone",4,594,7322133,866,0,7322999,235437
+1998,PRI,"Puerto Rico","Tropical cyclone",1,0,0,0,0,0,1750000
+1998,KNA,"St Kitts and Nevis","Tropical cyclone",1,5,10000,0,0,10000,400000
+1998,TWN,"Taiwan (China)","Tropical cyclone",2,13,400000,0,0,400000,129000
+1998,TON,Tonga,"Tropical cyclone",2,0,3571,0,0,3571,0
+1998,USA,"United States","Tropical cyclone",4,14,22153,6,519,22678,3204950
+1998,VUT,Vanuatu,"Tropical cyclone",1,0,2400,0,0,2400,0
+1998,VNM,"Viet Nam","Tropical cyclone",2,326,2481635,92,43010,2524737,108200
+1998,VIR,"Virgin Is (US)","Tropical cyclone",1,0,0,0,0,0,100000
+1999,AIA,Anguilla,"Tropical cyclone",1,0,150,0,0,150,50
+1999,ATG,"Antigua and Barbuda","Tropical cyclone",2,2,4500,18,1439,5957,0
+1999,AUS,Australia,"Tropical cyclone",2,6,4000,0,672,4672,500000
+1999,BHS,Bahamas,"Tropical cyclone",1,1,0,0,0,0,450000
+1999,BGD,Bangladesh,"Tropical cyclone",1,0,0,0,0,0,0
+1999,CHN,"China P Rep","Tropical cyclone",4,245,643800,3612,18100,665512,601800
+1999,COL,Colombia,"Tropical cyclone",1,2,0,0,0,0,500
+1999,CUB,Cuba,"Tropical cyclone",1,4,228067,0,26923,254990,0
+1999,DMA,Dominica,"Tropical cyclone",1,0,400,0,315,715,0
+1999,FJI,Fiji,"Tropical cyclone",1,12,0,0,1772,1772,3500
+1999,GRD,Grenada,"Tropical cyclone",1,0,210,0,0,210,5500
+1999,GLP,Guadeloupe,"Tropical cyclone",1,4,400,49,450,899,0
+1999,HKG,"Hong Kong (China)","Tropical cyclone",1,2,0,493,0,493,0
+1999,IND,India,"Tropical cyclone",3,10378,13165696,4312,700000,13870008,2990000
+1999,JPN,Japan,"Tropical cyclone",1,26,20000,438,6900,27338,5000000
+1999,KOR,"Korea Rep","Tropical cyclone",1,4,0,0,514,514,4000
+1999,MTQ,Martinique,"Tropical cyclone",1,0,400,0,200,600,0
+1999,MUS,Mauritius,"Tropical cyclone",1,0,0,1000,0,1000,0
+1999,MEX,Mexico,"Tropical cyclone",1,9,2000,0,2000,4000,0
+1999,NCL,"New Caledonia","Tropical cyclone",1,0,0,0,0,0,0
+1999,PAK,Pakistan,"Tropical cyclone",1,231,315040,155,220745,535940,10936
+1999,PHL,Philippines,"Tropical cyclone",1,7,37200,22,4711,41933,1800
+1999,PRI,"Puerto Rico","Tropical cyclone",1,1,0,0,0,0,150000
+1999,RUS,Russia,"Tropical cyclone",1,12,0,0,0,0,0
+1999,KNA,"St Kitts and Nevis","Tropical cyclone",1,0,1080,0,100,1180,41400
+1999,LCA,"St Lucia","Tropical cyclone",1,0,0,0,200,200,0
+1999,VCT,"St Vincent and the Grenadines","Tropical cyclone",1,0,100,0,0,100,0
+1999,TJK,Tajikistan,"Tropical cyclone",1,0,0,0,1500,1500,200
+1999,USA,"United States","Tropical cyclone",4,82,3000000,10,0,3000010,7232500
+1999,VIR,"Virgin Is (US)","Tropical cyclone",1,3,0,0,0,0,180000
+2000,AUS,Australia,"Tropical cyclone",3,1,1350,0,0,1350,150000
+2000,BGD,Bangladesh,"Tropical cyclone",3,35,0,512,69500,70012,0
+2000,BLZ,Belize,"Tropical cyclone",1,14,62000,570,0,62570,277460
+2000,CHN,"China P Rep","Tropical cyclone",4,68,2446000,127,42165,2488292,238453
+2000,SLV,"El Salvador","Tropical cyclone",1,1,100,0,0,100,0
+2000,IND,India,"Tropical cyclone",2,0,30000,0,0,30000,0
+2000,JPN,Japan,"Tropical cyclone",2,13,180900,41,0,180941,1700000
+2000,PRK,"Korea Dem P Rep","Tropical cyclone",1,46,480000,180,147000,627180,6000000
+2000,KOR,"Korea Rep","Tropical cyclone",2,33,0,0,711,711,82300
+2000,MDG,Madagascar,"Tropical cyclone",2,153,1106208,1,0,1106209,9000
+2000,MEX,Mexico,"Tropical cyclone",1,23,30000,0,0,30000,1000
+2000,MOZ,Mozambique,"Tropical cyclone",2,18,0,4,300,304,1000
+2000,NIC,Nicaragua,"Tropical cyclone",1,1,2300,0,0,2300,1000
+2000,PHL,Philippines,"Tropical cyclone",6,394,6067076,355,120000,6187431,83464
+2000,REU,Reunion,"Tropical cyclone",1,2,0,0,600,600,0
+2000,RUS,Russia,"Tropical cyclone",1,9,0,0,0,0,50
+2000,LKA,"Sri Lanka","Tropical cyclone",1,5,375000,0,0,375000,0
+2000,TWN,"Taiwan (China)","Tropical cyclone",2,103,0,102,2000,2102,285000
+2000,THA,Thailand,"Tropical cyclone",1,2,41219,0,0,41219,0
+2000,VNM,"Viet Nam","Tropical cyclone",2,20,0,33,6000,6033,26000
+2001,BHS,Bahamas,"Tropical cyclone",1,0,0,0,0,0,300000
+2001,BGD,Bangladesh,"Tropical cyclone",2,205,500,2200,0,2700,0
+2001,BLZ,Belize,"Tropical cyclone",2,30,20000,0,0,20000,250000
+2001,CYM,"Cayman Islands","Tropical cyclone",1,0,0,0,0,0,60000
+2001,CHN,"China P Rep","Tropical cyclone",6,262,17919375,8299,213000,18140674,3551000
+2001,COK,"Cook Is","Tropical cyclone",1,0,744,0,0,744,0
+2001,CRI,"Costa Rica","Tropical cyclone",1,0,0,0,0,0,1000
+2001,CUB,Cuba,"Tropical cyclone",1,5,5900000,12,0,5900012,100000
+2001,DMA,Dominica,"Tropical cyclone",1,3,175,0,0,175,0
+2001,DOM,"Dominican Rep","Tropical cyclone",1,3,0,0,0,0,10
+2001,FJI,Fiji,"Tropical cyclone",1,1,0,0,0,0,0
+2001,GTM,Guatemala,"Tropical cyclone",1,8,6435,11,0,6446,100
+2001,HTI,Haiti,"Tropical cyclone",1,0,0,0,0,0,20
+2001,HND,Honduras,"Tropical cyclone",1,21,61051,0,25270,86321,5000
+2001,IND,India,"Tropical cyclone",2,78,25000,0,2000,27000,0
+2001,JAM,Jamaica,"Tropical cyclone",1,1,0,0,200,200,55487
+2001,JPN,Japan,"Tropical cyclone",2,16,8200,55,0,8255,1300000
+2001,MEX,Mexico,"Tropical cyclone",5,5,5600,0,800,6400,401000
+2001,NIC,Nicaragua,"Tropical cyclone",1,16,24866,0,0,24866,1000
+2001,PHL,Philippines,"Tropical cyclone",4,583,3017245,480,100000,3117725,97361
+2001,TWN,"Taiwan (China)","Tropical cyclone",5,195,650000,339,2000,652339,1047000
+2001,TON,Tonga,"Tropical cyclone",1,0,16500,0,0,16500,51300
+2001,USA,"United States","Tropical cyclone",1,41,102000,0,70000,172000,6000000
+2001,VUT,Vanuatu,"Tropical cyclone",2,2,505,0,295,800,0
+2001,VNM,"Viet Nam","Tropical cyclone",3,53,177450,89,23100,200639,83200
+2002,BGD,Bangladesh,"Tropical cyclone",2,80,100000,400,0,100400,0
+2002,BRB,Barbados,"Tropical cyclone",1,0,0,0,2000,2000,200
+2002,CYM,"Cayman Islands","Tropical cyclone",2,0,300,0,0,300,1500
+2002,CHN,"China P Rep","Tropical cyclone",1,25,180000,0,0,180000,0
+2002,CUB,Cuba,"Tropical cyclone",2,3,323970,0,0,323970,46000
+2002,SLV,"El Salvador","Tropical cyclone",1,0,500,0,0,500,0
+2002,GUM,Guam,"Tropical cyclone",2,1,10044,0,5100,15144,130000
+2002,GTM,Guatemala,"Tropical cyclone",1,2,1500,0,0,1500,100
+2002,HTI,Haiti,"Tropical cyclone",1,4,250,0,0,250,0
+2002,IND,India,"Tropical cyclone",2,133,0,50,5000,5050,416
+2002,JAM,Jamaica,"Tropical cyclone",2,4,1500,0,0,1500,1030
+2002,JPN,Japan,"Tropical cyclone",2,5,100570,27,0,100597,5000
+2002,PRK,"Korea Dem P Rep","Tropical cyclone",1,3,7401,0,0,7401,500
+2002,KOR,"Korea Rep","Tropical cyclone",1,184,88625,0,0,88625,4200000
+2002,MDG,Madagascar,"Tropical cyclone",3,23,521900,1200,5000,528100,181
+2002,MUS,Mauritius,"Tropical cyclone",1,3,0,50,1000,1050,50000
+2002,MEX,Mexico,"Tropical cyclone",3,16,509300,230,0,509530,840000
+2002,FSM,"Micronesia Fed States","Tropical cyclone",2,47,1300,148,175,1623,500
+2002,NIC,Nicaragua,"Tropical cyclone",1,2,300,0,0,300,1000
+2002,MNP,"Northern Mariana Is","Tropical cyclone",1,0,0,0,300,300,0
+2002,OMN,Oman,"Tropical cyclone",1,7,50,33,0,83,50000
+2002,PHL,Philippines,"Tropical cyclone",3,102,711000,41,3000,714041,6664
+2002,REU,Reunion,"Tropical cyclone",1,0,0,300,2800,3100,50000
+2002,RUS,Russia,"Tropical cyclone",1,6,0,0,0,0,0
+2002,SYC,Seychelles,"Tropical cyclone",1,0,6800,0,0,6800,0
+2002,SLB,"Solomon Is","Tropical cyclone",1,0,0,10,1100,1110,0
+2002,VCT,"St Vincent and the Grenadines","Tropical cyclone",1,4,0,0,0,0,11000
+2002,TWN,"Taiwan (China)","Tropical cyclone",1,7,0,0,0,0,0
+2002,USA,"United States","Tropical cyclone",2,1,13200,0,0,13200,2300000
+2003,BGD,Bangladesh,"Tropical cyclone",2,51,0,400,0,400,0
+2003,BMU,Bermuda,"Tropical cyclone",1,4,0,0,0,0,300000
+2003,CAN,Canada,"Tropical cyclone",2,2,200,0,0,200,110000
+2003,CHN,"China P Rep","Tropical cyclone",3,58,9120000,1020,68925,9189945,537938
+2003,DOM,"Dominican Rep","Tropical cyclone",1,8,10000,0,0,10000,0
+2003,FJI,Fiji,"Tropical cyclone",1,17,30000,0,0,30000,30000
+2003,HKG,"Hong Kong (China)","Tropical cyclone",2,4,3500,33,0,3533,0
+2003,IND,India,"Tropical cyclone",4,100,140,4060,41000,45200,28000
+2003,JPN,Japan,"Tropical cyclone",2,21,2230,173,0,2403,105000
+2003,KOR,"Korea Rep","Tropical cyclone",1,130,65000,0,15000,80000,4500000
+2003,MDG,Madagascar,"Tropical cyclone",3,89,114641,86,48023,162750,0
+2003,MEX,Mexico,"Tropical cyclone",2,4,9000,0,0,9000,100000
+2003,FSM,"Micronesia Fed States","Tropical cyclone",1,0,0,0,1000,1000,0
+2003,MOZ,Mozambique,"Tropical cyclone",1,11,23000,10,0,23010,0
+2003,NCL,"New Caledonia","Tropical cyclone",1,2,0,100,1000,1100,40000
+2003,PHL,Philippines,"Tropical cyclone",6,93,347593,20,83203,430816,35229
+2003,PRI,"Puerto Rico","Tropical cyclone",1,0,0,0,100,100,0
+2003,RUS,Russia,"Tropical cyclone",1,0,0,0,0,0,0
+2003,SLB,"Solomon Is","Tropical cyclone",2,0,275,0,150,425,0
+2003,TWN,"Taiwan (China)","Tropical cyclone",1,3,0,0,0,0,0
+2003,USA,"United States","Tropical cyclone",2,16,225000,4,0,225004,3386000
+2003,VNM,"Viet Nam","Tropical cyclone",1,0,0,18,5000,5018,0
+2003,COD,"Zaire/Congo Dem Rep","Tropical cyclone",1,17,0,2500,20000,22500,0
+2003,ZWE,Zimbabwe,"Tropical cyclone",1,8,0,0,0,0,0
+2004,ASM,"American Samoa","Tropical cyclone",1,0,20000,60,3000,23060,150000
+2004,BHS,Bahamas,"Tropical cyclone",3,12,9000,0,0,9000,1550000
+2004,BRB,Barbados,"Tropical cyclone",1,1,0,0,880,880,5000
+2004,BRA,Brazil,"Tropical cyclone",1,4,150000,60,0,150060,350000
+2004,CYM,"Cayman Islands","Tropical cyclone",2,2,0,0,0,0,3435080
+2004,CHN,"China P Rep","Tropical cyclone",2,190,8590000,4007,509350,9103357,2195000
+2004,CUB,Cuba,"Tropical cyclone",2,4,205745,5,41500,247250,1200000
+2004,DOM,"Dominican Rep","Tropical cyclone",3,15,14250,9,0,14259,297000
+2004,FJI,Fiji,"Tropical cyclone",1,16,5000,0,0,5000,4000
+2004,GRD,Grenada,"Tropical cyclone",1,39,60000,0,0,60000,889000
+2004,GUM,Guam,"Tropical cyclone",2,1,300,0,0,300,1000
+2004,HTI,Haiti,"Tropical cyclone",2,2757,302926,2620,16548,322094,51000
+2004,IDN,Indonesia,"Tropical cyclone",1,0,1315,0,0,1315,0
+2004,JAM,Jamaica,"Tropical cyclone",2,16,350120,6,0,350126,895000
+2004,JPN,Japan,"Tropical cyclone",8,199,329556,1483,0,331039,15143500
+2004,KOR,"Korea Rep","Tropical cyclone",3,14,0,0,2922,2922,251000
+2004,MDG,Madagascar,"Tropical cyclone",2,395,773000,979,258450,1032429,250000
+2004,MEX,Mexico,"Tropical cyclone",1,20,0,0,0,0,0
+2004,FSM,"Micronesia Fed States","Tropical cyclone",1,1,6000,8,0,6008,0
+2004,MMR,Myanmar,"Tropical cyclone",1,236,0,0,25000,25000,688
+2004,NIU,Niue,"Tropical cyclone",1,1,200,2,500,702,40000
+2004,MNP,"Northern Mariana Is","Tropical cyclone",1,3,200,0,0,200,0
+2004,PHL,Philippines,"Tropical cyclone",7,1854,3232763,1311,2700,3236774,138867
+2004,PRI,"Puerto Rico","Tropical cyclone",2,2,3500,0,0,3500,100000
+2004,RUS,Russia,"Tropical cyclone",2,9,0,62,0,62,6000
+2004,WSM,Samoa,"Tropical cyclone",1,1,0,0,0,0,0
+2004,LCA,"St Lucia","Tropical cyclone",1,0,0,0,0,0,500
+2004,VCT,"St Vincent and the Grenadines","Tropical cyclone",1,0,1000,4,0,1004,5000
+2004,TWN,"Taiwan (China)","Tropical cyclone",5,79,8765,108,0,8873,407710
+2004,THA,Thailand,"Tropical cyclone",1,1,4000,0,0,4000,0
+2004,TON,Tonga,"Tropical cyclone",1,0,0,0,0,0,0
+2004,TTO,"Trinidad and Tobago","Tropical cyclone",1,1,560,0,0,560,1000
+2004,TCA,"Turks and Caicos Is","Tropical cyclone",1,0,200,0,0,200,0
+2004,USA,"United States","Tropical cyclone",5,122,5070000,0,0,5070000,53062500
+2004,VUT,Vanuatu,"Tropical cyclone",1,2,54000,8,0,54008,0
+2004,VEN,Venezuela,"Tropical cyclone",1,5,1645,5,80,1730,0
+2004,VNM,"Viet Nam","Tropical cyclone",2,70,500900,5,0,500905,30000
+2004,VIR,"Virgin Is (US)","Tropical cyclone",1,0,0,0,0,0,0
+2005,ASM,"American Samoa","Tropical cyclone",1,0,0,0,0,0,0
+2005,BHS,Bahamas,"Tropical cyclone",1,1,1500,0,0,1500,0
+2005,BGD,Bangladesh,"Tropical cyclone",1,24,0,500,10000,10500,0
+2005,BLZ,Belize,"Tropical cyclone",2,3,0,0,0,0,0
+2005,SPI,"Canary Is","Tropical cyclone",1,19,0,0,0,0,375000
+2005,CHN,"China P Rep","Tropical cyclone",6,323,31393000,8,13000,31406008,6690000
+2005,COL,Colombia,"Tropical cyclone",1,0,3074,0,0,3074,0
+2005,COK,"Cook Is","Tropical cyclone",1,0,600,8,0,608,0
+2005,CRI,"Costa Rica","Tropical cyclone",1,1,1074,0,0,1074,20000
+2005,CUB,Cuba,"Tropical cyclone",2,20,2600000,0,0,2600000,2100000
+2005,DOM,"Dominican Rep","Tropical cyclone",1,9,1000,0,0,1000,0
+2005,SLV,"El Salvador","Tropical cyclone",2,69,72141,0,0,72141,355700
+2005,GRD,Grenada,"Tropical cyclone",1,1,1650,0,0,1650,0
+2005,GTM,Guatemala,"Tropical cyclone",1,1513,474928,386,0,475314,988300
+2005,HTI,Haiti,"Tropical cyclone",5,71,27740,53,185,27978,50500
+2005,HND,Honduras,"Tropical cyclone",4,53,103869,0,0,103869,115500
+2005,JAM,Jamaica,"Tropical cyclone",3,6,10396,0,0,10396,34500
+2005,JPN,Japan,"Tropical cyclone",2,35,270090,144,0,270234,1000000
+2005,KOR,"Korea Rep","Tropical cyclone",2,10,1100,0,0,1100,5500
+2005,MDG,Madagascar,"Tropical cyclone",1,78,0,8,7977,7985,0
+2005,MEX,Mexico,"Tropical cyclone",4,47,2669571,0,300000,2969571,7910000
+2005,MAR,Morocco,"Tropical cyclone",1,1,0,0,0,0,50
+2005,NIC,Nicaragua,"Tropical cyclone",2,7,7880,0,5763,13643,0
+2005,PHL,Philippines,"Tropical cyclone",2,34,20011,0,0,20011,2000
+2005,WSM,Samoa,"Tropical cyclone",1,9,0,0,0,0,0
+2005,VCT,"St Vincent and the Grenadines","Tropical cyclone",1,0,530,0,0,530,0
+2005,TWN,"Taiwan (China)","Tropical cyclone",4,17,1500,139,0,1639,239000
+2005,THA,Thailand,"Tropical cyclone",1,10,2000,0,0,2000,20000
+2005,TKL,Tokelau,"Tropical cyclone",1,0,0,1,25,26,0
+2005,TTO,"Trinidad and Tobago","Tropical cyclone",1,0,0,0,0,0,0
+2005,USA,"United States","Tropical cyclone",4,1852,830000,0,0,830000,157530000
+2005,VNM,"Viet Nam","Tropical cyclone",3,103,361132,28,0,361160,250250
+2006,AUS,Australia,"Tropical cyclone",3,0,2000,30,7000,9030,1182354
+2006,BGD,Bangladesh,"Tropical cyclone",3,146,9135,565,2400,12100,0
+2006,CHN,"China P Rep","Tropical cyclone",6,1483,55223000,1362,2000,55226362,7577000
+2006,CUB,Cuba,"Tropical cyclone",1,0,260,8,0,268,0
+2006,FJI,Fiji,"Tropical cyclone",1,0,168,0,0,168,0
+2006,HTI,Haiti,"Tropical cyclone",1,5,15000,0,0,15000,0
+2006,IND,India,"Tropical cyclone",1,114,0,300,150000,150300,0
+2006,JPN,Japan,"Tropical cyclone",1,10,12000,448,0,12448,2500000
+2006,MDG,Madagascar,"Tropical cyclone",2,4,6112,0,404,6516,0
+2006,MEX,Mexico,"Tropical cyclone",3,15,270700,0,0,270700,2700
+2006,MMR,Myanmar,"Tropical cyclone",1,34,60075,31,0,60106,0
+2006,PHL,Philippines,"Tropical cyclone",10,1805,7819149,2659,0,7821808,330921
+2006,TWN,"Taiwan (China)","Tropical cyclone",2,3,800,0,0,800,0
+2006,USA,"United States","Tropical cyclone",1,6,140,0,0,140,32860
+2006,VNM,"Viet Nam","Tropical cyclone",4,387,2943720,1885,350680,3296285,1080000
+2007,AUS,Australia,"Tropical cyclone",1,2,730,0,90,820,100000
+2007,BHS,Bahamas,"Tropical cyclone",1,1,7000,0,0,7000,0
+2007,BGD,Bangladesh,"Tropical cyclone",2,4275,8923259,55282,225,8978766,2300000
+2007,BLZ,Belize,"Tropical cyclone",1,0,20000,0,0,20000,14847
+2007,CHN,"China P Rep","Tropical cyclone",3,48,8000000,0,0,8000000,2606343
+2007,CUB,Cuba,"Tropical cyclone",2,1,192488,0,0,192488,500000
+2007,DMA,Dominica,"Tropical cyclone",1,2,7500,30,0,7530,20000
+2007,DOM,"Dominican Rep","Tropical cyclone",3,163,142933,0,0,142933,162700
+2007,SLV,"El Salvador","Tropical cyclone",1,0,2800,0,0,2800,0
+2007,FJI,Fiji,"Tropical cyclone",2,1,69,0,0,69,652
+2007,GLP,Guadeloupe,"Tropical cyclone",1,0,0,0,0,0,300000
+2007,GTM,Guatemala,"Tropical cyclone",1,0,3905,0,0,3905,0
+2007,HTI,Haiti,"Tropical cyclone",3,102,114680,141,260,115081,0
+2007,HND,Honduras,"Tropical cyclone",1,1,19500,0,0,19500,6579
+2007,IND,India,"Tropical cyclone",1,0,0,0,0,0,0
+2007,IRN,"Iran Islam Rep","Tropical cyclone",1,12,160000,9,0,160009,0
+2007,JAM,Jamaica,"Tropical cyclone",2,5,32000,0,1188,33188,300000
+2007,JPN,Japan,"Tropical cyclone",3,13,40900,94,0,40994,1060000
+2007,PRK,"Korea Dem P Rep","Tropical cyclone",1,0,0,0,1649,1649,0
+2007,KOR,"Korea Rep","Tropical cyclone",1,20,0,2,600,602,70000
+2007,MDG,Madagascar,"Tropical cyclone",3,84,210495,16,12000,222511,240000
+2007,MTQ,Martinique,"Tropical cyclone",1,1,0,6,0,6,300000
+2007,MUS,Mauritius,"Tropical cyclone",1,2,0,0,0,0,0
+2007,MEX,Mexico,"Tropical cyclone",4,20,173000,0,30000,203000,600000
+2007,MOZ,Mozambique,"Tropical cyclone",1,10,162700,70,0,162770,0
+2007,NZL,"New Zealand","Tropical cyclone",1,0,300,0,0,300,0
+2007,NIC,Nicaragua,"Tropical cyclone",1,188,188726,0,0,188726,0
+2007,OMN,Oman,"Tropical cyclone",1,76,20000,0,0,20000,3900000
+2007,PAK,Pakistan,"Tropical cyclone",1,242,1650000,0,0,1650000,1620000
+2007,PNG,"Papua New Guinea","Tropical cyclone",1,172,162140,0,0,162140,0
+2007,PHL,Philippines,"Tropical cyclone",9,89,1922285,24,0,1922309,10215
+2007,PRI,"Puerto Rico","Tropical cyclone",1,1,0,0,0,0,0
+2007,REU,Reunion,"Tropical cyclone",1,2,0,90,0,90,0
+2007,LCA,"St Lucia","Tropical cyclone",1,1,0,0,0,0,40000
+2007,TWN,"Taiwan (China)","Tropical cyclone",2,18,1000,79,1800,2879,60000
+2007,USA,"United States","Tropical cyclone",1,7,0,0,0,0,0
+2007,VNM,"Viet Nam","Tropical cyclone",1,96,637755,150,47525,685430,191000
+2007,ZWE,Zimbabwe,"Tropical cyclone",1,0,0,0,0,0,1200
+2008,ATG,"Antigua and Barbuda","Tropical cyclone",1,0,25800,0,0,25800,0
+2008,BHS,Bahamas,"Tropical cyclone",2,0,3000,0,0,3000,0
+2008,BGD,Bangladesh,"Tropical cyclone",2,27,0,400,0,400,0
+2008,BLZ,Belize,"Tropical cyclone",1,7,10000,0,0,10000,0
+2008,CYM,"Cayman Islands","Tropical cyclone",2,0,0,0,0,0,0
+2008,CHN,"China P Rep","Tropical cyclone",7,56,1649000,6,0,1649006,1259000
+2008,CRI,"Costa Rica","Tropical cyclone",1,4,55000,0,0,55000,0
+2008,CUB,Cuba,"Tropical cyclone",4,7,499445,19,0,499464,3572000
+2008,DOM,"Dominican Rep","Tropical cyclone",3,13,17000,2,0,17002,0
+2008,FJI,Fiji,"Tropical cyclone",1,7,0,0,0,0,0
+2008,GTM,Guatemala,"Tropical cyclone",1,17,0,0,0,0,0
+2008,HTI,Haiti,"Tropical cyclone",4,698,246160,86,30,246276,0
+2008,HND,Honduras,"Tropical cyclone",1,0,0,0,0,0,0
+2008,HKG,"Hong Kong (China)","Tropical cyclone",3,2,0,207,0,207,380
+2008,JAM,Jamaica,"Tropical cyclone",2,13,4000,0,0,4000,66198
+2008,MDG,Madagascar,"Tropical cyclone",3,105,338248,580,194338,533166,60000
+2008,MEX,Mexico,"Tropical cyclone",1,2,500000,0,0,500000,75000
+2008,MOZ,Mozambique,"Tropical cyclone",1,9,165000,13,55000,220013,20000
+2008,MMR,Myanmar,"Tropical cyclone",1,138366,2400000,20000,0,2420000,4000000
+2008,NIC,Nicaragua,"Tropical cyclone",1,13,25000,0,0,25000,0
+2008,PHL,Philippines,"Tropical cyclone",11,819,6846388,946,4645,6851979,441625
+2008,LKA,"Sri Lanka","Tropical cyclone",1,9,50000,0,0,50000,0
+2008,TWN,"Taiwan (China)","Tropical cyclone",5,54,0,88,0,88,142400
+2008,THA,Thailand,"Tropical cyclone",2,0,0,0,1000,1000,0
+2008,TCA,"Turks and Caicos Is","Tropical cyclone",3,4,1500,0,0,1500,500000
+2008,USA,"United States","Tropical cyclone",5,144,2300400,0,0,2300400,38540000
+2008,VNM,"Viet Nam","Tropical cyclone",5,254,143830,159,12660,156649,190500
+2009,AUS,Australia,"Tropical cyclone",1,0,400,0,0,400,0
+2009,BGD,Bangladesh,"Tropical cyclone",2,197,3947363,7187,0,3954550,270000
+2009,BTN,Bhutan,"Tropical cyclone",1,12,0,0,0,0,0
+2009,KHM,Cambodia,"Tropical cyclone",2,19,178000,91,0,178091,0
+2009,CAN,Canada,"Tropical cyclone",1,0,0,3,0,3,0
+2009,CHN,"China P Rep","Tropical cyclone",4,33,12000000,62,0,12000062,1752595
+2009,SLV,"El Salvador","Tropical cyclone",1,275,75000,0,15000,90000,939000
+2009,FJI,Fiji,"Tropical cyclone",1,2,3845,0,0,3845,13300
+2009,HKG,"Hong Kong (China)","Tropical cyclone",1,0,300,50,0,350,0
+2009,IND,India,"Tropical cyclone",2,116,5100000,0,0,5100000,300000
+2009,JPN,Japan,"Tropical cyclone",2,16,7000,119,0,7119,1000000
+2009,LAO,"Lao P Dem Rep","Tropical cyclone",1,16,128796,91,0,128887,100000
+2009,MDG,Madagascar,"Tropical cyclone",3,27,122687,10,8102,130799,5000
+2009,MEX,Mexico,"Tropical cyclone",2,4,112000,0,0,112000,40000
+2009,MOZ,Mozambique,"Tropical cyclone",1,0,600,3,6500,7103,3000
+2009,NIC,Nicaragua,"Tropical cyclone",1,0,19897,0,0,19897,0
+2009,PHL,Philippines,"Tropical cyclone",13,1242,12220696,867,0,12221563,932698
+2009,TWN,"Taiwan (China)","Tropical cyclone",1,630,2307477,46,0,2307523,250000
+2009,USA,"United States","Tropical cyclone",2,9,0,9,0,9,600000
+2009,VNM,"Viet Nam","Tropical cyclone",3,306,2867820,1005,108635,2977460,1065200
+2010,ATG,"Antigua and Barbuda","Tropical cyclone",1,0,5000,0,0,5000,12600
+2010,AUS,Australia,"Tropical cyclone",1,1,0,0,0,0,0
+2010,BGD,Bangladesh,"Tropical cyclone",2,11,256910,200,0,257110,0
+2010,BRB,Barbados,"Tropical cyclone",1,0,2500,0,0,2500,0
+2010,BLZ,Belize,"Tropical cyclone",1,0,0,0,0,0,0
+2010,CHN,"China P Rep","Tropical cyclone",4,80,1000000,0,186000,1186000,718785
+2010,COK,"Cook Is","Tropical cyclone",1,0,2194,8,0,2202,0
+2010,CRI,"Costa Rica","Tropical cyclone",1,0,0,0,0,0,0
+2010,DOM,"Dominican Rep","Tropical cyclone",1,0,12000,0,0,12000,0
+2010,SLV,"El Salvador","Tropical cyclone",3,17,9217,3,2800,12020,20000
+2010,FJI,Fiji,"Tropical cyclone",1,2,39101,0,0,39101,39427
+2010,PYF,"French Polynesia","Tropical cyclone",1,1,3400,11,0,3411,11000
+2010,GTM,Guatemala,"Tropical cyclone",3,174,399988,154,0,400142,650000
+2010,HTI,Haiti,"Tropical cyclone",1,21,5020,0,0,5020,0
+2010,HND,Honduras,"Tropical cyclone",2,22,16673,4,7998,24675,90000
+2010,HKG,"Hong Kong (China)","Tropical cyclone",1,1,15000,0,0,15000,0
+2010,IND,India,"Tropical cyclone",3,168,0,0,500000,500000,0
+2010,JAM,Jamaica,"Tropical cyclone",1,15,2480,26,0,2506,150000
+2010,PRK,"Korea Dem P Rep","Tropical cyclone",1,20,40000,0,0,40000,0
+2010,KOR,"Korea Rep","Tropical cyclone",1,12,41500,0,0,41500,0
+2010,MDG,Madagascar,"Tropical cyclone",1,120,192000,132,0,192132,0
+2010,MEX,Mexico,"Tropical cyclone",4,43,555075,0,0,555075,5900000
+2010,MMR,Myanmar,"Tropical cyclone",1,45,260000,49,0,260049,57000
+2010,NIC,Nicaragua,"Tropical cyclone",2,5,0,0,0,0,0
+2010,OMN,Oman,"Tropical cyclone",1,16,0,0,0,0,1000000
+2010,PAK,Pakistan,"Tropical cyclone",1,23,4000,0,0,4000,80000
+2010,PHL,Philippines,"Tropical cyclone",3,212,2595412,133,0,2595545,284420
+2010,SLB,"Solomon Is","Tropical cyclone",1,0,0,0,590,590,0
+2010,LCA,"St Lucia","Tropical cyclone",1,14,181000,0,0,181000,500
+2010,VCT,"St Vincent and the Grenadines","Tropical cyclone",1,0,6000,0,100,6100,25000
+2010,TWN,"Taiwan (China)","Tropical cyclone",2,34,0,100,0,100,73100
+2010,USA,"United States","Tropical cyclone",2,9,0,0,0,0,100000
+2010,VEN,Venezuela,"Tropical cyclone",1,8,0,0,0,0,0
+2010,VNM,"Viet Nam","Tropical cyclone",3,35,32960,20,1620,34600,44500
+2011,AUS,Australia,"Tropical cyclone",1,1,7300,0,0,7300,2500000
+2011,BHS,Bahamas,"Tropical cyclone",1,0,10000,0,0,10000,40000
+2011,CAN,Canada,"Tropical cyclone",1,1,0,0,0,0,0
+2011,CHN,"China P Rep","Tropical cyclone",4,26,4649800,0,0,4649800,701585
+2011,DMA,Dominica,"Tropical cyclone",1,0,144,0,96,240,0
+2011,DOM,"Dominican Rep","Tropical cyclone",2,7,44000,0,0,44000,30000
+2011,GTM,Guatemala,"Tropical cyclone",1,5,0,0,0,0,0
+2011,HTI,Haiti,"Tropical cyclone",2,3,2500,4,540,3044,0
+2011,IND,India,"Tropical cyclone",1,47,0,0,250000,250000,375625
+2011,JPN,Japan,"Tropical cyclone",2,81,1300,308,0,1608,2470000
+2011,PRK,"Korea Dem P Rep","Tropical cyclone",1,10,5612,887,0,6499,0
+2011,MDG,Madagascar,"Tropical cyclone",1,35,89297,73,25845,115215,0
+2011,MTQ,Martinique,"Tropical cyclone",1,1,0,0,0,0,0
+2011,MEX,Mexico,"Tropical cyclone",5,43,550450,0,0,550450,97700
+2011,OMN,Oman,"Tropical cyclone",1,14,0,200,0,200,0
+2011,PNG,"Papua New Guinea","Tropical cyclone",1,0,0,0,0,0,0
+2011,PHL,Philippines,"Tropical cyclone",12,1782,9462385,6291,0,9468676,527238
+2011,PRI,"Puerto Rico","Tropical cyclone",2,1,1500,0,771,2271,500000
+2011,SLB,"Solomon Is","Tropical cyclone",1,0,0,0,0,0,0
+2011,THA,Thailand,"Tropical cyclone",1,18,1000000,0,0,1000000,0
+2011,TON,Tonga,"Tropical cyclone",1,0,0,0,0,0,3000
+2011,USA,"United States","Tropical cyclone",2,61,370600,0,0,370600,8050000
+2011,VUT,Vanuatu,"Tropical cyclone",2,0,32000,0,0,32000,0
+2011,VNM,"Viet Nam","Tropical cyclone",1,0,0,0,0,0,0
+2012,BHS,Bahamas,"Tropical cyclone",1,1,0,0,0,0,0
+2012,CHN,"China P Rep","Tropical cyclone",6,63,10265630,7,48540,10314177,3012000
+2012,CUB,Cuba,"Tropical cyclone",2,12,45496,0,75000,120496,0
+2012,DOM,"Dominican Rep","Tropical cyclone",2,5,42515,0,0,42515,0
+2012,FJI,Fiji,"Tropical cyclone",1,2,8400,0,0,8400,8400
+2012,HTI,Haiti,"Tropical cyclone",2,88,176500,27,33330,209857,254000
+2012,IND,India,"Tropical cyclone",1,40,70000,0,0,70000,0
+2012,JAM,Jamaica,"Tropical cyclone",1,1,215850,0,0,215850,16542
+2012,JPN,Japan,"Tropical cyclone",3,2,43295,180,0,43475,144400
+2012,PRK,"Korea Dem P Rep","Tropical cyclone",1,59,10960,1,33500,44461,0
+2012,KOR,"Korea Rep","Tropical cyclone",3,22,3120,0,0,3120,799000
+2012,MDG,Madagascar,"Tropical cyclone",3,112,335300,299,0,335599,100000
+2012,MWI,Malawi,"Tropical cyclone",1,0,6000,0,0,6000,0
+2012,MEX,Mexico,"Tropical cyclone",2,19,87000,0,0,87000,855000
+2012,MOZ,Mozambique,"Tropical cyclone",3,33,109945,13,0,109958,0
+2012,PHL,Philippines,"Tropical cyclone",9,2039,7557756,2724,0,7560480,918137
+2012,PRI,"Puerto Rico","Tropical cyclone",1,0,0,0,0,0,0
+2012,WSM,Samoa,"Tropical cyclone",1,12,12703,0,0,12703,133000
+2012,ZAF,"South Africa","Tropical cyclone",1,0,1350,0,0,1350,0
+2012,LKA,"Sri Lanka","Tropical cyclone",1,0,0,0,69000,69000,57000
+2012,TWN,"Taiwan (China)","Tropical cyclone",2,14,0,0,0,0,35300
+2012,USA,"United States","Tropical cyclone",3,64,77000,1,0,77001,52210000
+2012,VNM,"Viet Nam","Tropical cyclone",3,38,59320,107,279545,338972,342800
+2012,WLF,"Wallis and Futuna Is","Tropical cyclone",1,0,1250,2,0,1252,0
+2013,AUS,Australia,"Tropical cyclone",1,6,7500,0,0,7500,2000000
+2013,BGD,Bangladesh,"Tropical cyclone",1,17,1498579,65,0,1498644,0
+2013,CHN,"China P Rep","Tropical cyclone",10,212,9591600,150,50000,9641750,10106000
+2013,IND,India,"Tropical cyclone",3,65,13230000,4,0,13230004,895471
+2013,JPN,Japan,"Tropical cyclone",4,46,58038,267,0,58305,0
+2013,MDG,Madagascar,"Tropical cyclone",2,51,44752,127,0,44879,25000
+2013,MEX,Mexico,"Tropical cyclone",4,210,172000,0,0,172000,5700000
+2013,PLW,Palau,"Tropical cyclone",1,0,0,0,0,0,0
+2013,PHL,Philippines,"Tropical cyclone",8,7415,17915713,28858,0,17944571,10136563
+2013,SYC,Seychelles,"Tropical cyclone",1,0,3000,0,0,3000,9300
+2013,SOM,Somalia,"Tropical cyclone",1,162,142380,0,0,142380,0
+2013,LKA,"Sri Lanka","Tropical cyclone",1,7,3478,0,3861,7339,0
+2013,TWN,"Taiwan (China)","Tropical cyclone",3,5,0,54,0,54,61600
+2013,VNM,"Viet Nam","Tropical cyclone",4,79,1962485,584,375,1963444,1474230
+2014,CHN,"China P Rep","Tropical cyclone",5,94,10360250,99,0,10360349,7763973
+2014,COM,Comoros,"Tropical cyclone",1,0,9511,0,0,9511,0
+2014,GTM,Guatemala,"Tropical cyclone",1,5,100000,0,0,100000,0
+2014,IND,India,"Tropical cyclone",1,45,920000,0,0,920000,7000000
+2014,JPN,Japan,"Tropical cyclone",5,33,36465,316,0,36781,456000
+2014,KOR,"Korea Rep","Tropical cyclone",1,14,0,0,0,0,0
+2014,MDG,Madagascar,"Tropical cyclone",1,17,0,0,1736,1736,0
+2014,MEX,Mexico,"Tropical cyclone",6,16,69000,135,0,69135,3299500
+2014,PNG,"Papua New Guinea","Tropical cyclone",1,0,12346,0,0,12346,0
+2014,PHL,Philippines,"Tropical cyclone",9,326,13066714,2269,0,13068983,1062899
+2014,REU,Reunion,"Tropical cyclone",1,1,250,15,0,265,85000
+2014,TWN,"Taiwan (China)","Tropical cyclone",2,0,0,0,0,0,420000
+2014,TON,Tonga,"Tropical cyclone",1,1,4000,14,0,4014,31000
+2014,USA,"United States","Tropical cyclone",1,1,834,0,0,834,66000
+2014,VUT,Vanuatu,"Tropical cyclone",1,12,20000,6,0,20006,0
+2014,VNM,"Viet Nam","Tropical cyclone",3,38,48075,0,0,48075,10700
+2015,AUS,Australia,"Tropical cyclone",2,0,4890,0,48,4938,311000
+2015,KIR,Kiribati,"Tropical cyclone",1,0,0,0,0,0,0
+2015,MDG,Madagascar,"Tropical cyclone",1,89,0,37,173970,174007,0
+2015,PHL,Philippines,"Tropical cyclone",1,2,21687,0,0,21687,680
+2015,SLB,"Solomon Is","Tropical cyclone",1,0,0,0,0,0,0
+2015,TUV,Tuvalu,"Tropical cyclone",1,0,0,0,0,0,0
+2015,VUT,Vanuatu,"Tropical cyclone",1,11,166000,0,0,166000,0

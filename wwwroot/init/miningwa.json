@@ -1,0 +1,25 @@
+{
+  "catalog": [
+    {
+        "name": "Existing projects",
+        "type": "group",
+        "isOpen": true,
+        "items": [ {
+            "name": "Mines",
+            "type": "group",
+            "isOpen": true,
+            "items": [{
+                "name": "WA: Mining tenements",
+                "isShown": true,
+                "isEnabled": true          
+            }]
+        }]
+    }
+  ],
+ "homeCamera": {
+    "west": 113,
+    "east": 129,
+    "north": -13,
+    "south": -25
+  }
+}

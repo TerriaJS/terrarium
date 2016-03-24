@@ -1,0 +1,1582 @@
+{
+    "type": "group",
+    "name": "Natural Hazard",
+    "preserveOrder": true,
+    "items": [
+        {
+            "type": "group",
+            "name": "Peril Exposure",
+            "preserveOrder": true,
+            "items": [
+                {
+                    "name": "Cyclones",
+                    "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                    "rectangle": [
+                        -180,
+                        -89.99999999999997,
+                        179.99999999985596,
+                        83.99999999993042
+                    ],
+                    "type": "wms",
+                    "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                    "layers": "preview:cy_risk",
+                    "minScaleDenominator": 10000000,
+                    "parameters": {
+                        "tiled": false
+                    }
+                },
+                {
+                    "name": "Earthquakes",
+                    "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                    "rectangle": [
+                        -180,
+                        -90.00000000001461,
+                        180.00000000002882,
+                        83.99999999999932
+                    ],
+                    "type": "wms",
+                    "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                    "layers": "preview:eq_risk",
+                    "minScaleDenominator": 10000000,
+                    "parameters": {
+                        "tiled": false
+                    }
+                },
+                {
+                    "name": "Floods",
+                    "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                    "rectangle": [
+                        -180,
+                        -89.99999999999372,
+                        179.99999999998562,
+                        83.99999999999932
+                    ],
+                    "type": "wms",
+                    "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                    "layers": "preview:fl_risk",
+                    "minScaleDenominator": 10000000,
+                    "parameters": {
+                        "tiled": false
+                    }
+                },
+                {
+                    "name": "Landslides (due to precipitation)",
+                    "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                    "rectangle": [
+                        -180,
+                        -89.99999999992872,
+                        179.99999999985602,
+                        89.99999999999929
+                    ],
+                    "type": "wms",
+                    "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                    "layers": "preview:ls_risk",
+                    "minScaleDenominator": 10000000,
+                    "parameters": {
+                        "tiled": false
+                    }
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Peril Exposure",
+            "preserveOrder": true,
+            "items": [
+                {
+                    "type": "group",
+                    "name": "Social Exposure",
+                    "preserveOrder": true,
+                    "items": [
+                        {
+                            "name": "Cyclones",
+                            "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                            "rectangle": [
+                                -180,
+                                -90,
+                                179.99999999985602,
+                                83.99999999993042
+                            ],
+                            "type": "wms",
+                            "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                            "layers": "preview:cy_physexp",
+                            "minScaleDenominator": 10000000,
+                            "parameters": {
+                                "tiled": false
+                            }
+                        },
+                        {
+                            "name": "Earthquakes",
+                            "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                            "rectangle": [
+                                -180,
+                                -90,
+                                179.99999999985602,
+                                83.99999999993042
+                            ],
+                            "type": "wms",
+                            "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                            "layers": "preview:eq_physexp",
+                            "minScaleDenominator": 10000000,
+                            "parameters": {
+                                "tiled": false
+                            }
+                        },
+                        {
+                            "name": "Floods",
+                            "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                            "rectangle": [
+                                -180,
+                                -90,
+                                179.99999999985602,
+                                83.99999999993042
+                            ],
+                            "type": "wms",
+                            "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                            "layers": "preview:fl_physexp",
+                            "minScaleDenominator": 10000000,
+                            "parameters": {
+                                "tiled": false
+                            }
+                        },
+                        {
+                            "name": "Landslides (due to precipitation)",
+                            "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                            "rectangle": [
+                                -180,
+                                -89.9999999999281,
+                                179.99999999985602,
+                                89.99166666666659
+                            ],
+                            "type": "wms",
+                            "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                            "layers": "preview:ls_physexp2",
+                            "minScaleDenominator": 10000000,
+                            "parameters": {
+                                "tiled": false
+                            }
+                        },
+                        {
+                            "name": "Tsunamis",
+                            "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                            "rectangle": [
+                                -180,
+                                -90,
+                                179.99999999985602,
+                                83.99999999993042
+                            ],
+                            "type": "wms",
+                            "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                            "layers": "preview:ts_physexp",
+                            "minScaleDenominator": 10000000,
+                            "parameters": {
+                                "tiled": false
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "name": "Economic Exposure",
+                    "preserveOrder": true,
+                    "items": [
+                        {
+                            "name": "Cyclones",
+                            "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                            "rectangle": [
+                                -180,
+                                -90,
+                                179.99999999985602,
+                                83.99999999993042
+                            ],
+                            "type": "wms",
+                            "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                            "layers": "preview:cy_ecoexp",
+                            "minScaleDenominator": 10000000,
+                            "parameters": {
+                                "tiled": false
+                            }
+                        },
+                        {
+                            "name": "Earthquakes",
+                            "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                            "rectangle": [
+                                -180,
+                                -90,
+                                179.99999999985602,
+                                83.99999999993042
+                            ],
+                            "type": "wms",
+                            "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                            "layers": "preview:eq_ecoexp",
+                            "minScaleDenominator": 10000000,
+                            "parameters": {
+                                "tiled": false
+                            }
+                        },
+                        {
+                            "name": "Floods",
+                            "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                            "rectangle": [
+                                -180,
+                                -90,
+                                179.99999999985602,
+                                83.99999999993042
+                            ],
+                            "type": "wms",
+                            "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                            "layers": "preview:fl_ecoexp",
+                            "minScaleDenominator": 10000000,
+                            "parameters": {
+                                "tiled": false
+                            }
+                        },
+                        {
+                            "name": "Landslides (due to precipitation)",
+                            "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                            "rectangle": [
+                                -180,
+                                -89.9999999999281,
+                                179.99999999985602,
+                                89.99166666666659
+                            ],
+                            "type": "wms",
+                            "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                            "layers": "preview:ls_ecoexp2",
+                            "minScaleDenominator": 10000000,
+                            "parameters": {
+                                "tiled": false
+                            }
+                        },
+                        {
+                            "name": "Tsunamis",
+                            "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                            "rectangle": [
+                                -180,
+                                -90,
+                                179.99999999985602,
+                                83.99999999993042
+                            ],
+                            "type": "wms",
+                            "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                            "layers": "preview:ts_ecoexp",
+                            "minScaleDenominator": 10000000,
+                            "parameters": {
+                                "tiled": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Historical Events",
+            "preserveOrder": true,
+            "items": [
+                {
+                    "name": "Cyclones",
+                    "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                    "rectangle": [
+                        -180,
+                        -89.99999999999997,
+                        179.99999999985596,
+                        83.99999999993042
+                    ],
+                    "type": "wms",
+                    "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                    "layers": "preview:cy_buffers",
+                    "minScaleDenominator": 10000000,
+                    "parameters": {
+                        "tiled": false
+                    },
+                    "opacity": 0.5
+                },
+                {
+                    "name": "Earthquakes",
+                    "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                    "rectangle": [
+                        -180,
+                        -90.00000000001461,
+                        180.00000000002882,
+                        83.99999999999932
+                    ],
+                    "type": "wms",
+                    "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                    "layers": "preview:eq_events",
+                    "minScaleDenominator": 10000000,
+                    "parameters": {
+                        "tiled": false
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Floods",
+                    "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                    "rectangle": [
+                        -180,
+                        -89.99999999999372,
+                        179.99999999998562,
+                        83.99999999999932
+                    ],
+                    "type": "wms",
+                    "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                    "layers": "preview:fl_events",
+                    "minScaleDenominator": 10000000,
+                    "parameters": {
+                        "tiled": false
+                    }
+                },
+                {
+                    "name": "Landslides (due to precipitation)",
+                    "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                    "rectangle": [
+                        -180,
+                        -89.99999999992872,
+                        179.99999999985602,
+                        89.99999999999929
+                    ],
+                    "type": "wms",
+                    "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                    "layers": "preview:ls_pr",
+                    "minScaleDenominator": 10000000,
+                    "parameters": {
+                        "tiled": false
+                    },
+                    "opacity": 0.5
+                },
+                {
+                    "name": "Tsunamis",
+                    "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+                    "rectangle": [
+                        -180,
+                        -89.99999999992872,
+                        179.99999999985602,
+                        89.99999999999929
+                    ],
+                    "type": "wms",
+                    "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+                    "layers": "ts_events",
+                    "minScaleDenominator": 10000000,
+                    "parameters": {
+                        "tiled": false
+                    },
+                    "opacity": 0.5
+                },
+                {
+                    "type": "group",
+                    "name": "Social Cost by Country",
+                    "preserveOrder": true,
+                    "items": [
+                        {
+                            "name": "All Perils",
+                            "type": "csv",
+                            "disableUserChanges": true,
+                            "dataCustodian": "[EM-DAT International Disaster Database](http://www.emdat.be/database)",
+                            "url": "data/allperils1965-2014_sum.csv",
+                            "tableStyle": {
+                                "dataVariable": "Total affected",
+                                "regionVariable": "Country iso",
+                                "regionType": "CNT3",
+                                "displayTime" : 527040,
+                                "colorMap": [
+                                    { "offset": 0.0, "color": "rgba(200,200,200,1.00)" },
+                                    { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                                ]
+                            },
+                            "opacity": 0.4
+                        },
+                        {
+                            "name": "Cyclones",
+                            "dataCustodian": "[EM-DAT International Disaster Database](http://www.emdat.be/database)",
+                            "type": "csv",
+                            "disableUserChanges": true,
+                            "url": "data/cyclones1965-2014_sum.csv",
+                            "tableStyle": {
+                                "dataVariable": "Total affected",
+                                "regionVariable": "Country iso",
+                                "regionType": "CNT3",
+                                "displayTime" : 527040,
+                                "colorMap": [
+                                    { "offset": 0.0, "color": "rgba(200,200,200,1.00)" },
+                                    { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                                ]
+                            },
+                            "opacity": 0.4
+                        },
+                        {
+                            "name": "Earthquakes",
+                            "dataCustodian": "[EM-DAT International Disaster Database](http://www.emdat.be/database)",
+                            "type": "csv",
+                            "disableUserChanges": true,
+                            "url": "data/earthquakes1965-2014_sum.csv",
+                            "tableStyle": {
+                                "dataVariable": "Total affected",
+                                "regionVariable": "Country iso",
+                                "regionType": "CNT3",
+                                "displayTime" : 527040,
+                                "colorMap": [
+                                    { "offset": 0.0, "color": "rgba(200,200,200,1.00)" },
+                                    { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                                ]
+                            },
+                            "opacity": 0.4
+                        },
+                        {
+                            "name": "Floods",
+                            "dataCustodian": "[EM-DAT International Disaster Database](http://www.emdat.be/database)",
+                            "type": "csv",
+                            "disableUserChanges": true,
+                            "url": "data/floods1965-2014_sum.csv",
+                            "tableStyle": {
+                                "dataVariable": "Total affected",
+                                "regionVariable": "Country iso",
+                                "regionType": "CNT3",
+                                "displayTime" : 527040,
+                                "colorMap": [
+                                    { "offset": 0.0, "color": "rgba(200,200,200,1.00)" },
+                                    { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                                ]
+                            },
+                            "opacity": 0.4
+                        },
+                        {
+                            "name": "Landslides (due to precipitation)",
+                            "dataCustodian": "[EM-DAT International Disaster Database](http://www.emdat.be/database)",
+                            "type": "csv",
+                            "disableUserChanges": true,
+                            "url": "data/landslides1965-2014_sum.csv",
+                            "tableStyle": {
+                                "dataVariable": "Total affected",
+                                "regionVariable": "Country iso",
+                                "regionType": "CNT3",
+                                "displayTime" : 527040,
+                                "colorMap": [
+                                    { "offset": 0.0, "color": "rgba(200,200,200,1.00)" },
+                                    { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                                ]
+                            },
+                            "opacity": 0.4
+                        },
+                        {
+                            "name": "Tsunamis",
+                            "dataCustodian": "[EM-DAT International Disaster Database](http://www.emdat.be/database)",
+                            "type": "csv",
+                            "disableUserChanges": true,
+                            "url": "data/tsunamis1965-2014_sum.csv",
+                            "tableStyle": {
+                                "dataVariable": "Total affected",
+                                "regionVariable": "Country iso",
+                                "regionType": "CNT3",
+                                "displayTime" : 527040,
+                                "colorMap": [
+                                    { "offset": 0.0, "color": "rgba(200,200,200,1.00)" },
+                                    { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                                ]
+                            },
+                            "opacity": 0.4
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "name": "Economic Cost by Country",
+                    "preserveOrder": true,
+                    "items": [
+                        {
+                            "name": "All perils",
+                            "dataCustodian": "[EM-DAT International Disaster Database](http://www.emdat.be/database)",
+                            "type": "csv",
+                            "disableUserChanges": true,
+                            "url": "data/allperils1965-2014_sum.csv",
+                            "tableStyle": {
+                                "dataVariable": "Total damage ('000 $)",
+                                "regionVariable": "Country iso",
+                                "regionType": "CNT3",
+                                "displayTime" : 527040,
+                                "colorMap": [
+                                    { "offset": 0.0, "color": "rgba(200,200,200,1.00)" },
+                                    { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                                ]
+                            },
+                            "opacity": 0.4
+                        },
+                        {
+                            "name": "Cyclones",
+                            "dataCustodian": "[EM-DAT International Disaster Database](http://www.emdat.be/database)",
+                            "type": "csv",
+                            "disableUserChanges": true,
+                            "url": "data/cyclones1965-2014_sum.csv",
+                            "tableStyle": {
+                                "dataVariable": "Total damage ('000 $)",
+                                "regionVariable": "Country iso",
+                                "regionType": "CNT3",
+                                "displayTime" : 527040,
+                                "colorMap": [
+                                    { "offset": 0.0, "color": "rgba(200,200,200,1.00)" },
+                                    { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                                ]
+                            },
+                            "opacity": 0.4
+                        },
+                        {
+                            "name": "Earthquakes",
+                            "dataCustodian": "[EM-DAT International Disaster Database](http://www.emdat.be/database)",
+                            "type": "csv",
+                            "disableUserChanges": true,
+                            "url": "data/earthquakes1965-2014_sum.csv",
+                            "tableStyle": {
+                                "dataVariable": "Total damage ('000 $)",
+                                "regionVariable": "Country iso",
+                                "regionType": "CNT3",
+                                "displayTime" : 527040,
+                                "colorMap": [
+                                    { "offset": 0.0, "color": "rgba(200,200,200,1.00)" },
+                                    { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                                ]
+                            },
+                            "opacity": 0.4
+                        },
+                        {
+                            "name": "Floods",
+                            "dataCustodian": "[EM-DAT International Disaster Database](http://www.emdat.be/database)",
+                            "type": "csv",
+                            "disableUserChanges": true,
+                            "url": "data/floods1965-2014_sum.csv",
+                            "tableStyle": {
+                                "dataVariable": "Total damage ('000 $)",
+                                "regionVariable": "Country iso",
+                                "regionType": "CNT3",
+                                "displayTime" : 527040,
+                                "colorMap": [
+                                    { "offset": 0.0, "color": "rgba(200,200,200,1.00)" },
+                                    { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                                ]
+                            },
+                            "opacity": 0.4
+                        },
+                        {
+                            "name": "Landslides (due to precipitation)",
+                            "dataCustodian": "[EM-DAT International Disaster Database](http://www.emdat.be/database)",
+                            "type": "csv",
+                            "disableUserChanges": true,
+                            "url": "data/landslides1965-2014_sum.csv",
+                            "tableStyle": {
+                                "dataVariable": "Total damage ('000 $)",
+                                "regionVariable": "Country iso",
+                                "regionType": "CNT3",
+                                "displayTime" : 527040,
+                                "colorMap": [
+                                    { "offset": 0.0, "color": "rgba(200,200,200,1.00)" },
+                                    { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                                ]
+                            },
+                            "opacity": 0.4
+                        },
+                        {
+                            "name": "Tsunamis",
+                            "dataCustodian": "[EM-DAT International Disaster Database](http://www.emdat.be/database)",
+                            "type": "csv",
+                            "disableUserChanges": true,
+                            "url": "data/tsunamis1965-2014_sum.csv",
+                            "tableStyle": {
+                                "dataVariable": "Total damage ('000 $)",
+                                "regionVariable": "Country iso",
+                                "regionType": "CNT3",
+                                "displayTime" : 527040,
+                                "colorMap": [
+                                    { "offset": 0.0, "color": "rgba(200,200,200,1.00)" },
+                                    { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                                ]
+                            },
+                            "opacity": 0.4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "group",
+    "name": "Exposure",
+    "preserveOrder": true,
+    "items": [
+        {
+            "name": "Population density",
+            "rectangle": [
+                -180,
+                -90,
+                179.99999999985602,
+                83.99999999993042
+            ],
+            "type": "wms",
+            "url": "http://sedac.ciesin.columbia.edu/geoserver/wms",
+            "layers": "gpw-v3:gpw-v3-population-count-future-estimates_2015",
+            "minScaleDenominator": 10000000,
+            "opacity": 0.5
+        },
+        {
+            "name": "Exposed economic stock",
+            "rectangle": [
+                -180,
+                -90,
+                179.99999999985602,
+                83.99999999993042
+            ],
+            "type": "wms",
+            "url": "http://geoserver.nationalmap.nicta.com.au/region_map/ows",
+            "layers": "region_map:gar_exp_new",
+            "minScaleDenominator": 2500000,
+            "opacity": 0.5
+        },
+        {
+            "name": "Urban exposure",
+            "dataCustodian": "[PreventionWeb](http://www.preventionweb.net/)",
+            "rectangle": [
+                -158.25,
+                -46.8833351135254,
+                178.458343505859,
+                69.3666687011719
+            ],
+            "type": "wms",
+            "url": "http://preview.grid.unep.ch:8080/geoserver/wms",
+            "layers": "preview:xx0707feet",
+            "minScaleDenominator": 10000000,
+            "opacity": 1.0,
+            "parameters": {
+                "tiled": false
+            }
+        }
+    ]
+},
+{
+    "type": "group",
+    "name": "Economic Vulnerability",
+    "preserveOrder": true,
+    "items": [
+        {
+            "name": "GDP per capita",
+            "type": "csv",
+            "disableUserChanges": true,
+            "url": "data/inform.csv",
+            "description": "Expressed in GDP in PPP dollars per person. Data are derived by dividing GDP in PPP dollars by total population. These data form the basis for the country weights used to generate the World Economic Outlook country group composites for the domestic economy.",
+            "tableStyle": {
+                "dataVariable": "GDP per capita",
+                "regionVariable": "ISO3",
+                "regionType": "CNT3",
+                "maxDisplayValue": 50000,
+                "colorMap": [
+                    { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                    { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                    { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                ]
+            },
+            "opacity": 0.4
+        },
+        {
+            "name": "Gross fixed capital formation",
+            "description": "Total value of capital investment by the private and public sectors in a given year.",
+            "type": "csv",
+            "disableUserChanges": true,
+            "dataCustodian": "[World Bank Data](http://data.worldbank.org/)",
+            "url": "data/WorldBankDB.csv",
+            "tableStyle": {
+                "dataVariable": "Gross fixed capital formation (current US$)",
+                "regionVariable": "Country Code",
+                "regionType": "CNT3",
+                "maxDisplayValue": 100000000000,
+                "colorMap": [
+                    { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                    { "offset": 0.1, "color": "rgba(200,200,200,1.00)" },
+                    { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                ]
+            },
+            "opacity": 0.4
+        },
+        {
+            "name": "Gross savings",
+            "type": "csv",
+            "disableUserChanges": true,
+            "dataCustodian": "[World Bank Data](http://data.worldbank.org/)",
+            "url": "data/WorldBankDB.csv",
+            "tableStyle": {
+                "dataVariable": "Gross savings (% of GDP)",
+                "regionVariable": "Country Code",
+                "regionType": "CNT3",
+                "colorMap": [
+                    { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                    { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                    { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                ]
+            },
+            "opacity": 0.4
+        },
+        {
+            "type": "group",
+            "name": "Inequality",
+            "preserveOrder": true,
+            "items": [
+                {
+                    "name": "Income share held by lowest 10%",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[World Bank Data](http://data.worldbank.org/)",
+                    "url": "data/WorldBankDB.csv",
+                    "tableStyle": {
+                        "dataVariable": "Income share held by lowest 10%",
+                        "regionVariable": "Country Code",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Income share held by highest 10%",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[World Bank Data](http://data.worldbank.org/)",
+                    "url": "data/WorldBankDB.csv",
+                    "tableStyle": {
+                        "dataVariable": "Income share held by highest 10%",
+                        "regionVariable": "Country Code",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(0,0,200,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Poverty headcount ratio",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[World Bank Data](http://data.worldbank.org/)",
+                    "url": "data/WorldBankDB.csv",
+                    "tableStyle": {
+                        "dataVariable": "Poverty headcount ratio at national poverty lines",
+                        "regionVariable": "Country Code",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(0,0,200,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Insurance",
+            "preserveOrder": true,
+            "items": [
+                {
+                    "name": "General insurance penetration",
+                    "description": "The percentage of total non-life insurance premiums to GDP.",
+                    "dataCustodian": "[Swiss Re](http://www.swissre.com/)",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "url": "data/insurance2013.csv",
+                    "tableStyle": {
+                        "dataVariable": "Non-life penetration",
+                        "regionVariable": "Country code",
+                        "regionType": "CNT2",
+                        "maxDisplayValue": 4,
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Life insurance penetration",
+                    "description": "The ratio of total life insurance premiums to total population.",
+                    "dataCustodian": "[Swiss Re](http://www.swissre.com/)",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "url": "data/insurance2013.csv",
+                    "tableStyle": {
+                        "dataVariable": "Life penetration",
+                        "regionVariable": "Country code",
+                        "regionType": "CNT2",
+                        "maxDisplayValue": 4,
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Total insurance penetration",
+                    "dataCustodian": "[Swiss Re](http://www.swissre.com/)",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "url": "data/insurance2013.csv",
+                    "tableStyle": {
+                        "dataVariable": "Total penetration",
+                        "regionVariable": "Country code",
+                        "regionType": "CNT2",
+                        "maxDisplayValue": 8,
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "General insurance density",
+                    "description": "The percentage of total non-life insurance premiums to GDP.",
+                    "dataCustodian": "[Swiss Re](http://www.swissre.com/)",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "url": "data/insurance2013.csv",
+                    "tableStyle": {
+                        "dataVariable": "Non-life density",
+                        "regionVariable": "Country code",
+                        "regionType": "CNT2",
+                        "maxDisplayValue": 1500,
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Life insurance density",
+                    "description": "The ratio of life insurance premiums to total population.",
+                    "dataCustodian": "[Swiss Re](http://www.swissre.com/)",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "url": "data/insurance2013.csv",
+                    "tableStyle": {
+                        "dataVariable": "Life density",
+                        "regionVariable": "Country code",
+                        "regionType": "CNT2",
+                        "maxDisplayValue": 2500,
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Total insurance density",
+                    "dataCustodian": "[Swiss Re](http://www.swissre.com/)",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "url": "data/insurance2013.csv",
+                    "tableStyle": {
+                        "dataVariable": "Total density",
+                        "regionVariable": "Country code",
+                        "regionType": "CNT2",
+                        "maxDisplayValue": 4000,
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "group",
+    "name": "Social Vulnerability",
+    "preserveOrder": true,
+    "items": [
+        {
+            "type": "group",
+            "name": "Aid Dependency",
+            "preserveOrder": true,
+            "items": [
+                {
+                    "name": "Public aid per capita",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "This indicator is calculated by adding the public development aid and the humanitarian aid.",
+                    "tableStyle": {
+                        "dataVariable": "Public Aid per capita",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "maxDisplayValue": 500,
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(0,0,200,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Net ODA received (% of GNI)",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "Net Official Development Assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilateral institutions, and by non-DAC countries to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. It includes loans with a grant element of at least 25 percent (calculated at a rate of discount of 10 percent).",
+                    "tableStyle": {
+                        "dataVariable": "Net ODA received (% of GNI)",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Net development assistance and aid",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[World Bank Data](http://data.worldbank.org/)",
+                    "url": "data/WorldBankDB.csv",
+                    "tableStyle": {
+                        "dataVariable": "Net official development assistance and aid",
+                        "regionVariable": "Country Code",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(0,0,200,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Vulnerable People",
+            "preserveOrder": true,
+            "items": [
+                {
+                    "name": "Age dependency ratio",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[World Bank Data](http://data.worldbank.org/)",
+                    "url": "data/WorldBankDB.csv",
+                    "tableStyle": {
+                        "dataVariable": "Age dependency ratio (% of working-age population)",
+                        "regionVariable": "Country Code",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(0,0,200,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Refugee population",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[World Bank Data](http://data.worldbank.org/)",
+                    "url": "data/WorldBankDB.csv",
+                    "tableStyle": {
+                        "dataVariable": "Refugee population by country or territory of origin",
+                        "regionVariable": "Country Code",
+                        "regionType": "CNT3",
+                        "maxDisplayValue": 1000000,
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(0,0,200,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Education",
+            "preserveOrder": true,
+            "items": [
+               {
+                    "name": "Adjusted net enrollment rate",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[World Bank Data](http://data.worldbank.org/)",
+                    "url": "data/WorldBankDB.csv",
+                    "tableStyle": {
+                        "dataVariable": "Adjusted net enrollment rate, primary (% of primary school age children)",
+                        "regionVariable": "Country Code",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Children out of school, primary",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[World Bank Data](http://data.worldbank.org/)",
+                    "url": "data/WorldBankDB.csv",
+                    "tableStyle": {
+                        "dataVariable": "Children out of school, primary",
+                        "regionVariable": "Country Code",
+                        "regionType": "CNT3",
+                        "maxDisplayValue": 1000000,
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(0,0,200,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(200,0,0,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Adult literacy rate",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "Total is the percentage of the population age 15 and above who can, with understanding, read and write a short, simple statement on their everyday life.",
+                    "tableStyle": {
+                        "dataVariable": "Adult literacy rate",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Health Conditions",
+            "preserveOrder": true,
+            "items": [
+                {
+                    "name": "Malaria death rate",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "The death rate associated with malaria is the number of deaths caused by malaria per 100,000 people per year.",
+                    "tableStyle": {
+                        "dataVariable": "Malaria death rate",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(0,0,200,1.0)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(200,0,0,1.00)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Tuberculosis prevalence",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "The number of cases of tuberculosis (all forms) in a population at a given point in time (the middle of the calendar year), expressed as the rate per 100 000 population. Estimates include cases of TB in people with HIV.",
+                    "tableStyle": {
+                        "dataVariable": "Tuberculosis prevalence",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "maxDisplayValue": 500,
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(0,0,200,1.0)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(200,0,0,1.00)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Mortality rate, under-5",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "This indicator shows the probability of death between birth and the end of the fifth year per 1000 live births.",
+                    "tableStyle": {
+                        "dataVariable": "Mortality rate, under-5",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(0,0,200,1.0)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(200,0,0,1.00)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "U5 Under weight",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "This indicator shows the ratio between weight and age of children under five.",
+                    "tableStyle": {
+                        "dataVariable": "U5 Under weight",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(0,0,200,1.0)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(200,0,0,1.00)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Development & Deprivation",
+            "preserveOrder": true,
+            "items": [
+                {
+                    "name": "Human Development Index",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "The Human Development Index (HDI) measure development by combining indicators of life expectancy, educational attainment and income into a composite index.",
+                    "tableStyle": {
+                        "dataVariable": "Human Development Index",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Multidimensional Poverty Index",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "The Multidimensional Poverty (MPI) Index identifies overlapping deprivations at the household level across the same three dimensions as the Human Development Index (living standards, health, and education) and shows the average number of poor people and deprivations with which poor households contend.",
+                    "tableStyle": {
+                        "dataVariable": "Multidimensional Poverty Index",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(0,0,200,1.0)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(200,0,0,1.00)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Food Security",
+            "preserveOrder": true,
+            "items": [
+                {
+                    "name": "Food Availability",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "",
+                    "tableStyle": {
+                        "dataVariable": "Food Availability Score",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(0,0,200,1.0)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(200,0,0,1.00)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Food Utilization",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "",
+                    "tableStyle": {
+                        "dataVariable": "Food Utilization Score",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(0,0,200,1.0)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(200,0,0,1.00)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Food Access",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "",
+                    "tableStyle": {
+                        "dataVariable": "Food Access Score",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(0,0,200,1.0)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(200,0,0,1.00)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                }
+            ]
+        }
+    ]
+},
+{
+    "type": "group",
+    "name": "Resilience",
+    "preserveOrder": true,
+    "items": [
+        {
+            "type": "group",
+            "name": "Disaster Risk Reduction",
+            "preserveOrder": true,
+            "items": [
+                {
+                    "name": "HFA scores",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "The indicator for the Disaster Risk Reduction (DRR) activity in the country comes from the score of Hyogo Framework for Action self-assessment progress reports of the countries. HFA progress reports assess strategic priorities in the implementation of disaster risk reduction actions and establish baselines on levels of progress achieved in implementing the HFA's five priorities for action.",
+                    "tableStyle": {
+                        "dataVariable": "HFA Scores Last recent",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Policy and Institutions",
+            "preserveOrder": true,
+            "items": [
+                {
+                    "name": "Government Effectiveness",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "The Government effectiveness captures perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credibility of the government's commitment to such policies.",
+                    "tableStyle": {
+                        "dataVariable": "Government Effectiveness",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Corruption Perception Index",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "The CPI scores and ranks countries based on how corrupt a country’s public sector is perceived to be. It is a composite index, a combination of surveys and assessments of corruption, collected by a variety of reputable institutions.",
+                    "tableStyle": {
+                        "dataVariable": "Corruption Perception Index",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Environmental sustainability rating",
+                    "description": "The extent to which environmental policies foster the protection and sustainable use of natural resources and the management of pollution.",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[World Bank Data](http://data.worldbank.org/)",
+                    "url": "data/WorldBankDB.csv",
+                    "tableStyle": {
+                        "dataVariable": "CPIA policy and institutions for environmental sustainability rating (1=low to 6=high)",
+                        "regionVariable": "Country Code",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "CPIA business regulatory rating",
+                    "description": "A measure of the degree to which the legal, regulatory, and policy environments help or hinder private businesses in investing, creating jobs, and becoming more productive.",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[World Bank Data](http://data.worldbank.org/)",
+                    "url": "data/WorldBankDB.csv",
+                    "tableStyle": {
+                        "dataVariable": "CPIA business regulatory environment rating (1=low to 6=high)",
+                        "regionVariable": "Country Code",
+                        "regionType": "CNT3",
+                         "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "CPIA social protection rating",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[World Bank Data](http://data.worldbank.org/)",
+                    "url": "data/WorldBankDB.csv",
+                    "tableStyle": {
+                        "dataVariable": "CPIA social protection rating (1=low to 6=high)",
+                        "regionVariable": "Country Code",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Communication",
+            "preserveOrder": true,
+            "items": [
+                {
+                    "name": "Internet users",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "Internet users are people with access to the worldwide network.",
+                    "tableStyle": {
+                        "dataVariable": "Internet users",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Mobile cellular subscriptions",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "Mobile cellular telephone subscriptions are subscriptions to a public mobile telephone service using cellular technology, which provide access to the public switched telephone network. Post-paid and prepaid subscriptions are included.",
+                    "tableStyle": {
+                        "dataVariable": "Mobile cellular subscriptions",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Physical Infrastructure",
+            "preserveOrder": true,
+            "items": [
+                {
+                    "name": "Access to electricity",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "Access to electricity is the percentage of population with access to electricity. Electrification data are collected from industry, national surveys and international sources.",
+                    "tableStyle": {
+                        "dataVariable": "Access to electricity",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Improved sanitation facilities",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "Access to improved sanitation facilities refers to the percentage of the population using improved sanitation facilities. The improved sanitation facilities include flush/pour flush (to piped sewer system, septic tank, pit latrine), ventilated improved pit (VIP) latrine, pit latrine with slab, and composting toilet.",
+                    "tableStyle": {
+                        "dataVariable": "Improved sanitation facilities",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Improved water source",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "The indicator defines the percentage of population with reasonable access (within one km) to an adequate amount of water (20 litres per person) through a household connection, public standpipe well or spring, or rain water system.  An improved drinking-water source is defined as one that, by nature of its construction or through active intervention, is protected from outside contamination, in particular from contamination with faecal matter.",
+                    "tableStyle": {
+                        "dataVariable": "Improved water source",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Access to Health",
+            "preserveOrder": true,
+            "items": [
+                {
+                    "name": "Physicians density",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "Number of medical doctors (physicians), including generalist and specialist medical practitioners, per 10,000 population.",
+                    "tableStyle": {
+                        "dataVariable": "Physicians Density",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "maxDisplayValue": 30,
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Measles immunization coverage",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "The percentage of children under one year of age who have received at least one dose of measles-containing vaccine in a given year.",
+                    "tableStyle": {
+                        "dataVariable": "Measles immunization coverage",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                },
+                {
+                    "name": "Health expenditure per capita",
+                    "type": "csv",
+                    "disableUserChanges": true,
+                    "dataCustodian": "[Index for Risk Management](http://www.inform-index.org/)",
+                    "url": "data/inform.csv",
+                    "description": "Per capita total expenditure on health (THE) expressed in Purchasing Power Parities (PPP) international dollar.",
+                    "tableStyle": {
+                        "dataVariable": "Health expenditure per capita",
+                        "regionVariable": "ISO3",
+                        "regionType": "CNT3",
+                        "maxDisplayValue": 2000,
+                        "colorMap": [
+                            { "offset": 0.0, "color": "rgba(200,0,0,1.00)" },
+                            { "offset": 0.5, "color": "rgba(200,200,200,1.00)" },
+                            { "offset": 1.0, "color": "rgba(0,0,200,1.0)" }
+                        ]
+                    },
+                    "opacity": 0.4
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "catalog": [
+    {
+        "name": "Tenure and title",
+        "type": "group",
+        "isOpen": true,
+        "items": [ {
+          "name": "Native Title Determination Outcomes",
+          "isShown": true,
+          "isEnabled": true          
+        }
+        ]
+    }
+  ]
+}

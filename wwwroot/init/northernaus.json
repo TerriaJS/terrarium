@@ -1,0 +1,102 @@
+{
+    "corsDomains" : [
+        "corsproxy.com",
+        "programs.communications.gov.au",
+        "www.asris.csiro.au",
+        "mapsengine.google.com"
+    ],
+    "homeCamera": {
+        "west": 116,
+        "south": -27,
+        "east": 149,
+        "north": -8
+    },
+    "baseMapName": "Australian Topography",
+    "initialViewerMode": "3d",
+    "services": [],
+    "catalog": [
+        {
+            "name": "Queensland Government",
+            "type": "group",
+            "isPromoted": true,
+            "initialMessage": {
+                "title": "Data Services Message",
+                "content": "Several of the datasets available from the Queensland Government data services may only be visible when you have moved closer to the ground.<br><br>If you do not see a dataset after selecting it, zoom your view in with the mouse or with the zoom controls on the right of the screen.",
+                "key": "DataProvideZoomBasedViews.QLDGov"
+            }
+        },
+        {
+            "name": "Western Australian Government",
+            "type": "group",
+            "isPromoted": true,
+            "initialMessage": {
+                "title": "Data Services Message",
+                "content": "Several of the datasets available from the Western Australia Government data services may only be visible when you have moved closer to the ground.<br><br>If you do not see a dataset after selecting it, zoom your view in with the mouse or with the zoom controls on the right of the screen.",
+                "key": "DataProvideZoomBasedViews.WAGov"
+            }
+        },
+        {
+            "name": "Northern Territory Government",
+            "type": "group",
+            "isPromoted": true,
+            "initialMessage": {
+                "title": "Data Services Message",
+                "content": "Several of the datasets available from the Northern Territory Government data services may only be visible when you have moved closer to the ground.<br><br>If you do not see a dataset after selecting it, zoom your view in with the mouse or with the zoom controls on the right of the screen.",
+                "key": "DataProvideZoomBasedViews.NTGov"
+            }
+        },
+        {
+            "name": "New South Wales Government",
+            "type": "group",
+            "isHidden": true
+        },
+        {
+            "name": "ACT Government",
+            "type": "group",
+            "isHidden": true
+        },
+        {
+            "name": "South Australian Government (BETA)",
+            "type": "group",
+            "isHidden": true
+        },
+        {
+            "name": "Tasmanian Government",
+            "type": "group",
+            "isHidden": true
+        },
+        {
+            "name": "Victorian Government",
+            "type": "group",
+            "isHidden": true
+        },
+        {
+            "name": "National Data Sets",
+            "isOpen": false,
+            "type": "group",
+            "items": [
+                {
+                    "name": "Framework",
+                    "type": "group",
+                    "items": [
+                        {
+                            "name": "Northern Australia Highlight",
+                            "rectangle": [
+                                "96.816941408",
+                                "-43.74050960205765",
+                                "159.109219008",
+                                "-9.142175976703609"
+                            ],
+                            "type": "wms",
+                            "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows",
+                            "layers": "admin_bnds:NA_MASK",
+                            "isShown": true,
+                            "opacity": 0.7,
+                            "keepOnTop": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

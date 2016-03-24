@@ -1,0 +1,165 @@
+Country name,Region,Country code,Non-life penetration,Life penetration,Total penetration,Non-life density,Life density,Total density,Data status
+United Arab Emirates,Middle East and Central Asia,AE,1.52,0.48,2,670.76,209.84,880.6,data
+Albania,Central and Eastern Europe,AL,0.6,0.07,0.67,25.17,2.75,27.92,estimate/forecast
+Armenia,Middle East and Central Asia,AM,0.89,0,0.89,31.1,0,31.1,estimate/forecast
+Angola,Africa,AO,0.82,0.04,0.86,49.52,2.61,52.13,estimate/forecast
+Argentina,Latin America and Caribbean,AR,2.29,0.5,2.79,336.38,73.37,409.75,data
+Austria,Western Europe,AT,3.14,2.01,5.15,1585.98,1018.81,2604.79,data
+Australia,Oceania,AU,2.18,3.05,5.22,1410.1,1973.47,3383.56,data
+Azerbaijan,Middle East and Central Asia,AZ,0.63,0.08,0.7,49.05,5.93,54.97,data
+Bosnia and Herzegovina,Central and Eastern Europe,BA,1.62,0.38,2,75.49,17.63,93.12,data
+Barbados,Latin America and Caribbean,BB,0,0,0,0,0,0,estimate/forecast
+Bangladesh,Emerging Asia,BD,0,0,0,0,0,0,estimate/forecast
+Belgium,Western Europe,BE,2.79,4.22,7.01,1264.49,1917.13,3181.62,data
+Burkina Faso,Africa,BF,0.53,0.26,0.78,3.68,1.8,5.48,estimate/forecast
+Bulgaria,Central and Eastern Europe,BG,1.74,0.33,2.07,130.49,25.03,155.52,data
+Bahrain,Middle East and Central Asia,BH,1.58,0.51,2.09,421.12,135.11,556.23,data
+Burundi,Africa,BI,0.43,0.12,0.55,1.15,0.31,1.46,estimate/forecast
+Bermuda,Latin America and Caribbean,BM,0,0,0,0,0,0,no insurance data
+Brunei,Emerging Asia,BN,0.97,0.54,1.51,372.54,209.61,582.15,data
+Bolivia,Latin America and Caribbean,BO,0.87,0.3,1.17,24.99,8.57,33.56,estimate/forecast
+Brazil,Latin America and Caribbean,BR,1.74,1.95,3.68,194.28,218.23,412.5,data
+Bahamas,Latin America and Caribbean,BS,6.5,1.85,8.35,1452.15,414.17,1866.32,estimate/forecast
+Botswana,Africa,BW,2.04,0.97,3,148.83,70.6,219.43,estimate/forecast
+Belarus,Central and Eastern Europe,BY,0.99,0.06,1.04,75.54,4.48,80.01,data
+Belize,Latin America and Caribbean,BZ,3.03,0.81,3.84,148.23,39.4,187.63,estimate/forecast
+Canada,North America,CA,4.08,2.88,6.96,2134.74,1509.79,3644.53,data
+Congo [Republic],Africa,CG,1.01,0.08,1.08,26.81,2.1,28.91,estimate/forecast
+Switzerland,Western Europe,CH,4.12,5.14,9.26,3471.31,4329.02,7800.32,data
+Côte d'Ivoire,Africa,CI,0.94,0.74,1.68,13.2,10.32,23.52,data
+Chile,Latin America and Caribbean,CL,1.71,2.52,4.23,268.02,396.18,664.2,data
+Cameroon,Africa,CM,0.85,0.3,1.14,11.01,3.86,14.87,estimate/forecast
+China,Emerging Asia,CN,1.37,1.66,3.03,91.46,110.55,202.01,data
+Colombia,Latin America and Caribbean,CO,1.7,0.96,2.66,133.33,74.92,208.26,data
+Costa Rica,Latin America and Caribbean,CR,1.81,0.28,2.09,184.25,28.61,212.86,data
+Cuba,Latin America and Caribbean,CU,0,0,0,0,0,0,estimate/forecast
+Cyprus,Western Europe,CY,2.61,2.01,4.62,660.07,507.11,1167.18,data
+Czech Republic,Central and Eastern Europe,CZ,2.04,1.72,3.75,412.44,347.52,759.96,data
+Germany,Western Europe,DE,3.48,3.06,6.54,1583.12,1393.18,2976.29,data
+Denmark,Western Europe,DK,2.84,6.69,9.53,1697.78,4005.75,5703.53,data
+Dominican Republic,Latin America and Caribbean,DO,1.02,0.32,1.34,59.56,18.42,77.98,data
+,Africa,DY,0.65,0.27,0.92,5.32,2.22,7.54,estimate/forecast
+Algeria,Africa,DZ,0.66,0.05,0.71,36.22,2.56,38.78,data
+Ecuador,Latin America and Caribbean,EC,1.46,0.3,1.76,87.51,17.94,105.45,data
+Estonia,Central and Eastern Europe,EE,1.31,0.39,1.7,246.11,73.3,319.41,data
+Egypt,Africa,EG,0.4,0.3,0.7,13.15,9.9,23.04,data
+Eritrea,Africa,ER,0,0,0,0,0,0,estimate/forecast
+Spain,Western Europe,ES,2.78,2.43,5.22,830.84,725.23,1556.07,data
+Ethiopia,Africa,ET,0.48,0.03,0.51,2.32,0.15,2.46,estimate/forecast
+Finland,Western Europe,FI,2.06,8.84,10.9,1012.49,4345.22,5357.7,data
+Fiji,Oceania,FJ,2.11,2.32,4.43,95.8,105.14,200.94,estimate/forecast
+,Western Europe,FL,0,0,0,0,0,0,data
+France,Western Europe,FR,3.13,5.47,8.59,1334.49,2334.83,3669.32,data
+Gabon,Africa,GA,0.92,0.17,1.09,106.09,19.62,125.71,estimate/forecast
+United Kingdom,Western Europe,GB,2.63,8.17,10.8,1098.73,3412.69,4511.43,data
+Georgia,Middle East and Central Asia,GE,1.88,0.09,1.97,70.01,3.22,73.22,estimate/forecast
+Ghana,Africa,GH,0.66,0.47,1.13,12.19,8.77,20.96,estimate/forecast
+Guinea,Africa,GN,0.13,0,0.14,0.76,0.02,0.79,estimate/forecast
+Greece,Western Europe,GR,1.32,0.88,2.2,289.46,192.92,482.37,data
+Guatemala,Latin America and Caribbean,GT,1.02,0.25,1.27,35.31,8.77,44.09,data
+Hong Kong,Advanced Asia,HK,1.46,12.13,13.58,552.8,4606.89,5159.69,data
+Honduras,Latin America and Caribbean,HN,1.7,0.83,2.54,39.01,19.03,58.04,data
+Croatia,Central and Eastern Europe,HR,1.93,0.75,2.68,267.77,103.96,371.73,data
+Haiti,Latin America and Caribbean,HT,0,0,0,0,0,0,estimate/forecast
+Hungary,Central and Eastern Europe,HU,1.13,1.41,2.54,155.94,195.67,351.61,data
+Indonesia,Emerging Asia,ID,0.57,1.54,2.11,19.89,53.63,73.52,data
+Ireland,Western Europe,IE,1.71,5.7,7.4,860.04,2871.39,3731.42,data
+Israel,Middle East and Central Asia,IL,2.2,2.54,4.73,826.58,955.16,1781.74,data
+India,Emerging Asia,IN,0.77,3.04,3.82,10.54,41.44,51.98,data
+Iraq,Middle East and Central Asia,IQ,0,0,0,0,0,0,estimate/forecast
+Iran,Middle East and Central Asia,IR,1.59,0.17,1.76,104.93,11.22,116.15,data
+Iceland,Western Europe,IS,2.47,0.19,2.67,1150.5,90.48,1240.98,data
+Italy,Western Europe,IT,2.08,5.26,7.34,748.07,1889.76,2637.83,data
+Jamaica,Latin America and Caribbean,JM,2.88,2.18,5.06,147.6,111.7,259.3,data
+Jordan,Middle East and Central Asia,JO,1.87,0.2,2.06,87.11,9.28,96.39,data
+Japan,Advanced Asia,JP,2.3,7.96,10.26,870.85,3017.34,3888.19,data
+Kenya,Africa,KE,1.81,0.94,2.75,22.51,11.71,34.23,data
+Kyrgyzstan,Middle East and Central Asia,KG,0.27,0,0.27,3.52,0,3.52,estimate/forecast
+Cambodia,Emerging Asia,KH,0.32,0,0,3.27,0,0,estimate/forecast
+South Korea,Advanced Asia,KR,4.11,6.9,11.01,1083.23,1821.32,2904.55,data
+Kuwait,Middle East and Central Asia,KW,0.44,0.1,0.54,230.06,54.28,284.34,data
+Cayman Islands,Latin America and Caribbean,KY,14.46,1.12,15.58,8484.91,659.77,9144.68,data
+Kazakhstan,Middle East and Central Asia,KZ,0.6,0.17,0.77,78.61,22.63,101.25,data
+Laos,Emerging Asia,LA,0.69,0.01,0.7,10.8,0.17,10.97,data
+Lebanon,Middle East and Central Asia,LB,2.26,0.93,3.2,210.39,86.84,297.23,data
+Sri Lanka,Emerging Asia,LK,0.66,0.49,1.15,20.71,15.62,36.33,estimate/forecast
+Lithuania,Central and Eastern Europe,LT,0.52,0.3,0.82,80.26,46.4,126.66,data
+Luxembourg,Western Europe,LU,2.05,2.8,4.86,2283.99,3114.94,5398.93,data
+Latvia,Central and Eastern Europe,LV,1.93,0.24,2.17,204.86,24.94,229.8,data
+Libya,Africa,LY,0.34,0.01,0.35,46.88,0.7,47.59,estimate/forecast
+Morocco,Africa,MA,2.08,0.99,3.06,65.32,30.97,96.29,data
+Moldova,Central and Eastern Europe,MD,1.1,0.07,1.18,24.74,1.64,26.38,data
+Montenegro,Central and Eastern Europe,ME,1.88,0.33,2.21,132.16,23.22,155.38,data
+Madagascar,Africa,MG,0,0,0,0,0,0,estimate/forecast
+Macedonia [FYROM],Central and Eastern Europe,MK,1.34,0.15,1.49,66.15,7.46,73.62,data
+Myanmar [Burma],Emerging Asia,MM,0.06,0,0.07,0.67,0.05,0.73,data
+Mongolia,Emerging Asia,MN,0,0,0,0,0,0,NC
+Macau,Emerging Asia,MO,0.45,1.03,1.48,412.66,942.83,1355.49,data
+Mauritania,Africa,MR,0,0,0,0,0,0,estimate/forecast
+Malta,Western Europe,MT,1.45,2.5,3.95,340.27,588.42,928.68,data
+Mauritius,Africa,MU,1.92,4.1,6.02,183.93,393.2,577.14,data
+Malawi,Africa,MW,1.08,0.39,1.47,3.39,1.22,4.61,data
+Mexico,Latin America and Caribbean,MX,1.18,0.99,2.17,121.5,101.76,223.25,data
+Malaysia,Emerging Asia,MY,1.75,3.12,4.87,184.84,330.58,515.42,data
+Mozambique,Africa,MZ,0,0,0,0,0,0,estimate/forecast
+Namibia,Africa,NA,2.2,5.05,7.25,125.18,286.82,412.01,data
+Nigeria,Africa,NG,0.24,0.08,0.32,7.13,2.32,9.44,data
+Nicaragua,Latin America and Caribbean,NI,1.16,0.24,1.4,21.36,4.41,25.76,data
+Netherlands,Western Europe,NL,8.8,2.84,11.64,4471.08,1443.03,5914.11,data
+Norway,Western Europe,NO,1.67,2.71,4.38,1686.39,2734.18,4420.57,data
+Nepal,Emerging Asia,NP,0,0,0,0,0,0,estimate/forecast
+New Zealand,Oceania,NZ,5.06,0.96,6.02,2039.37,384.98,2424.35,data
+Oman,Middle East and Central Asia,OM,1.08,0.11,1.19,237.62,24.22,261.84,data
+Panama,Latin America and Caribbean,PA,2.39,0.69,3.08,249.68,72.39,322.06,data
+Peru,Latin America and Caribbean,PE,0.89,0.77,1.66,59.47,50.98,110.45,data
+Papua New Guinea,Oceania,PG,0,0,0,0,0,0,estimate/forecast
+Philippines,Emerging Asia,PH,0.53,1.42,1.95,14.6,39.07,53.67,data
+Pakistan,Emerging Asia,PK,0.28,0.45,0.73,3.4,5.44,8.83,data
+Poland,Central and Eastern Europe,PL,1.83,1.58,3.41,252.5,216.81,469.31,data
+Portugal,Western Europe,PT,2.25,5.4,7.65,489.71,1173.41,1663.12,data
+Paraguay,Latin America and Caribbean,PY,1.07,0.14,1.21,45.5,5.91,51.42,estimate/forecast
+Qatar,Middle East and Central Asia,QA,0.95,0.03,0.98,915.01,29.52,944.53,estimate/forecast
+,Africa,RM,0.45,0.1,0.55,3.34,0.74,4.08,estimate/forecast
+,Africa,RN,0.53,0.11,0.64,2.21,0.44,2.66,estimate/forecast
+Romania,Central and Eastern Europe,RO,1.11,0.26,1.37,100.73,23.9,124.63,data
+Serbia,Central and Eastern Europe,RS,1.42,0.36,1.78,84.32,21.6,105.92,data
+Russia,Central and Eastern Europe,RU,1.23,0.13,1.36,180.4,18.68,199.08,data
+Rwanda,Africa,RW,0.69,0.2,0.88,4.3,1.24,5.54,estimate/forecast
+Saudi Arabia,Middle East and Central Asia,SA,0.87,0.03,0.9,225.55,7.81,233.36,data
+Seychelles,Africa,SC,0,0,0,0,0,0,estimate/forecast
+Sudan,Africa,SD,0.5,0.03,0.52,6.7,0.36,7.06,estimate/forecast
+Sweden,Western Europe,SE,1.9,5.53,7.43,1105.36,3214.34,4319.7,data
+Singapore,Advanced Asia,SG,1.64,4.78,6.41,902.6,2636.61,3539.2,data
+Slovenia,Central and Eastern Europe,SI,3.86,1.5,5.36,918.31,356.46,1274.77,data
+Slovakia,Central and Eastern Europe,SK,1.39,1.32,2.71,259.71,246.66,506.37,data
+Senegal,Africa,SN,0.99,0.3,1.29,10.62,3.19,13.81,estimate/forecast
+El Salvador,Latin America and Caribbean,SV,1.13,0.64,1.77,43.21,24.54,67.75,estimate/forecast
+Syria,Middle East and Central Asia,SY,0.53,0.01,0.54,7.43,0.1,7.53,estimate/forecast
+Swaziland,Africa,SZ,0,0,0,0,0,0,estimate/forecast
+Turks and Caicos Islands,Africa,TC,0,0,0,0,0,0,estimate/forecast
+Togo,Africa,TG,1.13,0.78,1.91,7.15,4.9,12.05,data
+Thailand,Emerging Asia,TH,2.22,3.19,5.42,128.47,184.32,312.79,data
+Tajikistan,Middle East and Central Asia,TJ,0,0,0,0,0,0,estimate/forecast
+Turkmenistan,Middle East and Central Asia,TM,0.2,0,0.2,14.56,0,14.56,estimate/forecast
+Tunisia,Africa,TN,1.51,0.28,1.79,64.5,12.12,76.62,estimate/forecast
+Turkey,Western Europe,TR,1.3,0.21,1.51,142.57,23.47,166.04,data
+Trinidad and Tobago,Latin America and Caribbean,TT,2.91,1.68,4.6,503.15,290.66,793.81,estimate/forecast
+Taiwan,Advanced Asia,TW,3.29,15.45,18.74,681.85,3203.84,3885.69,data
+Tanzania,Africa,TZ,0.79,0.11,0.89,5.29,0.71,6,data
+Ukraine,Central and Eastern Europe,UA,1.8,0.17,1.97,72.47,6.85,79.32,data
+Uganda,Africa,UG,0.59,0.09,0.69,3.61,0.57,4.17,data
+United States,North America,US,4.34,3.17,7.51,2306.93,1684.94,3991.87,data
+Uruguay,Latin America and Caribbean,UY,1.55,0.62,2.17,252.92,101.76,354.68,data
+Uzbekistan,Middle East and Central Asia,UZ,0.3,0,0.3,5.8,0,5.8,estimate/forecast
+Venezuela,Latin America and Caribbean,VE,3.59,0.12,3.71,447.28,14.83,462.1,data
+British Virgin Islands,Latin America and Caribbean,VG,0,0,0,0,0,0,estimate/forecast
+U.S. Virgin Islands,Err:520,VI,0,0,0,0,0,0,estimate/forecast
+Vietnam,Emerging Asia,VN,0.68,0.65,1.33,12.73,12.08,24.81,data
+,Err:520,XA,0.12,0,0,25.35,0,0,estimate/forecast
+,Err:520,XT,0,0,0,0,0,0,estimate/forecast
+Yemen,Middle East and Central Asia,YE,0.27,0.02,0.3,3.91,0.35,4.27,estimate/forecast
+,Err:520,YU,0,0,0,0,0,0,estimate/forecast
+South Africa,Africa,ZA,2.79,11.91,14.7,185.31,791.92,977.23,data
+Zambia,Africa,ZM,1.05,0.42,1.47,14.98,6.03,21.01,estimate/forecast
+,Africa,ZR,0,0,0,0,0,0,estimate/forecast
+Zimbabwe,Africa,ZW,0,0,0,0,0,0,estimate/forecast

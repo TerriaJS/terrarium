@@ -1,0 +1,25 @@
+{
+  "catalog": [
+    {
+        "name": "Existing projects",
+        "type": "group",
+        "isOpen": true,
+        "items": [ {
+            "name": "Mines",
+            "type": "group",
+            "isOpen": true,
+            "items": [{
+                "name": "NT: Mining tenements",
+                "isShown": true,
+                "isEnabled": true          
+            }]
+        }]
+    }
+  ],
+   "homeCamera": {
+    "west": 129,
+    "east": 138,
+    "north": -10,
+    "south": -26
+  }
+}

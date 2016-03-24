@@ -1,0 +1,21 @@
+{
+  "catalog": [
+    {
+        "name": "Tenure and title",
+        "type": "group",
+        "isOpen": true,
+        "items": [ {
+          "name": "Pastoral lease",
+          "isShown": true,
+          "isEnabled": true          
+        }
+        ]
+    }
+  ],
+  "homeCamera": {
+    "west": 129,
+    "east": 138,
+    "north": -10,
+    "south": -26
+  }
+}

@@ -1,0 +1,605 @@
+{
+  "name": "Tenure and title",
+  "type": "group",
+  "items": [
+    {
+      "name": "Indigenous Land Use Agreement (NT)",
+      "type": "wms",
+      "url": "http://wms1.ntlis.nt.gov.au/ilismap",
+      "layers": "56",
+        "description": "More information about <a href=\"http://www.northernaustralialandtenure.com.au/how-do-i-engage-with-title-owners/northern-territory-information-on-engaging-with-traditional-owners-and-land-councils/#indigenous-land-use-agreements\">Indigenous Land Use Agreements (ILUA)</a>."
+    },
+    {
+      "name": "Native Title Determination Outcomes",
+      "type": "wms",
+      "url": "http://data.gov.au/geoserver/native-title-determination-outcomes/wms",
+      "layers": "ckan_54f906a3_2c6c_4143_bcb4_27d542429939",
+      "description": "Native Title is a form of land title that recognises the traditional connection, rights and interests of Aboriginal and Torres Strait Islander people with the land. <br /><a href=\"http://www.northernaustralialandtenure.com.au/native-title/native-title-in-the-northern-territory/\">Read full explanation on the Austrade Site</a>",
+      "featureInfoTemplate": "<h3>{{detoutcome}}</h3><table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}<br/>{{fcname}} ({{fcno}})</td></tr><tr><td>Prescribed body corporate</td><td>{{rntbcname}}</td></tr><tr><td>Sequence number</td><td>{{nnttseqno}}</td></tr><tr><td>Dates</td><td>{{detdate}} - {{detregdate}}</td></tr><tr><td>Link</td><td>{{link}}</td></tr><tr><td>Tribunal file number</td><td><a href=\"http://www.nntt.gov.au/searchRegApps/NativeTitleClaims/Pages/details.aspx?NTDA_Fileno={{relntda}}\">{{relntda}}</a></td></tr></table> <br /><a href=\"http://www.northernaustralialandtenure.com.au/native-title/native-title-in-the-northern-territory/\">Read full explanation on the Austrade Site</a>"
+    }
+  ],
+  "preserveOrder": true
+},
+{
+  "name": "Infrastructure",
+  "type": "group",
+  "items": [
+    {
+      "name": "Transport",
+      "type": "group",
+      "items": [
+        {
+          "name": "Railways",
+          "type": "esri-mapServer",
+          "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Transport/MapServer",
+          "layers": "Railways"
+        },
+        {
+          "name": "All-weather roads",
+          "type": "esri-mapServer",
+          "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Transport/MapServer",
+          "layers": "Major_Road_Network,Roads_Scale_7Million_to_600000,Roads_Scale_600000_to_300000,All_Roads",
+          "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Transport_Roads.png",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ],
+          "initialMessage": {
+            "title": "All-weather roads",
+            "content": "The all weather roads are Dual Carriageway (red), Principal Road (orange), Secondary Road (Yellow) and Minor Road (grey solid line). Vehicular tracks, shown as a grey dotted line, are NOT all-weather roads"
+          }
+        },
+        {
+          "name": "Road Bridges and Fords",
+          "type": "esri-mapServer",
+          "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Transport/MapServer",
+          "layers": "Road_Bridges_and_Fords,No_Data",
+          "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Transport_Road_Bridges_and_Fords.png",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+        {
+          "name": "Airports and Airfields",
+          "type": "esri-mapServer",
+          "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Transport/MapServer",
+          "layers": "Airports_Point_Features,No_Data",
+          "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Transport_Airports_Point_features.png",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+        {
+          "name": "Major Seaports",
+          "type": "esri-mapServer",
+          "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
+          "layers": "1",
+          "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
+          "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>State</td><td>{{state}}</td></tr></table>",
+          "opacity": 1
+        },
+        {
+          "name": "Major Airports",
+          "type": "esri-mapServer",
+          "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
+          "layers": "0",
+          "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
+          "featureInfoTemplate": "{{name}}",
+          "opacity": 1
+        },
+
+        {
+          "name": "NT: Stock routes",
+          "type": "wms",
+          "layers": "60"
+        },
+        {
+          "name": "Key Freight Routes",
+          "type": "group",
+          "preserveOrder": true,
+          "items": [
+            {
+              "name": "Key Freight Routes - Roads",
+              "type": "esri-mapServer",
+              "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
+              "layers": "5",
+              "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
+              "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>Route Number</td><td>{{RouteNumber}}</td><tr><td>State</td><td>{{state}}</td></tr><tr><td>Manager</td><td>{{Manager}}</td></tr></table>"
+            },
+            {
+              "name": "Secondary Freight Routes - Roads",
+              "type": "esri-mapServer",
+              "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
+              "layers": "4",
+              "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
+              "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>Route Number</td><td>{{RouteNumber}}</td><tr><td>State</td><td>{{state}}</td></tr><tr><td>Owner</td><td>{{owner}}</td></tr></table>"
+            },
+            {
+              "name": "Key Freight Routes - Rail",
+              "type": "esri-mapServer",
+              "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
+              "layers": "6",
+              "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
+              "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Gauge</td><td>{{gauge}}</td><tr><td>State</td><td>{{state}}</td></tr><tr><td>Manager</td><td>{{manager}}</td></tr></table>"
+            },
+            {
+              "name": "Intermodal Terminals",
+              "type": "esri-mapServer",
+              "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
+              "layers": "2",
+              "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
+              "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>State</td><td>{{state}}</td></tr></table>",
+              "opacity": 1
+            },
+            {
+              "name": "Road Train Assembly Areas",
+              "type": "esri-mapServer",
+              "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
+              "layers": "3",
+              "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
+              "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>State</td><td>{{state}}</td></tr></table>",
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oil & Gas",
+      "type": "group",
+      "items": [
+        {
+          "name": "Onshore Gas Pipelines",
+          "type": "esri-mapServer",
+          "url": "http://www.ga.gov.au/gis/rest/services/topography/National_Onshore_Gas_Pipelines/MapServer",
+          "layers": "Gas_Pipelines",
+          "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/National_Onshore_Gas_Pipelines_Legend.png",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+        {
+          "name": "Onshore Oil Pipelines",
+          "type": "esri-mapServer",
+          "url": "http://www.ga.gov.au/gis/rest/services/topography/National_Onshore_Oil_Pipelines/MapServer",
+          "layers": "Oil_Pipelines",
+          "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/National_Onshore_Oil_Pipelines_Legend.png",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+        {
+          "name": "WA Petroleum Pipelines",
+          "type": "wms",
+          "url": "https://mapsengine.google.com/09372590152434720789-09499575881840677463-4/wms/",
+          "layers": "09372590152434720789-14260109621676598966-4"
+        },
+        {
+          "name": "NT Oil Pipelines",
+          "type": "wms",
+          "url": "http://wms1.ntlis.nt.gov.au/ilismap",
+          "layers": "105"
+        },
+        {
+          "name": "NT Gas Pipelines",
+          "type": "wms",
+          "url": "http://wms1.ntlis.nt.gov.au/ilismap",
+          "layers": "5"
+        }
+      ]
+    },
+    {
+      "name": "Electricity grid",
+      "type": "group",
+      "items": [
+        {
+          "name": "Electricity grid",
+          "type": "group",
+          "items": [
+            {
+              "name": "Electricity Transmission Lines",
+              "type": "esri-mapServer",
+              "url": "http://www.ga.gov.au/gis/rest/services/topography/National_Electricity_Transmission_Lines/MapServer",
+              "layers": "National_Electricity_Transmission_Lines",
+              "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/National_Electricity_Transmission_Lines.png",
+              "info": [
+                {
+                  "name": "Licence",
+                  "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                }
+              ]
+            },
+            {
+              "name": "Powerlines",
+              "type": "esri-mapServer",
+              "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Culture_and_Infrastructure/MapServer",
+              "layers": "Powerlines,No_Data",
+              "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Culture_and_Infrastructure_Powerlines.png",
+              "info": [
+                {
+                  "name": "Licence",
+                  "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Water",
+      "type": "group",
+      "items": [
+        {
+          "name": "Irrigated areas (National Land and Water Resources Audit)",
+          "type": "wms",
+          "url": "http://data.gov.au/geoserver/australian-irrigation-areas-vector-version-1a-national-land-and-water-resources-audit/wms",
+          "layers": "3c934692_b670_4608_8f74_ee36583f74c1"
+        },
+        {
+          "name": "WA: Surface Water Areas & Irrigation Districts (RIWI Act)",
+          "type": "wms",
+          "url": "https://mapsengine.google.com/09372590152434720789-11920815285354965867-4/wms/",
+          "layers": "09372590152434720789-00157321636549444088-4"
+        },
+        {
+          "name": "Water Table Yield",
+          "type": "wms",
+          "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+          "layers": "ahgf_gwc:IGWWaterTableYield",
+          "description": "Water table yield",
+          "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+          "rectangle": [
+            "100.0",
+            "-44.0",
+            "159.0",
+            "-4.0"
+          ]
+        },
+        {
+          "name": "River Regions",
+          "type": "wms",
+          "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+          "layers": "ahgf_hrr:RiverRegion",
+          "description": "River regions",
+          "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+          "rectangle": [
+            "100.0",
+            "-44.0",
+            "159.0",
+            "-4.0"
+          ]
+        },
+        {
+          "name": "Aquifers",
+          "type": "group",
+          "items": [
+            {
+              "name": "Water Table Aquifers",
+              "type": "wms",
+              "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+              "layers": "ahgf_gwc:AHGFWaterTableAquifer",
+              "description": "Water table units of similar hydrogeologic properties",
+              "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+              "rectangle": [
+                "100.0",
+                "-44.0",
+                "159.0",
+                "-4.0"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Canals",
+          "type": "esri-mapServer",
+          "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Hydrography_and_Marine/MapServer",
+          "layers": "46",
+          "dataCustodian": "Geoscience Australia"
+        },
+        {
+          "name": "More water layers",
+          "type": "group",
+          "items": [
+            {
+              "name": "Rivers",
+              "type": "esri-mapServer",
+              "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Hydrography_and_Marine/MapServer",
+              "layers": "Watercourses_All_Rivers_Labels,Watercourses_Major_Rivers_Scale_5Million_to_300000_Labels,Watercourses_Major_Rivers_Scale_10Million_to_5Million_Labels,Watercourses_All_Rivers_Watercourse_Lines,Watercourses_All_Rivers_Connectors,Watercourses_Major_Rivers_Scale_5Million_to_300000,Watercourses_Major_Rivers_National_Scale_to_5Million,No_Data",
+              "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Hydrography_and_Marine_Watercourses.png",
+              "info": [
+                {
+                  "name": "Licence",
+                  "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                }
+              ]
+            },
+            {
+              "name": "Watercourse Areas",
+              "type": "esri-mapServer",
+              "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Hydrography_and_Marine/MapServer",
+              "layers": "Watercourse_Areas_Labels,Watercourse_Areas,No_Data",
+              "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Hydrography_and_Marine_Watercourse_Areas.png",
+              "info": [
+                {
+                  "name": "Licence",
+                  "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                }
+              ]
+            },
+            {
+              "name": "Geoscience Australia hydrography",
+              "type": "esri-mapServer-group",
+              "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Hydrography_and_Marine/MapServer"
+            }
+          ]
+        }
+      ],
+      "preserveOrder": true
+    }
+  ]
+},
+{
+  "name": "Geology & Climate",
+  "type": "group",
+  "items": [
+    {
+      "name": "Surface Geology",
+      "type": "esri-mapServer",
+      "url": "http://www.ga.gov.au/gis/rest/services/earth_science/GA_Surface_Geology_of_Australia_WM/MapServer",
+      "rectangle": [
+        "105.930454436693",
+        "-43.74050960205765",
+        "162.097118856693",
+        "-7.92768801894694"
+      ],
+      "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+      "info": [
+        {
+          "name": "Licence",
+          "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+        }
+      ]
+    },
+    {
+      "name": "QLD: Wind gusts greater than 75 kph",
+      "type": "esri-mapServer",
+      "url": "https://geospatial.information.qld.gov.au/ArcGIS/rest/services/QLD/WeatherAndExtremeEventRisk/MapServer",
+      "layers": "74"
+    },
+    {
+      "name": "Catchment scale land use",
+      "type": "wms",
+      "url": "http://data.gov.au/geoserver/catchment-scale-land-use-of-australia-update-march-2015/wms",
+      "layers": "catchment-scale-land-use-of-australia-update-march-2015",
+      "dataCustodian": "Department of Agriculture",
+      "info": [
+        {
+          "name": "Licence",
+          "content": "http://creativecommons.org/licenses/by/3.0/au/"
+        }
+      ]
+    },
+    {
+      "name": "Type of commodity",
+      "type": "group",
+      "items": []
+    },
+    {
+      "name": "Rainfall",
+      "type": "group",
+      "items": [
+        {
+          "name": "QLD: Frequency of rainfall filling dams - events per year",
+          "type": "esri-mapServer",
+          "url": "https://geospatial.information.qld.gov.au/ArcGIS/rest/services/QLD/WeatherAndExtremeEventRisk/MapServer",
+          "layers": "33"
+        }
+      ]
+    },
+    {
+      "name": "Mineral occurrence",
+      "type": "group",
+      "items": [
+        {
+          "name": "QLD: Mineral occurrence",
+          "type": "esri-mapServer",
+          "url": "https://geospatial.information.qld.gov.au/ArcGIS/rest/services/MINES/Resources/MapServer",
+          "layers": "17"
+        },
+        {
+          "name": "NT: Mineral occurrence",
+          "type": "wms",
+          "url": "http://geology.data.nt.gov.au/geoserver/mo/wms",
+          "layers": "mo:MinOccView",
+          "getFeatureInfoFormats": [
+            {
+              "type": "text",
+              "format": "text/html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Soil",
+      "type": "group",
+      "items": [
+        {
+          "name": "Bulk density",
+          "type": "wms-getCapabilities",
+          "url": "http://www.asris.csiro.au/ArcGis/services/TERN/BDW_ACLEP_AU_NAT_C/MapServer/WMSServer"
+        },
+        {
+          "name": "Organic carbon",
+          "type": "wms-getCapabilities",
+          "url": "http://www.asris.csiro.au/ArcGis/services/TERN/SOC_ACLEP_AU_NAT_C/MapServer/WMSServer"
+        },
+        {
+          "name": "Clay",
+          "type": "wms-getCapabilities",
+          "url": "http://www.asris.csiro.au/ArcGis/services/TERN/CLY_ACLEP_AU_NAT_C/MapServer/WMSServer"
+        },
+        {
+          "name": "ph CaCl2",
+          "type": "wms-getCapabilities",
+          "url": "http://www.asris.csiro.au/ArcGis/services/TERN/PHC_ACLEP_AU_NAT_C/MapServer/WMSServer"
+        },
+        {
+          "name": "Available Water Capacity",
+          "type": "wms-getCapabilities",
+          "url": "http://www.asris.csiro.au/ArcGis/services/TERN/AWC_ACLEP_AU_NAT_C/MapServer/WMSServer"
+        },
+        {
+          "name": "Total Nitrogen",
+          "type": "wms-getCapabilities",
+          "url": "http://www.asris.csiro.au/ArcGis/services/TERN/NTO_ACLEP_AU_NAT_C/MapServer/WMSServer"
+        },
+        {
+          "name": "Total Phosphorus",
+          "type": "wms-getCapabilities",
+          "url": "http://www.asris.csiro.au/ArcGis/services/TERN/PTO_ACLEP_AU_NAT_C/MapServer/WMSServer"
+        },
+        {
+          "name": "Depth of Regolith",
+          "type": "wms-getCapabilities",
+          "url": "http://www.asris.csiro.au/ArcGis/services/TERN/DER_ACLEP_AU_NAT_C/MapServer/WMSServer"
+        },
+        {
+          "name": "Depth of Soil",
+          "type": "wms-getCapabilities",
+          "url": "http://www.asris.csiro.au/ArcGis/services/TERN/DES_ACLEP_AU_NAT_C/MapServer/WMSServer"
+        },
+        {
+          "name": "Terrain attributes",
+          "type": "wms-getCapabilities",
+          "url": "http://www.asris.csiro.au/ArcGis/services/TERN/SRTM_attributes_3s_ACLEP_AU/MapServer/WMSServer"
+        }
+      ]
+    }
+  ]
+},
+{
+  "name": "Existing projects",
+  "type": "group",
+  "items": [
+    {
+      "name": "Mines",
+      "type": "group",
+      "items": [
+        {
+          "name": "WA: Mines & Mineral deposits",
+          "type": "wms",
+          "url": "https://mapsengine.google.com/09372590152434720789-11493353092997567468-4/wms/",
+          "layers": "09372590152434720789-12202648460129380533-4"
+        },
+        {
+          "name": "QLD: Operating mines",
+          "type": "esri-mapServer",
+          "url": "https://geospatial.information.qld.gov.au/ArcGIS/rest/services/MINES/Resources/MapServer"
+        },
+        {
+          "name": "WA: Mining tenements",
+          "type": "wms",
+          "url": "https://mapsengine.google.com/09372590152434720789-09499575881840677463-4/wms/",
+          "layers": "09372590152434720789-04695855072319211862-4"
+        },
+        {
+          "name": "NT: Mining tenements",
+          "type": "wms",
+          "url": "http://geology.data.nt.gov.au/geoserver/mt/wms",
+          "layers": "mt:MineralTenement",
+          "description": "More information about <a href=\"http://www.northernaustralialandtenure.com.au/land-tenure/leasehold-land/#mining-mineral-exploration-leases-in-the-northern-territory\">Mining and Mineral Exploration Leases in the Northern Territory</a>.",
+          "getFeatureInfoFormats": [
+            {
+              "type": "text",
+              "format": "text/html"
+            }
+          ]
+        },
+        {
+          "name": "Mine Areas",
+          "type": "esri-mapServer",
+          "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Culture_and_Infrastructure/MapServer",
+          "layers": "Mine_Areas,No_Data",
+          "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Culture_and_Infrastructure_Mine_Areas.png",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cropping",
+      "type": "group",
+      "items": [
+        {
+          "name": "QLD: Irrigated cropping",
+          "type": "esri-mapServer",
+          "url": "https://geospatial.information.qld.gov.au/ArcGIS/rest/services/QLD/CurrentLandUse/MapServer",
+          "layers": "14"
+        },
+        {
+          "name": "QLD: Cropping",
+          "type": "esri-mapServer",
+          "url": "https://geospatial.information.qld.gov.au/ArcGIS/rest/services/QLD/CurrentLandUse/MapServer",
+          "layers": "8"
+        }
+      ]
+    }
+  ]
+},
+{
+  "name": "Biosecurity",
+  "type": "group",
+  "items": [
+    {
+      "name": "Genetically modified organism field trial sites",
+      "type": "geojson",
+      "url": "data/ogtr-sites.geojson",
+      "dataCustodian": "Office of the Gene Technology Regulator",
+      "description": "Locations of Genetically Modified Organisms field trial sites.<br/><br/>\nSee <a href=\"http://www.ogtr.gov.au/internet/ogtr/publishing.nsf/Content/map\" target=\"_self\">OGTR website</a> for more information."
+    },
+    {
+      "name": "Northern Australia Quarantine Strategy Offices",
+      "type": "geojson",
+      "url": "data/quarantine_offices.geojson"
+    }
+  ]
+},
+{
+  "name": "Place names",
+  "type": "group",
+  "items": [
+    {
+      "name": "Populated Places",
+      "type": "esri-mapServer",
+      "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Labelling_and_Boundaries/MapServer",
+      "layers": "PopulatedPlaces_Canberra,CapitalCities_40Mill_to_20Mill_Scale,CapitalCities_20Mill_to_73K_Scale,CapitalCities_73K_to_70K_Scale,PopulatedPlaces_10Mill_to_7Mill_Scale,PopulatedPlaces_7Mill_to_1Mill_Scale,PopulatedPlaces_1Mill_to_150K_Scale,PopulatedPlaces_150K_to_100K_Scale,PopulatedPlaces_100K_to_70K_Scale,No_Data",
+      "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Labelling_and_Boundaries_Populated_Places.png",
+      "info": [
+        {
+          "name": "Licence",
+          "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+        }
+      ]
+    }
+  ]
+}

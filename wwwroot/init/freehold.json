@@ -1,0 +1,15 @@
+{
+  "catalog": [
+    {
+        "name": "Tenure and title",
+        "type": "group",
+        "isOpen": true,
+        "items": [ {
+          "name": "Freehold",
+          "isShown": true,
+          "isEnabled": true          
+        }
+        ]
+    }
+  ]
+}
