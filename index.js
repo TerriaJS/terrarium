@@ -74,13 +74,7 @@ registerCustomComponentTypes(terria);
 var ui = document.getElementById('ui');
 
 // This is temporary
-var welcome = '<h3>Welcome to Terria Map</h3><div class="intro"><p>Terria Map is a showcase of data from multiple'
-            + ' <a href="https://terria.io/">Terria</a> maps, as well as experimental and cutting edge features. It has been'
-            + ' developed by <a href="http://www.csiro.au/en/Research/D61">Data61</a>.</p></div><h4>Getting Started</h4>'
-            + '<p>Choose a dataset from the Data Catalog. There are plenty to choose from!</p><div'
-            + ' class="row"><div class="col col-6 getting-started--alpha"><figure><img src="./images/solar.png"></img><fig'
-            + 'caption>Solar</figcaption></figure></div><div class="col col-6 getting-started--beta"><figure><img src='
-            + '"./images/wind.png"></img><figcaption>Wind</figcaption></figure></div></div>';
+var welcome = '<h3>Terria<sup>TM</sup> is a spatial data platform that provides spatial predictive analytics</h3><div class="body-copy">This prototype demonstrates TerriaJS, a library for building rich, web-based geospatial data explorers. It uses Cesium for a full 3D experience. Think Google Earth, except it runs in a web browser without a plugin.</div>';
 
 console.log(welcome);
 
