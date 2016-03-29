@@ -76,7 +76,7 @@ var welcome = '<h3>Welcome to Terrarium</h3><div class="intro"><p>Terrarium is a
             + ' <a href="https://terria.io/">Terria</a> maps, as well as experimental and cutting edge features. It has been'
             + ' developed by <a href="http://www.csiro.au/en/Research/D61">Data61</a>.</p></div><h4>Getting Started</h4>'
             + '<p>Choose a dataset from the Data Catalog. There are plenty to choose from!</p><div'
-            + 'class="row"><div class="col col-6 getting-started--alpha"><figure><img src="./images/solar.png"></img><fig'
+            + ' class="row"><div class="col col-6 getting-started--alpha"><figure><img src="./images/solar.png"></img><fig'
             + 'caption>Solar</figcaption></figure></div><div class="col col-6 getting-started--beta"><figure><img src='
             + '"./images/wind.png"></img><figcaption>Wind</figcaption></figure></div></div>';
 
