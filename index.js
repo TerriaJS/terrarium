@@ -5,14 +5,11 @@ var UserInterface = require('./UserInterface.jsx');
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-
+var terriaOptions = {
+    baseUrl: 'build/TerriaJS'
+};
 var configuration = {
-    terriaBaseUrl: 'build/TerriaJS',
-    cesiumBaseUrl: undefined, // use default
-    bingMapsKey: undefined, // use Cesium key
-    proxyBaseUrl: '/proxy/',
-    conversionServiceBaseUrl: 'convert',
-    regionMappingDefinitionsUrl: 'data/regionMapping.json'
+    bingMapsKey: undefined // use Cesium key
 };
 
 // Check browser compatibility early on.
@@ -62,21 +59,14 @@ registerKnockoutBindings();
 registerCatalogMembers();
 registerAnalytics();
 
-// Construct the TerriaJS application, arrange to show errors to the user, and start it up.
+terriaOptions.analytics = new GoogleAnalytics();
 
-var terria = new Terria({
-    appName: 'Terrarium',
-    supportEmail: 'terrarium@lists.nicta.com.au',
-    baseUrl: configuration.terriaBaseUrl,
-    cesiumBaseUrl: configuration.cesiumBaseUrl,
-    regionMappingDefinitionsUrl: configuration.regionMappingDefinitionsUrl,
-    analytics: new GoogleAnalytics()
-});
+// Construct the TerriaJS application, arrange to show errors to the user, and start it up.
+var terria = new Terria(terriaOptions);
 
 // Register custom components in the core TerriaJS.  If you only want to register a subset of them, or to add your own,
 // insert your custom version of the code in the registerCustomComponentTypes function here instead.
 registerCustomComponentTypes(terria);
-
 
 // We'll put the entire user interface into a DOM element called 'ui'.
 var ui = document.getElementById('ui');
