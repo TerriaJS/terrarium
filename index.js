@@ -84,7 +84,7 @@ var welcome = '<h3>Welcome to Terria Map</h3><div class="intro"><p>Terria Map is
 
 console.log(welcome);
 
-terria.welcome = function welcomeText() { return {__html: welcome}; };
+terria.welcome = welcome;
 
 const viewState = new ViewState();
 
