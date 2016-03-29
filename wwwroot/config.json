@@ -27,17 +27,17 @@
         "googleAnalyticsKey": "UA-61302891-1",
         "googleAnalyticsOptions": null,
         "disclaimer": {
-            "text": "Disclaimer: Terrarium must not be used for navigation or precise spatial analysis",
+            "text": "Disclaimer: Terria Map must not be used for navigation or precise spatial analysis",
             "url": "about.html"
         },
         "developerAttribution": {
             "text": "Data61",
             "link": "http://www.csiro.au/en/Research/D61"
         },
-        "appName": "Terrarium",
+        "appName": "Terria Map",
         "supportEmail": "terrarium@lists.nicta.com.au",
         "brandBarElements(Remove this bit in parentheses for production deployment)": [
-            "<a target=\"_blank\" href=\"about.html\"><img src=\"images/Terrarium_Logo_RGB72dpi_REV_Blue text.png\" height=\"50\" alt=\"Terrarium\" title=\"Version: {{version}}\" /></a>",
+            "<a target=\"_blank\" href=\"about.html\"><img src=\"images/Terria Map_Logo_RGB72dpi_REV_Blue text.png\" height=\"50\" alt=\"Terria Map\" title=\"Version: {{version}}\" /></a>",
             "<a target=\"_blank\" href=\"http://www.gov.au/\"><img src=\"images/AG-Rvsd-Stacked-Press.png\" height=\"45\" alt=\"Australian Government\" /></a>"
         ]
     }

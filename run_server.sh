@@ -21,7 +21,7 @@ running=$?
 if [ $running -eq 0 ]; then
     echo "(TerriaJS-Server running in background with pid $!)." && echo $pid > terriajs.pid
     if [ ! -f wwwroot/build/nationalmap.js ]; then
-        echo "Warning: TerriaJS-Server is running, but Terrarium has not been built yet. To build it, now run: "
+        echo "Warning: TerriaJS-Server is running, but Terria Map has not been built yet. To build it, now run: "
         echo "     gulp watch"
         echo 
     fi

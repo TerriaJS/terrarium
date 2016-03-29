@@ -1,4 +1,4 @@
-### Terrarium Change Log
+### Terria Map Change Log
 
 #### 2016-03-24
 

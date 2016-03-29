@@ -6,7 +6,9 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 
 var terriaOptions = {
-    baseUrl: 'build/TerriaJS'
+    baseUrl: 'build/TerriaJS',
+    appName: 'Terria Map',
+    supportEmail: 'terrarium@lists.nicta.com.au'
 };
 var configuration = {
     bingMapsKey: undefined // use Cesium key
@@ -31,7 +33,7 @@ var ViewerMode = require('terriajs/lib/Models/ViewerMode');
 var updateApplicationOnMessageFromParentWindow = require('terriajs/lib/ViewModels/updateApplicationOnMessageFromParentWindow');
 var ViewState = require('terriajs/lib/ReactViewModels/ViewState').default;
 
-// Not used until custom Terrarium maps are below
+// Not used until custom Terria Map maps are below
 //var BaseMapViewModel = require('terriajs/lib/ViewModels/BaseMapViewModel');
 var Terria = require('terriajs/lib/Models/Terria');
 var OgrCatalogItem = require('terriajs/lib/Models/OgrCatalogItem');
@@ -72,7 +74,7 @@ registerCustomComponentTypes(terria);
 var ui = document.getElementById('ui');
 
 // This is temporary
-var welcome = '<h3>Welcome to Terrarium</h3><div class="intro"><p>Terrarium is a showcase of data from multiple'
+var welcome = '<h3>Welcome to Terria Map</h3><div class="intro"><p>Terria Map is a showcase of data from multiple'
             + ' <a href="https://terria.io/">Terria</a> maps, as well as experimental and cutting edge features. It has been'
             + ' developed by <a href="http://www.csiro.au/en/Research/D61">Data61</a>.</p></div><h4>Getting Started</h4>'
             + '<p>Choose a dataset from the Data Catalog. There are plenty to choose from!</p><div'

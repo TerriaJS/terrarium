@@ -208,7 +208,7 @@ gulp.task('merge-catalog', ['merge-groups'], function() {
 
 gulp.task('merge-datasources', ['merge-catalog', 'merge-groups']);
 
-// Terrarium uses the EJS template engine to build the terrarium init file
+// Terria Map uses the EJS template engine to build the terrarium init file
 gulp.task('merge-datasources-terrarium', function() {
     var fn = 'datasources/terrarium/root.ejs';
     var template = fs.readFileSync(fn,'utf8');

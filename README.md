@@ -1,8 +1,8 @@
 
-Terrarium
+Terria Map
 =========
 
-[Terrarium](http://map.terria.io) is a showcase for maps and features developed by the TerriaJS team. It provides the
+[Terria Map](http://map.terria.io) is a showcase for maps and features developed by the TerriaJS team. It provides the
 best of the datasets from other maps as well as experimental, cutting-edge features.
 
 ### Getting Started ###
