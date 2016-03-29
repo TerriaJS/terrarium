@@ -74,8 +74,7 @@ registerCustomComponentTypes(terria);
 var ui = document.getElementById('ui');
 
 // This is temporary
-var welcome = '<h3>Terria<sup>TM</sup> is a spatial data platform that provides spatial predictive analytics</h3><div class="body-copy">This prototype demonstrates TerriaJS, a library for building rich, web-based geospatial data explorers. It uses Cesium for a full 3D experience. Think Google Earth, except it runs in a web browser without a plugin.</div>';
-
+var welcome = '<h3>Terria<sup>TM</sup> is a spatial data platform that provides spatial predictive analytics</h3><div class="body-copy"><p>This interactive map uses TerriaJS<sup>TM</sup>, an open source software library developed by Data61 for building rich, web-based geospatial data explorers.  It uses Cesium<sup>TM</sup> open source 3D globe viewing software.  TerriaJS<sup>TM</sup> is used for the official Australian Government NationalMap and many other sites rich in the use of spatial data.</p><p>This map also uses Terria<sup>TM</sup> Inference Engine, a cloud-based platform for making probabilistic predictions using data in a web-based mapping environment. Terria<sup>TM</sup> Inference Engine uses state of the art machine learning algorithms developed by Data61 and designed specifically for large-scale spatial inference.</p></div>';
 console.log(welcome);
 
 terria.welcome = welcome;
