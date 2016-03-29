@@ -24,35 +24,124 @@
             <% include abc %>,
           ]
         },
+        <% include ../aremi/custodian/Australian_Energy_Market_Operator/Live_NEM_Power_Generation %>,
         {
-          "name": "Power Generation",
-          "type": "group",
-          "preserveOrder": true,
-          "items": [
-            <% include ../aremi/custodian/Australian_Energy_Market_Operator/Live_NEM_Power_Generation %>
+          "name": "Bird migration paths",
+          "description": "Geographic centers of occurrence estimated daily for 118 migratory bird species using eBird occurrence information for the combined period 2002 to 2014. Additional details on the data and methods can be found here:\nLa Sorte, F.A., Fink, D., Hochachka, W.M. & Kelling, S. (2016) Convergence of broad-scale migration strategies in terrestrial birds. Proceedings of the Royal Society of London B: Biological Sciences, 283, 20152588.",
+          "type": "czml",
+          "url": "test/all_birds.czml",
+          "ignoreUnknownTileErrors": true,
+          "zoomOnEnable": true,
+          "rectangle": [
+            -160,
+            -20,
+            -30,
+            60
           ]
         },
         {
-          "name": "Bird Migration",
-          "type": "group",
-          "preserveOrder": true,
-          "description": "Geographic centers of occurrence estimated daily for 118 migratory bird species using eBird occurrence information for the combined period 2002 to 2014. Additional details on the data and methods can be found here:\nLa Sorte, F.A., Fink, D., Hochachka, W.M. & Kelling, S. (2016) Convergence of broad-scale migration strategies in terrestrial birds. Proceedings of the Royal Society of London B: Biological Sciences, 283, 20152588.",
-          "dataCustodian": "Frank A. La Sorte (fal42@cornell.edu)",
-          "items": [
-           {
-              "name": "Bird migration paths",
-              "type": "czml",
-              "url": "test/all_birds.czml",
-              "ignoreUnknownTileErrors": true,
-              "zoomOnEnable": true,
-              "rectangle": [
-                -160,
-                -20,
-                -30,
-                60
-              ]
+          "layers": "mybroadband:MyBroadband_ADSL_Quality",
+          "parameters": {
+            "tiled": true
+          },
+          "dataUrlType": "none",
+          "clipToRectangle": true,
+          "description": "[MyBroadband ADSL Quality Map](https://www.mybroadband.communications.gov.au)",
+          "name": "Broadband ADSL Quality",
+          "rectangle": [
+            96.79939,
+            -43.59821,
+            153.63925,
+            -9.21592
+          ],
+          "dataCustodian": "[Department of Communications](http://www.communications.gov.au/)",
+          "url": "https://programs.communications.gov.au/geoserver/ows",
+          "type": "wms",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 3.0 Australia (CC BY 3.0 AU)](http://creativecommons.org/licenses/by/3.0/au/)"
             }
           ]
+        },
+        {
+          "name": "Catchment Scale Land Use 2015",
+          "type": "ckan-resource",
+          "url": "https://data.gov.au",
+          "resourceId": "7d326ba9-492d-4d32-a893-9d45936bc0af",
+          "datasetId": "catchment-scale-land-use-of-australia-update-march-2015"
+        },
+        {
+          "url": "http://www.ga.gov.au/gis/rest/services/earth_science/GA_Surface_Geology_of_Australia_WM/MapServer",
+          "type": "esri-mapServer",
+          "rectangle": [
+            105.93045,
+            -43.74050,
+            162.09711,
+            -7.92768
+          ],
+          "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+          "name": "Surface Geology",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+        {
+          "layers": "WaterSummary",
+          "url": "http://eos.ga.gov.au/geoserver/NFRIP-WOfS/wms",
+          "type": "wms",
+          "rectangle": [
+            111,
+            -45,
+            155,
+            -10
+          ],
+          "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)\n\n[nfrip@ga.gov.au](mailto:nfrip@ga.gov.au)",
+          "name": "Water Observations from Space - Summary",
+          "dataUrlType": "direct",
+          "dataUrl": "http://www.ga.gov.au/scientific-topics/hazards/flood/wofs",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+        {
+            "description": "Chlorophyll-a, reflecting wavelengths in the green part of the visible light spectrum, is the substance that helps plants capture the sun\u2019s energy. In the water, it indicates the presence of microscopic green algae (phytoplankton). While these plants are a natural part of the reef ecosystem, elevated numbers (a bloom) of phytoplankton signal elevated nutrient levels, especially nitrogen, in the water. Typical sources are runoff from excess fertiliser being applied to crops and, to a lesser extent in the Great Barrier Reef region, sewage contamination from urban areas.",
+            "layers": "Chl_MIM_mean",
+            "name": "Chlorophyll-a concentration (annual)",
+            "parameters": {
+                "ABOVEMAXCOLOR": "0xAF324B",
+                "BELOWMINCOLOR": "transparent",
+                "COLORSCALERANGE": "0,1",
+                "FORMAT": "image/png",
+                "LAYERS": "Chl_MIM_median",
+                "LOGSCALE": "false",
+                "NUMCOLORBANDS": "16",
+                "PALETTE": "mwq_chl",
+                "STYLES": "boxfill/mwq_chl",
+                "TRANSPARENT": "true",
+                "VERSION": "1.1.1"
+            },
+            "type": "wms",
+            "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P1A"
+        },
+        {
+            "name": "BAMS C4ISR",
+            "type": "czml",
+            "description": "Cesium example CZML showing a mission planning exercise involving optimizing the flight path for a reconnaissance UAV over the Persian Gulf.",
+            "url": "http://cesiumjs.org/Gallery/BAMS_C4ISR.czml",
+            "rectangle": [
+              46.5,
+              26.2,
+              53.7,
+              30.4
+            ],
+            "zoomOnEnable": true
         }
       ]
     },
