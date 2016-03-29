@@ -82,7 +82,7 @@ var welcome = '<h3>Welcome to Terrarium</h3><div class="intro"><p>Terrarium is a
 
 console.log(welcome);
 
-terria.welcome = function welcomeText() { return {__html: welcome}; };
+terria.welcome = welcome;
 
 const viewState = new ViewState();
 
