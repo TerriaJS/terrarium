@@ -89,10 +89,13 @@ terria.welcome = welcome;
 const viewState = new ViewState();
 
 terria.error.addEventListener(e => {
-    viewState.notifications.push({
-        title: e.title,
-        message: e.message
-    });
+    var existingError = viewState.notifications.filter(function(notification) {
+        return notification.title === e.title && notification.message === e.message;
+    })[0];
+
+    if (!existingError) {
+        viewState.notifications.push(e);
+    }
 });
 
 terria.start({
