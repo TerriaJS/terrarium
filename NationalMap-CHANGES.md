@@ -1,6 +1,9 @@
 Change Log
 ==========
 
+### 2016-04-16
+* Added missing CED2 regionmap id file.
+
 ### 2016-03-15
 
 * Changed the query of the South Australian Government CKAN server to include datasets with a format of both `geojson` and `GeoJSON`, greatly increasing the number of datasets found.
