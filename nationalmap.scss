@@ -27,6 +27,7 @@
 //mobile only styles
 @import "component/mobile";
 
+@import "component/dropdown_panel";
 @import "component/loader";
 @import "component/location_bar";
 @import "component/notification";
@@ -43,6 +44,7 @@
 @import "component/bottom_dock";
 @import "component/timeline";
 @import "component/analytics";
+@import "component/share_panel";
 
 
 $offset: 10px;
