@@ -4,6 +4,10 @@
 var UserInterface = require('./UserInterface.jsx');
 var React = require('react');
 var ReactDOM = require('react-dom');
+<<<<<<< HEAD
+=======
+// require('babel-polyfill');
+>>>>>>> newui
 
 var terriaOptions = {
     baseUrl: 'build/TerriaJS',
@@ -21,6 +25,10 @@ var checkBrowserCompatibility = require('terriajs/lib/ViewModels/checkBrowserCom
 
 // checkBrowserCompatibility('ui');
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> newui
 var isCommonMobilePlatform = require('terriajs/lib/Core/isCommonMobilePlatform');
 var TerriaViewer = require('terriajs/lib/ViewModels/TerriaViewer');
 var registerKnockoutBindings = require('terriajs/lib/Core/registerKnockoutBindings');
@@ -39,7 +47,7 @@ var Terria = require('terriajs/lib/Models/Terria');
 var OgrCatalogItem = require('terriajs/lib/Models/OgrCatalogItem');
 var registerCatalogMembers = require('terriajs/lib/Models/registerCatalogMembers');
 var registerCustomComponentTypes = require('terriajs/lib/Models/registerCustomComponentTypes');
-var registerAnalytics = require('terriajs/lib/Models/registerAnalytics');
+
 var raiseErrorToUser = require('terriajs/lib/Models/raiseErrorToUser');
 var selectBaseMap = require('terriajs/lib/ViewModels/selectBaseMap');
 var GoogleUrlShortener = require('terriajs/lib/Models/GoogleUrlShortener');
@@ -70,24 +78,15 @@ var terria = new Terria(terriaOptions);
 // insert your custom version of the code in the registerCustomComponentTypes function here instead.
 registerCustomComponentTypes(terria);
 
-// We'll put the entire user interface into a DOM element called 'ui'.
-var ui = document.getElementById('ui');
-
-// This is temporary
-var welcome = '<h3>Terria<sup>TM</sup> is a spatial data platform that provides spatial predictive analytics</h3><div class="body-copy"><p>This interactive map uses TerriaJS<sup>TM</sup>, an open source software library developed by Data61 for building rich, web-based geospatial data explorers.  It uses Cesium<sup>TM</sup> open source 3D globe viewing software.  TerriaJS<sup>TM</sup> is used for the official Australian Government NationalMap and many other sites rich in the use of spatial data.</p><p>This map also uses Terria<sup>TM</sup> Inference Engine, a cloud-based platform for making probabilistic predictions using data in a web-based mapping environment. Terria<sup>TM</sup> Inference Engine uses state of the art machine learning algorithms developed by Data61 and designed specifically for large-scale spatial inference.</p></div>';
-
-terria.welcome = welcome;
+terria.welcome = '<h3>Terria<sup>TM</sup> is a spatial data platform that provides spatial predictive analytics</h3><div class="body-copy"><p>This interactive map uses TerriaJS<sup>TM</sup>, an open source software library developed by Data61 for building rich, web-based geospatial data explorers.  It uses Cesium<sup>TM</sup> open source 3D globe viewing software.  TerriaJS<sup>TM</sup> is used for the official Australian Government NationalMap and many other sites rich in the use of spatial data.</p><p>This map also uses Terria<sup>TM</sup> Inference Engine, a cloud-based platform for making probabilistic predictions using data in a web-based mapping environment. Terria<sup>TM</sup> Inference Engine uses state of the art machine learning algorithms developed by Data61 and designed specifically for large-scale spatial inference.</p></div>';
 
 const viewState = new ViewState();
 
 terria.error.addEventListener(e => {
-    var existingError = viewState.notifications.filter(function(notification) {
-        return notification.title === e.title && notification.message === e.message;
-    })[0];
-
-    if (!existingError) {
-        viewState.notifications.push(e);
-    }
+    viewState.notifications.push({
+        title: e.title,
+        message: e.message
+    });
 });
 
 terria.start({
