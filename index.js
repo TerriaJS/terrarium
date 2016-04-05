@@ -4,10 +4,7 @@
 var UserInterface = require('./UserInterface.jsx');
 var React = require('react');
 var ReactDOM = require('react-dom');
-<<<<<<< HEAD
-=======
 // require('babel-polyfill');
->>>>>>> newui
 
 var terriaOptions = {
     baseUrl: 'build/TerriaJS',
@@ -25,10 +22,6 @@ var checkBrowserCompatibility = require('terriajs/lib/ViewModels/checkBrowserCom
 
 // checkBrowserCompatibility('ui');
 
-<<<<<<< HEAD
-=======
-
->>>>>>> newui
 var isCommonMobilePlatform = require('terriajs/lib/Core/isCommonMobilePlatform');
 var TerriaViewer = require('terriajs/lib/ViewModels/TerriaViewer');
 var registerKnockoutBindings = require('terriajs/lib/Core/registerKnockoutBindings');
@@ -47,7 +40,7 @@ var Terria = require('terriajs/lib/Models/Terria');
 var OgrCatalogItem = require('terriajs/lib/Models/OgrCatalogItem');
 var registerCatalogMembers = require('terriajs/lib/Models/registerCatalogMembers');
 var registerCustomComponentTypes = require('terriajs/lib/Models/registerCustomComponentTypes');
-
+var registerAnalytics = require('terriajs/lib/Models/registerAnalytics');
 var raiseErrorToUser = require('terriajs/lib/Models/raiseErrorToUser');
 var selectBaseMap = require('terriajs/lib/ViewModels/selectBaseMap');
 var GoogleUrlShortener = require('terriajs/lib/Models/GoogleUrlShortener');
