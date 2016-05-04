@@ -1,11 +1,6 @@
 'use strict';
 
 /*global require*/
-var UserInterface = require('./UserInterface.jsx');
-var React = require('react');
-var ReactDOM = require('react-dom');
-// require('babel-polyfill');
-
 var terriaOptions = {
     baseUrl: 'build/TerriaJS',
     appName: 'Terria Map',
@@ -15,6 +10,8 @@ var configuration = {
     bingMapsKey: undefined // use Cesium key
 };
 
+require('./nationalmap.scss');
+
 // Check browser compatibility early on.
 // A very old browser (e.g. Internet Explorer 8) will fail on requiring-in many of the modules below.
 // 'ui' is the name of the DOM element that should contain the error popup if the browser is not compatible
@@ -22,32 +19,24 @@ var configuration = {
 
 // checkBrowserCompatibility('ui');
 
-var isCommonMobilePlatform = require('terriajs/lib/Core/isCommonMobilePlatform');
-var TerriaViewer = require('terriajs/lib/ViewModels/TerriaViewer');
-var registerKnockoutBindings = require('terriajs/lib/Core/registerKnockoutBindings');
-var corsProxy = require('terriajs/lib/Core/corsProxy');
 var GoogleAnalytics = require('terriajs/lib/Core/GoogleAnalytics');
-
 var GoogleUrlShortener = require('terriajs/lib/Models/GoogleUrlShortener');
+var isCommonMobilePlatform = require('terriajs/lib/Core/isCommonMobilePlatform');
+var OgrCatalogItem = require('terriajs/lib/Models/OgrCatalogItem');
+var raiseErrorToUser = require('terriajs/lib/Models/raiseErrorToUser');
+var React = require('react');
+var ReactDOM = require('react-dom');
+var registerAnalytics = require('terriajs/lib/Models/registerAnalytics');
+var registerCatalogMembers = require('terriajs/lib/Models/registerCatalogMembers');
+var registerCustomComponentTypes = require('terriajs/lib/Models/registerCustomComponentTypes');
+var registerKnockoutBindings = require('terriajs/lib/Core/registerKnockoutBindings');
+var Terria = require('terriajs/lib/Models/Terria');
 var updateApplicationOnHashChange = require('terriajs/lib/ViewModels/updateApplicationOnHashChange');
 var ViewerMode = require('terriajs/lib/Models/ViewerMode');
 var updateApplicationOnMessageFromParentWindow = require('terriajs/lib/ViewModels/updateApplicationOnMessageFromParentWindow');
 var ViewState = require('terriajs/lib/ReactViewModels/ViewState').default;
-
-// Not used until custom Terria Map maps are below
-//var BaseMapViewModel = require('terriajs/lib/ViewModels/BaseMapViewModel');
-var Terria = require('terriajs/lib/Models/Terria');
-var OgrCatalogItem = require('terriajs/lib/Models/OgrCatalogItem');
-var registerCatalogMembers = require('terriajs/lib/Models/registerCatalogMembers');
-var registerCustomComponentTypes = require('terriajs/lib/Models/registerCustomComponentTypes');
-var registerAnalytics = require('terriajs/lib/Models/registerAnalytics');
-var raiseErrorToUser = require('terriajs/lib/Models/raiseErrorToUser');
-var selectBaseMap = require('terriajs/lib/ViewModels/selectBaseMap');
-var GoogleUrlShortener = require('terriajs/lib/Models/GoogleUrlShortener');
-var isCommonMobilePlatform = require('terriajs/lib/Core/isCommonMobilePlatform');
-var GoogleAnalytics = require('terriajs/lib/Core/GoogleAnalytics');
-
-var OgrCatalogItem = require('terriajs/lib/Models/OgrCatalogItem');
+import BingMapsSearchProviderViewModel from 'terriajs/lib/ViewModels/BingMapsSearchProviderViewModel.js';
+import GazetteerSearchProviderViewModel from 'terriajs/lib/ViewModels/GazetteerSearchProviderViewModel.js';
 
 // Tell the OGR catalog item where to find its conversion service.  If you're not using OgrCatalogItem you can remove this.
 OgrCatalogItem.conversionServiceBaseUrl = configuration.conversionServiceBaseUrl;
@@ -73,14 +62,23 @@ registerCustomComponentTypes(terria);
 
 terria.welcome = '<h3>Terria<sup>TM</sup> is a spatial data platform that provides spatial predictive analytics</h3><div class="body-copy"><p>This interactive map uses TerriaJS<sup>TM</sup>, an open source software library developed by Data61 for building rich, web-based geospatial data explorers.  It uses Cesium<sup>TM</sup> open source 3D globe viewing software.  TerriaJS<sup>TM</sup> is used for the official Australian Government NationalMap and many other sites rich in the use of spatial data.</p><p>This map also uses Terria<sup>TM</sup> Inference Engine, a cloud-based platform for making probabilistic predictions using data in a web-based mapping environment. Terria<sup>TM</sup> Inference Engine uses state of the art machine learning algorithms developed by Data61 and designed specifically for large-scale spatial inference.</p></div>';
 
-const viewState = new ViewState();
+const viewState = new ViewState(terria, [
+    new BingMapsSearchProviderViewModel({terria}),
+    new GazetteerSearchProviderViewModel({terria})
+]);
 
-terria.error.addEventListener(e => {
-    viewState.notifications.push({
-        title: e.title,
-        message: e.message
-    });
-});
+// viewState.notifications.push({
+//     title: 'Aremi is a spatial data platform for the Australian Energy industry',
+//     message: 'We are focused on supporting Developer, Financiers, and Policy Makers in evaluating spatial renewable energy information.\n\nAREMI is funded by the *Australian Renewable Energy Agency* and developed by *Data61* in partnership with *GeoScience Australia* and the *Clean Energy Council*.',
+//     confirmText: 'Got it! Take me to the map',
+//     hideUi: true
+// });
+
+// If we're running in dev mode, disable the built style sheet as we'll be using the webpack style loader.
+// Note that if the first stylesheet stops being nationalmap.css then this will have to change.
+if (process.env.NODE_ENV !== "production" && module.hot) {
+    document.styleSheets[0].disabled = true;
+}
 
 terria.start({
     // If you don't want the user to be able to control catalog loading via the URL, remove the applicationUrl property below
@@ -101,14 +99,6 @@ terria.start({
         updateApplicationOnHashChange(terria, window);
         updateApplicationOnMessageFromParentWindow(terria, window);
 
-        // Create the map/globe.
-        var terriaViewer = TerriaViewer.create(terria, {
-            developerAttribution: {
-                text: 'Data61',
-                link: 'http://www.csiro.au/en/Research/D61'
-            }
-        });
-
         //temp
         var createAustraliaBaseMapOptions = require('terriajs/lib/ViewModels/createAustraliaBaseMapOptions');
         var createGlobalBaseMapOptions = require('terriajs/lib/ViewModels/createGlobalBaseMapOptions');
@@ -121,11 +111,38 @@ terria.start({
         selectBaseMap(terria, allBaseMaps, 'Positron (Light)', true);
 
 
-        // Automatically update Terria (load new catalogs, etc.) when the hash part of the URL changes.
-        // updateApplicationOnHashChange(terria, window);
-        ReactDOM.render(<UserInterface terria={terria} allBaseMaps={allBaseMaps}
-                                       terriaViewer={terriaViewer}
-                                       viewState={viewState} />, document.getElementById('ui'));
+        let render = () => {
+            const StandardUserInterface = require('terriajs/lib/ReactViews/StandardUserInterface.jsx');
+            ReactDOM.render(<StandardUserInterface terria={terria} allBaseMaps={allBaseMaps}
+                                           viewState={viewState}/>, document.getElementById('ui'));
+        };
+
+        if (module.hot && process.env.NODE_ENV !== "production") {
+            // Support hot reloading of components
+            // and display an overlay for runtime errors
+            const renderApp = render;
+            const renderError = (error) => {
+                const RedBox = require('redbox-react');
+                console.error(error);
+                console.error(error.stack);
+                ReactDOM.render(
+                    <RedBox error={error} />,
+                    document.getElementById('ui')
+                );
+            };
+            render = () => {
+                try {
+                    renderApp();
+                } catch (error) {
+                    renderError(error);
+                }
+            };
+            module.hot.accept('terriajs/lib/ReactViews/StandardUserInterface.jsx', () => {
+                setTimeout(render);
+            });
+        }
+
+        render();
     } catch (e) {
         console.error(e);
         console.error(e.stack);
