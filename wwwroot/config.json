@@ -3,9 +3,6 @@
         "terrarium"
     ],
     "parameters": {
-        "corsProxyBaseUrl": "proxy/",
-        "conversionServiceBaseUrl": "convert/",
-        "proj4ServiceBaseUrl": "proj4/",
         "bingMapsKey": null,
         "googleUrlShortenerKey": null,
         "googleAnalyticsKey": null,

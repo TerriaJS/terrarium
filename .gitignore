@@ -15,8 +15,14 @@ datasources/00_National_Data_Sets.json
 proxyAuth.json
 .sass-cache
 /terriajs.pid
+/error.log
+/output.log
 /terriajs-server.log
+wwwroot/test/powergen_no_time.csv
 
 # added by GitSavvy
 /wwwroot/editor/
 privateserverconfig.json
+wwwroot/privateconfig.json
+deploy/packages/
+deploy/work/

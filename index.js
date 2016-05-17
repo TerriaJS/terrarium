@@ -1,6 +1,8 @@
 'use strict';
 
 /*global require*/
+var version = require('./version');
+
 var terriaOptions = {
     baseUrl: 'build/TerriaJS',
     appName: 'Terria Map',
@@ -32,11 +34,10 @@ var registerCustomComponentTypes = require('terriajs/lib/Models/registerCustomCo
 var registerKnockoutBindings = require('terriajs/lib/Core/registerKnockoutBindings');
 var Terria = require('terriajs/lib/Models/Terria');
 var updateApplicationOnHashChange = require('terriajs/lib/ViewModels/updateApplicationOnHashChange');
-var ViewerMode = require('terriajs/lib/Models/ViewerMode');
 var updateApplicationOnMessageFromParentWindow = require('terriajs/lib/ViewModels/updateApplicationOnMessageFromParentWindow');
 var ViewState = require('terriajs/lib/ReactViewModels/ViewState').default;
-import BingMapsSearchProviderViewModel from 'terriajs/lib/ViewModels/BingMapsSearchProviderViewModel.js';
-import GazetteerSearchProviderViewModel from 'terriajs/lib/ViewModels/GazetteerSearchProviderViewModel.js';
+var BingMapsSearchProviderViewModel = require('terriajs/lib/ViewModels/BingMapsSearchProviderViewModel.js');
+var GazetteerSearchProviderViewModel = require('terriajs/lib/ViewModels/GazetteerSearchProviderViewModel.js');
 
 // Tell the OGR catalog item where to find its conversion service.  If you're not using OgrCatalogItem you can remove this.
 OgrCatalogItem.conversionServiceBaseUrl = configuration.conversionServiceBaseUrl;
@@ -95,6 +96,17 @@ terria.start({
     try {
         configuration.bingMapsKey = terria.configParameters.bingMapsKey ? terria.configParameters.bingMapsKey : configuration.bingMapsKey;
 
+        const viewState = new ViewState({
+            terria: terria,
+            locationSearchProviders: [
+                new BingMapsSearchProviderViewModel({
+                    terria: terria,
+                    key: configuration.bingMapsKey
+                }),
+                new GazetteerSearchProviderViewModel({terria})
+            ]
+        });
+
         // Automatically update Terria (load new catalogs, etc.) when the hash part of the URL changes.
         updateApplicationOnHashChange(terria, window);
         updateApplicationOnMessageFromParentWindow(terria, window);
@@ -112,10 +124,18 @@ terria.start({
 
 
         let render = () => {
-            const StandardUserInterface = require('terriajs/lib/ReactViews/StandardUserInterface.jsx');
-            ReactDOM.render(<StandardUserInterface terria={terria} allBaseMaps={allBaseMaps}
-                                           viewState={viewState}/>, document.getElementById('ui'));
+            const StandardUserInterface = require('terriajs/lib/ReactViews/StandardUserInterface/StandardUserInterface.jsx');
+            ReactDOM.render(<StandardUserInterface
+                                terria={terria}
+                                allBaseMaps={allBaseMaps}
+                                viewState={viewState}
+                                version={version} />, document.getElementById('ui'));
         };
+
+
+        if (process.env.NODE_ENV === "development") {
+            window.viewState = viewState;
+        }
 
         if (module.hot && process.env.NODE_ENV !== "production") {
             // Support hot reloading of components
@@ -137,7 +157,7 @@ terria.start({
                     renderError(error);
                 }
             };
-            module.hot.accept('terriajs/lib/ReactViews/StandardUserInterface.jsx', () => {
+            module.hot.accept('terriajs/lib/ReactViews/StandardUserInterface/StandardUserInterface.jsx', () => {
                 setTimeout(render);
             });
         }
