@@ -19,6 +19,5 @@ mkdir -p target
 tar czf ${TARGET} \
   node_modules \
   wwwroot \
-  run_server.sh \
-  stop_server.sh \
+  devserverconfig.json \
 && echo && echo "Finished package: ${TARGET}"

@@ -8,9 +8,9 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 var path = require('path');
 
-gulp.task('build', ['copy-terriajs-assets', 'build-app']);
-gulp.task('release', ['copy-terriajs-assets', 'release-app', 'make-editor-schema']);
-gulp.task('watch', ['watch-terriajs-assets', 'watch-app']);
+gulp.task('build', ['copy-terriajs-assets', 'merge-datasources', 'build-app']);
+gulp.task('release', ['copy-terriajs-assets', 'merge-datasources', 'release-app', 'make-editor-schema']);
+gulp.task('watch', ['watch-datasources', 'watch-terriajs-assets', 'watch-app']);
 gulp.task('default', ['lint', 'build']);
 
 var watchOptions = {
@@ -66,8 +66,6 @@ gulp.task('watch-terriajs-assets', ['copy-terriajs-assets'], function() {
     return gulp.watch(sourceGlob, watchOptions, [ 'copy-terriajs-assets' ]);
 });
 
-gulp.task('release', ['sass', 'merge-datasources', 'release-app', 'release-specs']);
-
 // Generate new schema for editor, and copy it over whatever version came with editor.
 gulp.task('make-editor-schema', ['copy-editor'], function() {
     var generateSchema = require('generate-terriajs-schema');
@@ -88,6 +86,13 @@ gulp.task('copy-editor', function() {
         .pipe(gulp.dest('./wwwroot/editor'));
 });
 
+gulp.task('watch-datasources', ['merge-datasources'], function() {
+    return gulp.watch([
+        'datasources/*.json',
+        'datasources/00_National_Data_Sets/*.json',
+        'datasources/terrarium/*.json'
+    ], ['merge-datasources']);
+});
 
 gulp.task('styleguide', function(done) {
     var childExec = require('child_process').exec;
@@ -121,7 +126,7 @@ gulp.task('write-version', function() {
 });
 
 // Terria Map uses the EJS template engine to build the terrarium init file
-gulp.task('merge-datasources', ['merge-catalog', 'merge-groups'], function() {
+gulp.task('merge-datasources', function() {
     var ejs = require('ejs');
 
     var fn = 'datasources/terrarium/root.ejs';
