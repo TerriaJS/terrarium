@@ -2,25 +2,6 @@
 
 ## Prerequisites
 
-### package.json
-
-Various parameters controlling AWS deployment are specified in `package.json`.  They are:
-
-* `awsProfile` - The AWS profile to use (see AWS credentials below) when interacting with AWS.
-* `awsS3PackagesPath` - The S3 path to which to copy the deployment .tar.gz.
-* `awsRegion` - The AWS region in which to create resources.
-* `awsEc2InstanceType` - The type of EC2 instance to use.
-* `awsEc2ImageId` - The ID of the EC2 image to use.
-* `awsKeyName` - The name of a key that may be used to SSH to the EC2 instance.
-* `awsS3ServerConfigOverridePath` - The path to a file on S3 containing any overrides to `devserverconfig.json`.
-* `awsS3ClientConfigOverridePath` - The path to a file on S3 containing any overrides to `wwwroot/config.json`.
-
-You can customize these settings by changing `package.json`, or by using `npm config` to override the setting locally, for example;
-
-```
-npm config set nationalmap:awsProfile myprofilename
-```
-
 ### awscli
 
 Deploying requires a recent version of `awscli`. It's recommended to install and maintain this using `pip` as the Homebrew and Ubuntu packages are quite old.
@@ -39,12 +20,31 @@ aws_access_key_id=YOUR_ACCESS_KEY
 aws_secret_access_key=YOUR_SECRET_ACCESS_KEY
 ```
 
-### Deploy
+## package.json
+
+Various parameters controlling AWS deployment are specified in `package.json`.  They are:
+
+* `awsProfile` - The AWS profile to use (see AWS credentials above) when interacting with AWS.
+* `awsS3PackagesPath` - The S3 path to which to copy the deployment .tar.gz.
+* `awsRegion` - The AWS region in which to create resources.
+* `awsEc2InstanceType` - The type of EC2 instance to use.
+* `awsEc2ImageId` - The ID of the EC2 image to use.
+* `awsKeyName` - The name of a key that may be used to SSH to the EC2 instance.
+* `awsS3ServerConfigOverridePath` - The path to a file on S3 containing any overrides to `devserverconfig.json`.
+* `awsS3ClientConfigOverridePath` - The path to a file on S3 containing any overrides to `wwwroot/config.json`.
+
+You can customize these settings by changing `package.json`, or by using `npm config` to override the setting locally, for example;
+
+```
+npm config set nationalmap:awsProfile myprofilename
+```
+
+## Deploy
 
 Prior to deploying, please tag the release, e.g.
 
 ```
-git tag -a 2016-05-17 -m '2016-05-17' release
+git tag -a 2016-05-17 -m '2016-05-17 release'
 git push origin 2016-05-17
 ```
 
@@ -54,7 +54,7 @@ Deployment is initiated via `npm` scripts.  A full production deployment may be 
 npm run deploy
 ```
 
-Once the stack starts up, it will be available at `nationalmap-2016-05-17.nationalmap.nicta.com.au`, where `nationalmap` is the name of the project in `package.json` and `2016-05-17` is the output of `git describe` (that's why you should talk before starting a deployment).
+Once the stack starts up, it will be available at `nationalmap-2016-05-17.nationalmap.nicta.com.au`, where `nationalmap` is the name of the project in `package.json` and `2016-05-17` is the output of `git describe` (that's why you should tag before starting a deployment).
 
 The following npm scripts are available:
 
