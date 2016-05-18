@@ -8,17 +8,17 @@
     "url": "http://github.com/NICTA/terrarium"
   },
   "dependencies": {
-    "terriajs-server": "^2.2.0"
+    "terriajs-server": "git://github.com/TerriaJS/terriajs-server.git#auth"
   },
   "config": {
-    "awsProfile": "nationalmap",
-    "awsS3PackagesPath": "s3://nationalmap-apps/nationalmap",
+    "awsProfile": "terria",
+    "awsS3PackagesPath": "s3://terrarium-apps",
     "awsRegion": "ap-southeast-2",
     "awsEc2InstanceType": "t2.medium",
     "awsEc2ImageId": "ami-2a644649",
-    "awsKeyName": "natmap-kring",
-    "awsS3ServerConfigOverridePath": "s3://nationalmap-apps/nationalmap/privateserverconfig-2016-05-17.json",
-    "awsS3ClientConfigOverridePath": "s3://nationalmap-apps/nationalmap/privateclientconfig-2016-05-17.json"
+    "awsKeyName": "terria-kring",
+    "awsS3ServerConfigOverridePath": "s3://terrarium-apps/privateserverconfig-2016-05-18.json",
+    "awsS3ClientConfigOverridePath": "s3://terrarium-apps/privateclientconfig-2016-05-18.json"
   },
   "devDependencies": {
     "babel-eslint": "^6.0.2",
