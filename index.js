@@ -38,6 +38,7 @@ var updateApplicationOnMessageFromParentWindow = require('terriajs/lib/ViewModel
 var ViewState = require('terriajs/lib/ReactViewModels/ViewState').default;
 var BingMapsSearchProviderViewModel = require('terriajs/lib/ViewModels/BingMapsSearchProviderViewModel.js');
 var GazetteerSearchProviderViewModel = require('terriajs/lib/ViewModels/GazetteerSearchProviderViewModel.js');
+var GNAFSearchProviderViewModel = require('terriajs/lib/ViewModels/GNAFSearchProviderViewModel.js');
 
 // Tell the OGR catalog item where to find its conversion service.  If you're not using OgrCatalogItem you can remove this.
 OgrCatalogItem.conversionServiceBaseUrl = configuration.conversionServiceBaseUrl;
@@ -62,21 +63,6 @@ var terria = new Terria(terriaOptions);
 registerCustomComponentTypes(terria);
 
 terria.welcome = '<h3>Terria<sup>TM</sup> is a spatial data platform that provides spatial predictive analytics</h3><div class="body-copy"><p>This interactive map uses TerriaJS<sup>TM</sup>, an open source software library developed by Data61 for building rich, web-based geospatial data explorers.  It uses Cesium<sup>TM</sup> open source 3D globe viewing software.  TerriaJS<sup>TM</sup> is used for the official Australian Government NationalMap and many other sites rich in the use of spatial data.</p><p>This map also uses Terria<sup>TM</sup> Inference Engine, a cloud-based platform for making probabilistic predictions using data in a web-based mapping environment. Terria<sup>TM</sup> Inference Engine uses state of the art machine learning algorithms developed by Data61 and designed specifically for large-scale spatial inference.</p></div>';
-
-var viewState = new ViewState({
-    terria: terria,
-    locationSearchProviders: [
-        new BingMapsSearchProviderViewModel({terria: terria}),
-        new GazetteerSearchProviderViewModel({terria: terria})
-    ]
-});
-
-// viewState.notifications.push({
-//     title: 'Aremi is a spatial data platform for the Australian Energy industry',
-//     message: 'We are focused on supporting Developer, Financiers, and Policy Makers in evaluating spatial renewable energy information.\n\nAREMI is funded by the *Australian Renewable Energy Agency* and developed by *Data61* in partnership with *GeoScience Australia* and the *Clean Energy Council*.',
-//     confirmText: 'Got it! Take me to the map',
-//     hideUi: true
-// });
 
 // If we're running in dev mode, disable the built style sheet as we'll be using the webpack style loader.
 // Note that if the first stylesheet stops being nationalmap.css then this will have to change.
@@ -106,7 +92,8 @@ terria.start({
                     terria: terria,
                     key: configuration.bingMapsKey
                 }),
-                new GazetteerSearchProviderViewModel({terria})
+                new GazetteerSearchProviderViewModel({terria}),
+                new GNAFSearchProviderViewModel({terria})
             ]
         });
 
