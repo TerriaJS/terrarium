@@ -66,15 +66,7 @@ terria.welcome = '<h3>Terria<sup>TM</sup> is a spatial data platform that provid
 
 // Create the ViewState before terria.start so that errors have somewhere to go.
 const viewState = new ViewState({
-    terria: terria,
-    locationSearchProviders: [
-        new BingMapsSearchProviderViewModel({
-            terria: terria,
-            key: configuration.bingMapsKey
-        }),
-        new GazetteerSearchProviderViewModel({terria}),
-        new GNAFSearchProviderViewModel({terria})
-    ]
+    terria: terria
 });
 
 // If we're running in dev mode, disable the built style sheet as we'll be using the webpack style loader.
@@ -97,6 +89,15 @@ terria.start({
 }).always(function() {
     try {
         configuration.bingMapsKey = terria.configParameters.bingMapsKey ? terria.configParameters.bingMapsKey : configuration.bingMapsKey;
+
+        viewState.searchState.locationSearchProviders = [
+            new BingMapsSearchProviderViewModel({
+                terria: terria,
+                key: configuration.bingMapsKey
+            }),
+            new GazetteerSearchProviderViewModel({terria}),
+            new GNAFSearchProviderViewModel({terria})
+        ];
 
         // Automatically update Terria (load new catalogs, etc.) when the hash part of the URL changes.
         updateApplicationOnHashChange(terria, window);
