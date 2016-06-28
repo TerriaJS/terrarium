@@ -5,10 +5,10 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "http://github.com/NICTA/terrarium"
+    "url": "http://github.com/TerriaJS/terrarium"
   },
   "dependencies": {
-    "terriajs-server": "git://github.com/TerriaJS/terriajs-server.git#auth"
+    "terriajs-server": "git://github.com/TerriaJS/terriajs-server.git"
   },
   "config": {
     "awsProfile": "terria",
