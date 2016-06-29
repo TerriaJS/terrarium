@@ -319,6 +319,26 @@
           ]
         },
         {
+          "name": "3D Demos",
+          "type": "group",
+          "items": [
+            {
+              "name": "Smooth Geelong Buildings GLTF Mini Demo",
+              "type": "czml",
+              "url": "/test/3d/geelong/smooth.czml",
+              "rectangle": [ 144.354, -38.147,
+                             144.358, -38.150]
+            },
+            {
+              "name": "Terrain Geelong Buildings GLTF Mini Demo",
+              "type": "czml",
+              "url": "/test/3d/geelong/terrain.czml",
+              "rectangle": [ 144.354, -38.147,
+                             144.358, -38.150]
+            }
+          ]
+        },
+        {
           "name": "Miscellaneous files",
           "type": "group",
           "items": [
