@@ -54,7 +54,7 @@
     "style-loader": "^0.13.1",
     "terriajs": "git://github.com/TerriaJS/terriajs.git#newui",
     "terriajs-catalog-editor": "^0.2.0",
-    "terriajs-cesium": "1.20.0",
+    "terriajs-cesium": "1.23.1",
     "terriajs-schema": "latest",
     "url-loader": "^0.5.7",
     "webpack": "^1.12.14",
