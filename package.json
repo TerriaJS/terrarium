@@ -33,7 +33,7 @@
     "file-loader": "^0.8.5",
     "fs-extra": "^0.30.0",
     "generate-terriajs-schema": "^1.2.1",
-    "glob-all": "^3.0.1",
+    "glob-all": "^3.1.0",
     "gulp": "^3.9.1",
     "gulp-jsoncombine": "^1.0.3",
     "gulp-less": "^3.0.5",
