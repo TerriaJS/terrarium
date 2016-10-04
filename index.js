@@ -1,7 +1,6 @@
 'use strict';
 
-/*global require*/
-var version = require('./version');
+/*global require,window */
 
 var terriaOptions = {
     baseUrl: 'build/TerriaJS',
@@ -12,33 +11,30 @@ var configuration = {
     bingMapsKey: undefined // use Cesium key
 };
 
-require('./nationalmap.scss');
-
 // Check browser compatibility early on.
 // A very old browser (e.g. Internet Explorer 8) will fail on requiring-in many of the modules below.
 // 'ui' is the name of the DOM element that should contain the error popup if the browser is not compatible
 //var checkBrowserCompatibility = require('terriajs/lib/ViewModels/checkBrowserCompatibility');
 
 // checkBrowserCompatibility('ui');
-
-var GoogleAnalytics = require('terriajs/lib/Core/GoogleAnalytics');
-var GoogleUrlShortener = require('terriajs/lib/Models/GoogleUrlShortener');
-var isCommonMobilePlatform = require('terriajs/lib/Core/isCommonMobilePlatform');
-var OgrCatalogItem = require('terriajs/lib/Models/OgrCatalogItem');
-var raiseErrorToUser = require('terriajs/lib/Models/raiseErrorToUser');
-var React = require('react');
-var ReactDOM = require('react-dom');
-var registerAnalytics = require('terriajs/lib/Models/registerAnalytics');
-var registerCatalogMembers = require('terriajs/lib/Models/registerCatalogMembers');
-var registerCustomComponentTypes = require('terriajs/lib/ReactViews/Custom/registerCustomComponentTypes');
-var registerKnockoutBindings = require('terriajs/lib/Core/registerKnockoutBindings');
-var Terria = require('terriajs/lib/Models/Terria');
-var updateApplicationOnHashChange = require('terriajs/lib/ViewModels/updateApplicationOnHashChange');
-var updateApplicationOnMessageFromParentWindow = require('terriajs/lib/ViewModels/updateApplicationOnMessageFromParentWindow');
-var ViewState = require('terriajs/lib/ReactViewModels/ViewState').default;
-var BingMapsSearchProviderViewModel = require('terriajs/lib/ViewModels/BingMapsSearchProviderViewModel.js');
-var GazetteerSearchProviderViewModel = require('terriajs/lib/ViewModels/GazetteerSearchProviderViewModel.js');
-var GNAFSearchProviderViewModel = require('terriajs/lib/ViewModels/GNAFSearchProviderViewModel.js');
+import GoogleAnalytics from 'terriajs/lib/Core/GoogleAnalytics';
+import ShareDataService from 'terriajs/lib/Models/ShareDataService';
+import isCommonMobilePlatform from 'terriajs/lib/Core/isCommonMobilePlatform';
+import OgrCatalogItem from 'terriajs/lib/Models/OgrCatalogItem';
+import raiseErrorToUser from 'terriajs/lib/Models/raiseErrorToUser';
+import registerAnalytics from 'terriajs/lib/Models/registerAnalytics';
+import registerCatalogMembers from 'terriajs/lib/Models/registerCatalogMembers';
+import registerCustomComponentTypes from 'terriajs/lib/ReactViews/Custom/registerCustomComponentTypes';
+import registerKnockoutBindings from 'terriajs/lib/Core/registerKnockoutBindings';
+import Terria from 'terriajs/lib/Models/Terria';
+import updateApplicationOnHashChange from 'terriajs/lib/ViewModels/updateApplicationOnHashChange';
+import updateApplicationOnMessageFromParentWindow from 'terriajs/lib/ViewModels/updateApplicationOnMessageFromParentWindow';
+import ViewState from 'terriajs/lib/ReactViewModels/ViewState';
+import BingMapsSearchProviderViewModel from 'terriajs/lib/ViewModels/BingMapsSearchProviderViewModel.js';
+import GazetteerSearchProviderViewModel from 'terriajs/lib/ViewModels/GazetteerSearchProviderViewModel.js';
+import GnafSearchProviderViewModel from 'terriajs/lib/ViewModels/GnafSearchProviderViewModel.js';
+import defined from 'terriajs-cesium/Source/Core/defined';
+import render from './lib/Views/render';
 
 // Tell the OGR catalog item where to find its conversion service.  If you're not using OgrCatalogItem you can remove this.
 OgrCatalogItem.conversionServiceBaseUrl = configuration.conversionServiceBaseUrl;
@@ -69,6 +65,10 @@ const viewState = new ViewState({
     terria: terria
 });
 
+if (process.env.NODE_ENV === "development") {
+    window.viewState = viewState;
+}
+
 // If we're running in dev mode, disable the built style sheet as we'll be using the webpack style loader.
 // Note that if the first stylesheet stops being nationalmap.css then this will have to change.
 if (process.env.NODE_ENV !== "production" && module.hot) {
@@ -81,12 +81,13 @@ terria.start({
     applicationUrl: window.location,
     configUrl: 'config.json',
     defaultTo2D: isCommonMobilePlatform(),
-    urlShortener: new GoogleUrlShortener({
+    shareDataService: new ShareDataService({
         terria: terria
     })
 }).otherwise(function(e) {
     raiseErrorToUser(terria, e);
 }).always(function() {
+
     try {
         configuration.bingMapsKey = terria.configParameters.bingMapsKey ? terria.configParameters.bingMapsKey : configuration.bingMapsKey;
 
@@ -96,7 +97,7 @@ terria.start({
                 key: configuration.bingMapsKey
             }),
             new GazetteerSearchProviderViewModel({terria}),
-            new GNAFSearchProviderViewModel({terria})
+            new GnafSearchProviderViewModel({terria})
         ];
 
         // Automatically update Terria (load new catalogs, etc.) when the hash part of the URL changes.
@@ -115,46 +116,33 @@ terria.start({
         selectBaseMap(terria, allBaseMaps, 'Positron (Light)', true);
 
 
-        let render = () => {
-            const StandardUserInterface = require('terriajs/lib/ReactViews/StandardUserInterface/StandardUserInterface.jsx');
-            ReactDOM.render(<StandardUserInterface
-                                terria={terria}
-                                allBaseMaps={allBaseMaps}
-                                viewState={viewState}
-                                version={version} />, document.getElementById('ui'));
-        };
-
-
-        if (process.env.NODE_ENV === "development") {
-            window.viewState = viewState;
-        }
-
-        if (module.hot && process.env.NODE_ENV !== "production") {
-            // Support hot reloading of components
-            // and display an overlay for runtime errors
-            const renderApp = render;
-            const renderError = (error) => {
-                const RedBox = require('redbox-react');
-                console.error(error);
-                console.error(error.stack);
-                ReactDOM.render(
-                    <RedBox error={error} />,
-                    document.getElementById('ui')
-                );
-            };
-            render = () => {
-                try {
-                    renderApp();
-                } catch (error) {
-                    renderError(error);
+        // Show a modal disclaimer before user can do anything else.
+        if (defined(terria.configParameters.globalDisclaimer)) {
+            var globalDisclaimer = terria.configParameters.globalDisclaimer;
+            var hostname = window.location.hostname;
+            if (globalDisclaimer.enableOnLocalhost || hostname.indexOf('localhost') === -1) {
+                var message = '';
+                // Sometimes we want to show a preamble if the user is viewing a site other than the official production instance.
+                // This can be expressed as a devHostRegex ("any site starting with staging.") or a negative prodHostRegex ("any site not ending in .gov.au")
+                if (defined(globalDisclaimer.devHostRegex) && hostname.match(globalDisclaimer.devHostRegex) ||
+                    defined(globalDisclaimer.prodHostRegex) && !hostname.match(globalDisclaimer.prodHostRegex)) {
+                        message += require('./lib/Views/DevelopmentDisclaimerPreamble.html');
                 }
-            };
-            module.hot.accept('terriajs/lib/ReactViews/StandardUserInterface/StandardUserInterface.jsx', () => {
-                setTimeout(render);
-            });
+                message += require('./lib/Views/GlobalDisclaimer.html');
+
+                var options = {
+                    title: (globalDisclaimer.title !== undefined) ? globalDisclaimer.title : 'Warning',
+                    confirmText: (globalDisclaimer.buttonTitle || "Ok"),
+                    width: 600,
+                    height: 550,
+                    message: message,
+                    horizontalPadding : 100
+                };
+                viewState.notifications.push(options);
+            }
         }
 
-        render();
+        render(terria, allBaseMaps, viewState);
     } catch (e) {
         console.error(e);
         console.error(e.stack);

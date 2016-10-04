@@ -20,8 +20,10 @@ proxyAuth.json
 /terriajs-server.log
 wwwroot/test/powergen_no_time.csv
 
-# added by GitSavvy
 /wwwroot/editor/
+/error.log
+/error.log
+/output.log
 privateserverconfig.json
 wwwroot/privateconfig.json
 deploy/packages/
