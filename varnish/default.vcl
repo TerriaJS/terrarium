@@ -20,9 +20,6 @@ acl purge {
 
 
 sub vcl_recv {
-#  if (req.request == "GET" && req.http.cookie || req.http.authorization) {
-#    return (lookup);
-#  }
   if (req.request == "PURGE") {
     if (!client.ip ~ purge) {
       error 405 "Method Not Allowed";

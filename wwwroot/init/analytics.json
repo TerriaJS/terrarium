@@ -1,0 +1,53 @@
+{
+    "corsDomains" : [
+        "corsproxy.com",
+        "programs.communications.gov.au"
+    ],
+    "camera": {
+        "west": 105,
+        "south": -45,
+        "east": 155,
+        "north": -5
+    },
+    "services": [],
+    "catalog": [
+        {
+            "name": "Terria Analytics",
+            "type": "group",
+            "preserveOrder": true,
+            "items": [
+                {
+                    "name": "Regions like this",
+                    "type": "places-like-me-function",
+                    "url": "http://analytics.terria.io:31113/jobs"
+                },
+                {
+                    "name": "What makes this region unique or special?",
+                    "type": "why-am-i-special-function",
+                    "url": "http://analytics.terria.io:31113/jobs"
+                },
+                {
+                    "name": "Spatial Detailing",
+                    "type": "spatial-detailing-function",
+                    "url": "http://analytics.terria.io:31113/jobs"
+                },
+                {
+                    "name": "Sample Data",
+                    "type": "group",
+                    "items": [
+                        {
+                            "name": "NSW NEXIS 2012 (LGA)",
+                            "type": "csv",
+                            "url": "test/NSW_LGA_NEXIS_201212.csv"
+                        },
+                        {
+                            "name": "Victoria Crime (LGA)",
+                            "type": "csv",
+                            "url": "test/vic_assault.csv"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
