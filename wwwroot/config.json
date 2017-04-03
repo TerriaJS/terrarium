@@ -15,7 +15,6 @@
         "appName": "Terria Map",
         "supportEmail": "terrarium@lists.nicta.com.au",
         "proj4ServiceBaseUrl": "proj4def/",
-        "feedbackUrl": "feedback",
         "brandBarElements": [
             "<a target=\"_blank\" href=\"about.html\"><img src=\"images/branding.png\" height=\"50\" alt=\"Terria Map\" title=\"Version: {{version}}\" /></a>"
         ]
